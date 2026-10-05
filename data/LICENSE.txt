@@ -1,0 +1,5 @@
+FiveLetterWords derived research datasets and release documentation are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: FiveLetterWords.io, plus the release identifier.
+
+The preserved full-game answer-pool snapshot and other upstream inputs are not relicensed by this notice. Their source terms remain with their respective providers. Wordle is a trademark of The New York Times; this independent research release is not affiliated with or endorsed by The New York Times.

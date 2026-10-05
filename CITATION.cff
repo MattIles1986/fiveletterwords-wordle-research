@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using these metadata."
+title: "FiveLetterWords research release v2026-09-01"
+type: dataset
+authors:
+  - name: "FiveLetterWords.io"
+    website: "https://www.fiveletterwords.io"
+    email: "matthew@fiveletterwords.io"
+version: "v2026-09-01"
+date-released: "2026-09-01"
+license: CC-BY-4.0
+doi: "10.5281/zenodo.23168432"
+url: "https://www.fiveletterwords.io/data/releases/v2026-09-01/"
+repository-artifact: "https://www.fiveletterwords.io/data/releases/v2026-09-01/manifest.json"
+abstract: >-
+  Versioned, checksummed research corpus behind FiveLetterWords.io: a six-turn
+  opener benchmark for all 14,855 accepted Wordle guesses, spoiler-safe puzzle
+  difficulty rows (no answer words), one-slot trap families, first-turn feedback
+  branches, opening-pair frontier, aggregate letter frequencies and repeats, and a
+  Wordle #2000 fact sheet. Answer-history data through 2026-08-31. Independent
+  research; not affiliated with or endorsed by The New York Times. Wordle is a
+  trademark of The New York Times Company.
+keywords:
+  - Wordle
+  - word games
+  - opener rankings
+  - puzzle difficulty
+  - information theory
+  - linguistics
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23168432"
+    description: "Zenodo record https://zenodo.org/records/23168432"
+  - type: url
+    value: "https://zenodo.org/records/23168432"
+    description: "Zenodo record page"
+  - type: url
+    value: "https://www.fiveletterwords.io/data"
+    description: "Canonical FiveLetterWords research data hub"

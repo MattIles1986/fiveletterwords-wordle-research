@@ -1,0 +1,1901 @@
+date,puzzle_number,repeat_number,is_repeat,optimal_turns,optimal_turns_imputed,crane_remaining,slate_remaining,adieu_remaining,average_reference_remaining,trap_family_size,repeated_letter_count,vowel_count,solver_pressure_percentile,solver_pressure_label
+2021-06-19,0,1,False,3,False,9,140,62,70.3,1,0,2,19,Easier for the solver
+2021-06-20,1,1,False,3,False,126,73,59,86.0,2,0,2,28,Easier for the solver
+2021-06-21,2,1,False,3,False,273,58,119,150.0,2,1,1,60,Middle of the pack
+2021-06-22,3,1,False,3,False,273,229,193,231.7,1,1,1,77,Tricky
+2021-06-23,4,1,False,4,False,45,28,22,31.7,2,1,3,32,Easier for the solver
+2021-06-24,5,1,False,4,False,273,6,193,157.3,4,0,1,91,Hard for the solver
+2021-06-25,6,1,False,3,False,28,59,289,125.3,3,0,2,48,Middle of the pack
+2021-06-26,7,1,False,4,False,45,28,35,36.0,1,1,3,37,Middle of the pack
+2021-06-27,8,1,False,3,False,47,59,289,131.7,3,1,2,58,Middle of the pack
+2021-06-28,9,1,False,4,False,40,33,199,90.7,3,1,2,77,Tricky
+2021-06-29,10,1,False,3,False,19,3,190,70.7,2,1,2,29,Easier for the solver
+2021-06-30,11,1,False,4,False,24,49,44,39.0,1,0,1,32,Easier for the solver
+2021-07-01,12,1,False,4,False,128,63,24,71.7,2,0,2,56,Middle of the pack
+2021-07-02,13,1,False,3,False,68,140,289,165.7,1,1,2,64,Middle of the pack
+2021-07-03,14,1,False,4,False,58,39,105,67.3,3,0,1,57,Middle of the pack
+2021-07-04,15,1,False,4,False,13,28,35,25.3,6,0,2,26,Easier for the solver
+2021-07-05,16,1,False,4,False,128,73,1,67.3,2,0,3,54,Middle of the pack
+2021-07-06,17,1,False,3,False,2,170,199,123.7,4,0,1,51,Middle of the pack
+2021-07-07,18,1,False,3,False,45,6,22,24.3,2,1,3,4,Easier for the solver
+2021-07-08,19,1,False,4,False,62,170,53,95.0,3,0,2,71,Tricky
+2021-07-09,20,1,False,4,False,68,140,289,165.7,3,0,2,90,Hard for the solver
+2021-07-10,21,1,False,2,False,19,3,35,19.0,2,0,2,0,Easier for the solver
+2021-07-11,22,1,False,4,False,22,19,199,80.0,2,0,1,61,Middle of the pack
+2021-07-12,23,1,False,3,False,13,24,193,76.7,2,0,1,22,Easier for the solver
+2021-07-13,24,1,False,4,False,273,5,165,147.7,3,1,2,92,Hard for the solver
+2021-07-14,25,1,False,4,False,8,88,165,87.0,2,1,2,72,Tricky
+2021-07-15,26,1,False,4,False,45,6,22,24.3,2,1,3,20,Easier for the solver
+2021-07-16,27,1,False,4,False,68,140,289,165.7,4,1,1,96,Hard for the solver
+2021-07-17,28,1,False,2,False,2,8,190,66.7,2,0,2,4,Easier for the solver
+2021-07-18,29,1,False,4,False,141,15,289,148.3,6,1,1,97,Hard for the solver
+2021-07-19,30,1,False,4,False,26,110,12,49.3,4,0,2,49,Middle of the pack
+2021-07-20,31,1,False,3,False,273,6,165,148.0,2,1,1,60,Middle of the pack
+2021-07-21,32,1,False,3,False,128,63,50,80.3,1,0,2,24,Easier for the solver
+2021-07-22,33,1,False,4,False,1,140,289,143.3,3,0,2,86,Tricky
+2021-07-23,34,1,False,4,False,50,14,289,117.7,3,1,1,86,Tricky
+2021-07-24,35,1,False,4,False,52,62,54,56.0,4,1,2,62,Middle of the pack
+2021-07-25,36,1,False,3,False,62,170,7,79.7,2,0,2,24,Easier for the solver
+2021-07-26,37,1,False,4,False,128,63,199,130.0,1,0,1,80,Tricky
+2021-07-27,38,1,False,4,False,22,2,289,104.3,4,0,1,78,Tricky
+2021-07-28,39,1,False,3,False,273,90,30,131.0,2,1,3,55,Middle of the pack
+2021-07-29,40,1,False,3,False,51,31,4,28.7,2,0,3,4,Easier for the solver
+2021-07-30,41,1,False,4,False,7,49,289,115.0,2,0,1,75,Tricky
+2021-07-31,42,1,False,4,False,126,29,128,94.3,7,0,2,84,Tricky
+2021-08-01,43,1,False,3,False,52,62,190,101.3,2,0,2,35,Middle of the pack
+2021-08-02,44,1,False,3,False,273,90,26,129.7,1,1,2,54,Middle of the pack
+2021-08-03,45,1,False,3,False,3,6,190,66.3,4,0,2,23,Easier for the solver
+2021-08-04,46,1,False,4,False,27,40,193,86.7,4,1,1,79,Tricky
+2021-08-05,47,1,False,4,False,105,33,53,63.7,5,0,2,62,Middle of the pack
+2021-08-06,48,1,False,4,False,56,229,119,134.7,1,2,2,93,Hard for the solver
+2021-08-07,49,1,False,4,False,58,229,30,105.7,8,0,2,90,Hard for the solver
+2021-08-08,50,1,False,4,False,141,140,62,114.3,1,1,2,83,Tricky
+2021-08-09,51,1,False,4,False,62,63,40,55.0,3,1,2,58,Middle of the pack
+2021-08-10,52,1,False,4,False,62,73,23,52.7,2,0,2,44,Middle of the pack
+2021-08-11,53,1,False,4,False,128,2,199,109.7,3,0,1,76,Tricky
+2021-08-12,54,1,False,4,False,273,229,165,222.3,3,2,2,99,Hard for the solver
+2021-08-13,55,1,False,3,False,91,38,165,98.0,3,0,1,38,Middle of the pack
+2021-08-14,56,1,False,3,False,91,24,119,78.0,1,0,1,23,Easier for the solver
+2021-08-15,57,1,False,4,False,17,14,44,25.0,2,0,1,14,Easier for the solver
+2021-08-16,58,1,False,4,False,128,63,199,130.0,3,1,1,90,Hard for the solver
+2021-08-17,59,1,False,4,False,91,229,119,146.3,1,0,2,85,Tricky
+2021-08-18,60,1,False,3,False,128,29,34,63.7,4,1,2,32,Easier for the solver
+2021-08-19,61,1,False,4,False,17,90,105,70.7,3,0,1,60,Middle of the pack
+2021-08-20,62,1,False,3,False,2,12,190,68.0,2,0,2,18,Easier for the solver
+2021-08-21,63,1,False,4,False,7,49,13,23.0,4,0,2,16,Easier for the solver
+2021-08-22,64,1,False,4,False,26,110,53,63.0,3,1,2,63,Middle of the pack
+2021-08-23,65,1,False,4,False,273,39,193,168.3,5,1,2,97,Hard for the solver
+2021-08-24,66,1,False,4,False,22,31,54,35.7,1,0,2,27,Easier for the solver
+2021-08-25,67,1,False,4,False,7,13,289,103.0,3,1,1,82,Tricky
+2021-08-26,68,1,False,3,False,105,13,59,59.0,3,0,2,16,Easier for the solver
+2021-08-27,69,1,False,4,False,141,59,289,163.0,1,1,2,93,Hard for the solver
+2021-08-28,70,1,False,3,False,8,31,14,17.7,1,1,3,2,Easier for the solver
+2021-08-29,71,1,False,3,False,22,170,199,130.3,1,1,2,54,Middle of the pack
+2021-08-30,72,1,False,3,False,91,18,105,71.3,2,0,1,20,Easier for the solver
+2021-08-31,73,1,False,3,False,3,31,5,13.0,1,0,3,1,Easier for the solver
+2021-09-01,74,1,False,4,False,128,18,24,56.7,2,1,2,56,Middle of the pack
+2021-09-02,75,1,False,2,False,46,1,35,27.3,1,0,2,1,Easier for the solver
+2021-09-03,76,1,False,3,False,56,40,105,67.0,4,0,1,24,Easier for the solver
+2021-09-04,77,1,False,3,False,128,73,128,109.7,1,1,2,48,Middle of the pack
+2021-09-05,78,1,False,3,False,126,170,128,141.3,1,1,3,57,Middle of the pack
+2021-09-06,79,1,False,3,False,17,90,165,90.7,2,0,1,31,Easier for the solver
+2021-09-07,80,1,False,3,False,91,58,193,114.0,2,0,1,41,Middle of the pack
+2021-09-08,81,1,False,4,False,68,140,289,165.7,4,1,1,96,Hard for the solver
+2021-09-09,82,1,False,3,False,105,110,50,88.3,1,0,3,30,Easier for the solver
+2021-09-10,83,1,False,4,False,46,31,54,43.7,2,1,2,45,Middle of the pack
+2021-09-11,84,1,False,4,False,24,14,289,109.0,3,1,1,85,Tricky
+2021-09-12,85,1,False,4,False,22,73,128,74.3,3,1,2,70,Tricky
+2021-09-13,86,1,False,4,False,28,170,128,108.7,2,0,2,73,Tricky
+2021-09-14,87,1,False,3,False,128,63,128,106.3,1,0,2,38,Middle of the pack
+2021-09-15,88,1,False,4,False,273,1,193,155.7,5,0,1,93,Hard for the solver
+2021-09-16,89,1,False,3,False,273,88,165,175.3,1,1,2,67,Tricky
+2021-09-17,90,1,False,3,False,5,229,30,88.0,8,0,2,50,Middle of the pack
+2021-09-18,91,1,False,4,False,141,52,2,65.0,2,0,3,52,Middle of the pack
+2021-09-19,92,1,False,3,False,58,88,105,83.7,5,0,1,38,Middle of the pack
+2021-09-20,93,1,False,3,False,141,140,289,190.0,2,2,2,77,Tricky
+2021-09-21,94,1,False,4,False,68,59,289,138.7,1,0,2,82,Tricky
+2021-09-22,95,1,False,3,False,128,1,40,56.3,2,0,2,13,Easier for the solver
+2021-09-23,96,1,False,4,False,27,229,119,125.0,2,2,2,91,Hard for the solver
+2021-09-24,97,1,False,3,False,40,110,199,116.3,3,0,2,44,Middle of the pack
+2021-09-25,98,1,False,3,False,1,229,165,131.7,2,0,1,46,Middle of the pack
+2021-09-26,99,1,False,3,False,273,14,193,160.0,2,0,2,54,Middle of the pack
+2021-09-27,100,1,False,4,False,28,17,62,35.7,4,0,2,35,Middle of the pack
+2021-09-28,101,1,False,3,False,141,8,44,64.3,1,1,2,24,Easier for the solver
+2021-09-29,102,1,False,4,False,45,6,22,24.3,2,1,3,20,Easier for the solver
+2021-09-30,103,1,False,4,False,56,58,105,73.0,3,0,1,61,Middle of the pack
+2021-10-01,104,1,False,3,False,68,17,289,124.7,2,0,1,44,Middle of the pack
+2021-10-02,105,1,False,4,False,46,3,190,79.7,2,1,2,69,Tricky
+2021-10-03,106,1,False,4,False,91,229,36,118.7,1,0,1,76,Tricky
+2021-10-04,107,1,False,3,False,10,29,34,24.3,2,0,1,3,Easier for the solver
+2021-10-05,108,1,False,4,False,46,62,190,99.3,1,1,2,77,Tricky
+2021-10-06,109,1,False,4,False,273,88,2,121.0,3,0,2,80,Tricky
+2021-10-07,110,1,False,4,False,13,49,45,35.7,1,1,2,37,Middle of the pack
+2021-10-08,111,1,False,3,False,91,90,165,115.3,2,1,2,49,Middle of the pack
+2021-10-09,112,1,False,3,False,2,4,22,9.3,2,0,3,0,Easier for the solver
+2021-10-10,113,1,False,4,False,28,52,289,123.0,7,1,1,95,Hard for the solver
+2021-10-11,114,1,False,4,False,126,170,128,141.3,1,0,1,83,Tricky
+2021-10-12,115,1,False,3,False,273,90,193,185.3,2,0,1,61,Middle of the pack
+2021-10-13,116,1,False,3,False,91,229,36,118.7,3,0,1,45,Middle of the pack
+2021-10-14,117,1,False,3,False,273,90,193,185.3,1,0,2,61,Middle of the pack
+2021-10-15,118,1,False,3,False,20,63,199,94.0,4,0,1,40,Middle of the pack
+2021-10-16,119,1,False,4,False,56,90,30,58.7,3,0,1,52,Middle of the pack
+2021-10-17,120,1,False,3,False,273,14,119,135.3,2,0,2,48,Middle of the pack
+2021-10-18,121,1,False,3,False,128,73,24,75.0,3,1,2,35,Middle of the pack
+2021-10-19,122,1,False,3,False,11,73,128,70.7,2,0,2,19,Easier for the solver
+2021-10-20,123,1,False,5,False,20,52,39,37.0,6,0,2,77,Tricky
+2021-10-21,124,1,False,3,False,22,62,190,91.3,2,1,3,41,Middle of the pack
+2021-10-22,125,1,False,3,False,128,11,24,54.3,4,1,2,24,Easier for the solver
+2021-10-23,126,1,False,3,False,141,17,45,67.7,1,1,1,26,Easier for the solver
+2021-10-24,127,1,False,4,False,53,88,165,102.0,2,0,1,70,Tricky
+2021-10-25,128,1,False,4,False,58,40,105,67.7,3,0,1,58,Middle of the pack
+2021-10-26,129,1,False,4,False,62,170,24,85.3,1,0,2,64,Middle of the pack
+2021-10-27,130,1,False,3,False,273,229,165,222.3,3,1,2,78,Tricky
+2021-10-28,131,1,False,4,False,26,110,34,56.7,1,1,3,56,Middle of the pack
+2021-10-29,132,1,False,4,False,91,88,36,71.7,2,0,1,56,Middle of the pack
+2021-10-30,133,1,False,3,False,105,110,59,91.3,2,1,3,41,Middle of the pack
+2021-10-31,134,1,False,4,False,27,40,105,57.3,4,1,1,63,Middle of the pack
+2021-11-01,135,1,False,3,False,12,140,17,56.3,2,1,2,19,Easier for the solver
+2021-11-02,136,1,False,4,False,9,25,190,74.7,2,0,2,59,Middle of the pack
+2021-11-03,137,1,False,3,False,68,7,45,40.0,2,1,2,10,Easier for the solver
+2021-11-04,138,1,False,5,False,273,88,193,184.7,2,1,1,100,Hard for the solver
+2021-11-05,139,1,False,3,False,91,7,193,97.0,2,0,1,34,Easier for the solver
+2021-11-06,140,1,False,3,False,13,5,289,102.3,4,0,2,43,Middle of the pack
+2021-11-07,141,1,False,5,False,56,229,30,105.0,1,0,1,96,Hard for the solver
+2021-11-08,142,1,False,3,False,5,229,119,117.7,3,0,2,45,Middle of the pack
+2021-11-09,143,1,False,5,False,126,170,40,112.0,4,0,2,98,Hard for the solver
+2021-11-10,144,1,False,4,False,53,229,193,158.3,2,0,2,87,Tricky
+2021-11-11,145,1,False,2,False,40,110,59,69.7,2,0,3,4,Easier for the solver
+2021-11-12,146,1,False,4,False,141,59,44,81.3,3,0,1,66,Tricky
+2021-11-13,147,1,False,3,False,24,14,289,109.0,2,0,1,39,Middle of the pack
+2021-11-14,148,1,False,4,False,273,90,119,160.7,1,0,1,88,Tricky
+2021-11-15,149,1,False,4,False,141,140,6,95.7,1,0,2,69,Tricky
+2021-11-16,150,1,False,5,False,27,88,105,73.3,3,1,1,95,Hard for the solver
+2021-11-17,151,1,False,3,False,28,170,199,132.3,1,0,2,47,Middle of the pack
+2021-11-18,152,1,False,4,False,141,140,44,108.3,1,0,2,72,Tricky
+2021-11-19,153,1,False,4,False,28,170,40,79.3,4,0,2,68,Tricky
+2021-11-20,154,1,False,4,False,126,29,23,59.3,2,1,2,57,Middle of the pack
+2021-11-21,155,1,False,3,False,68,140,13,73.7,2,0,3,21,Easier for the solver
+2021-11-22,156,1,False,3,False,40,110,59,69.7,3,0,3,22,Easier for the solver
+2021-11-23,157,1,False,4,False,10,170,199,126.3,2,0,1,79,Tricky
+2021-11-24,158,1,False,3,False,10,73,199,94.0,2,0,1,33,Easier for the solver
+2021-11-25,159,1,False,2,False,26,12,199,79.0,2,0,2,6,Easier for the solver
+2021-11-26,160,1,False,4,False,27,40,165,77.3,4,1,1,74,Tricky
+2021-11-27,161,1,False,3,False,105,5,16,42.0,1,0,2,9,Easier for the solver
+2021-11-28,162,1,False,3,False,40,4,199,81.0,6,0,2,41,Middle of the pack
+2021-11-29,163,1,False,4,False,26,110,199,111.7,4,0,2,80,Tricky
+2021-11-30,164,1,False,4,False,17,229,105,117.0,4,0,1,82,Tricky
+2021-12-01,165,1,False,3,False,105,2,199,102.0,2,0,2,36,Middle of the pack
+2021-12-02,166,1,False,3,False,7,25,190,74.0,2,0,2,21,Easier for the solver
+2021-12-03,167,1,False,4,False,26,110,53,63.0,3,0,2,55,Middle of the pack
+2021-12-04,168,1,False,3,False,128,11,59,66.0,2,0,2,17,Easier for the solver
+2021-12-05,169,1,False,3,False,126,19,23,56.0,1,0,2,13,Easier for the solver
+2021-12-06,170,1,False,3,False,20,170,199,129.7,1,0,2,45,Middle of the pack
+2021-12-07,171,1,False,3,False,12,52,4,22.7,2,0,2,2,Easier for the solver
+2021-12-08,172,1,False,4,False,9,62,190,87.0,4,0,2,71,Tricky
+2021-12-09,173,1,False,2,False,5,229,105,113.0,1,0,2,10,Easier for the solver
+2021-12-10,174,1,False,4,False,68,59,62,63.0,2,0,2,52,Middle of the pack
+2021-12-11,175,1,False,4,False,8,229,119,118.7,4,1,2,89,Tricky
+2021-12-12,176,1,False,3,False,51,10,190,83.7,1,1,2,36,Middle of the pack
+2021-12-13,177,1,False,3,False,18,58,119,65.0,4,0,2,23,Easier for the solver
+2021-12-14,178,1,False,4,False,141,17,62,73.3,2,0,2,58,Middle of the pack
+2021-12-15,179,1,False,2,False,3,2,190,65.0,3,0,2,4,Easier for the solver
+2021-12-16,180,1,False,3,False,58,43,13,38.0,1,0,2,7,Easier for the solver
+2021-12-17,181,1,False,4,False,5,12,190,69.0,5,0,2,66,Tricky
+2021-12-18,182,1,False,4,False,13,49,289,117.0,3,0,1,79,Tricky
+2021-12-19,183,1,False,3,False,47,52,289,129.3,3,0,2,49,Middle of the pack
+2021-12-20,184,1,False,4,False,13,28,190,77.0,3,0,2,63,Middle of the pack
+2021-12-21,185,1,False,5,False,56,40,193,96.3,2,0,1,95,Hard for the solver
+2021-12-22,186,1,False,4,False,3,28,190,73.7,4,0,2,65,Tricky
+2021-12-23,187,1,False,3,False,26,110,53,63.0,3,0,2,18,Easier for the solver
+2021-12-24,188,1,False,3,False,9,12,190,70.3,2,0,2,19,Easier for the solver
+2021-12-25,189,1,False,4,False,56,229,119,134.7,2,0,1,81,Tricky
+2021-12-26,190,1,False,3,False,2,3,5,3.3,1,0,3,0,Easier for the solver
+2021-12-27,191,1,False,5,False,126,170,199,165.0,3,1,1,99,Hard for the solver
+2021-12-28,192,1,False,3,False,51,10,2,21.0,2,0,3,2,Easier for the solver
+2021-12-29,193,1,False,3,False,68,52,62,60.7,2,0,2,14,Easier for the solver
+2021-12-30,194,1,False,3,False,53,14,165,77.3,2,1,1,33,Easier for the solver
+2021-12-31,195,1,False,4,False,57,229,13,99.7,2,0,2,70,Tricky
+2022-01-01,196,1,False,3,False,126,19,59,68.0,2,0,2,18,Easier for the solver
+2022-01-02,197,1,False,4,False,273,24,165,154.0,2,1,2,92,Hard for the solver
+2022-01-03,198,1,False,3,False,53,24,193,90.0,2,1,1,40,Middle of the pack
+2022-01-04,199,1,False,3,False,105,33,50,62.7,2,1,3,23,Easier for the solver
+2022-01-05,200,1,False,4,False,126,73,40,79.7,2,0,2,61,Middle of the pack
+2022-01-06,201,1,False,3,False,47,59,289,131.7,2,1,2,55,Middle of the pack
+2022-01-07,202,1,False,3,False,273,12,193,159.3,3,0,1,57,Middle of the pack
+2022-01-08,203,1,False,4,False,1,49,289,113.0,4,0,1,81,Tricky
+2022-01-09,204,1,False,3,False,40,110,199,116.3,2,1,2,50,Middle of the pack
+2022-01-10,205,1,False,5,False,126,170,59,118.3,1,0,2,97,Hard for the solver
+2022-01-11,206,1,False,4,False,17,229,9,85.0,3,0,1,68,Tricky
+2022-01-12,207,1,False,4,False,68,140,289,165.7,2,0,2,89,Tricky
+2022-01-13,208,1,False,3,False,46,62,14,40.7,1,1,2,11,Easier for the solver
+2022-01-14,209,1,False,3,False,47,52,289,129.3,2,0,1,45,Middle of the pack
+2022-01-15,210,1,False,5,False,5,140,62,69.0,2,0,2,88,Tricky
+2022-01-16,211,1,False,4,False,68,8,289,121.7,3,0,2,81,Tricky
+2022-01-17,212,1,False,3,False,40,33,53,42.0,3,0,2,9,Easier for the solver
+2022-01-18,213,1,False,5,False,53,229,165,149.0,1,0,1,99,Hard for the solver
+2022-01-19,214,1,False,4,False,58,90,105,84.3,3,0,2,67,Tricky
+2022-01-20,215,1,False,2,False,91,90,165,115.3,1,1,2,14,Easier for the solver
+2022-01-21,216,1,False,4,False,5,229,105,113.0,4,0,1,81,Tricky
+2022-01-22,217,1,False,4,False,11,110,50,57.0,3,0,2,51,Middle of the pack
+2022-01-23,218,1,False,4,False,13,229,105,115.7,3,0,1,79,Tricky
+2022-01-24,219,1,False,3,False,57,88,165,103.3,2,1,1,45,Middle of the pack
+2022-01-25,220,1,False,4,False,68,17,39,41.3,1,0,2,34,Easier for the solver
+2022-01-26,221,1,False,4,False,13,49,289,117.0,2,0,1,76,Tricky
+2022-01-27,222,1,False,3,False,58,90,193,113.7,2,0,2,41,Middle of the pack
+2022-01-28,223,1,False,5,False,126,170,199,165.0,2,0,1,99,Hard for the solver
+2022-01-29,224,1,False,3,False,27,88,30,48.3,2,0,2,10,Easier for the solver
+2022-01-30,225,1,False,4,False,17,229,193,146.3,3,0,1,87,Tricky
+2022-01-31,226,1,False,4,False,273,14,119,135.3,9,0,1,96,Hard for the solver
+2022-02-01,227,1,False,3,False,105,4,199,102.7,3,0,2,40,Middle of the pack
+2022-02-02,228,1,False,3,False,273,24,105,134.0,4,0,2,53,Middle of the pack
+2022-02-03,229,1,False,4,False,24,24,44,30.7,4,0,1,28,Easier for the solver
+2022-02-04,230,1,False,3,False,46,5,190,80.3,3,0,2,29,Easier for the solver
+2022-02-05,231,1,False,3,False,141,7,45,64.3,1,0,2,16,Easier for the solver
+2022-02-06,232,1,False,4,False,273,18,105,132.0,5,1,1,94,Hard for the solver
+2022-02-07,233,1,False,3,False,126,18,24,56.0,2,1,2,18,Easier for the solver
+2022-02-08,234,1,False,4,False,13,28,190,77.0,2,0,2,60,Middle of the pack
+2022-02-09,235,1,False,4,False,91,229,193,171.0,3,0,2,91,Hard for the solver
+2022-02-10,236,1,False,4,False,51,10,16,25.7,2,0,3,15,Easier for the solver
+2022-02-11,237,1,False,4,False,10,18,23,17.0,1,0,2,8,Easier for the solver
+2022-02-12,238,1,False,3,False,68,7,39,38.0,1,0,2,7,Easier for the solver
+2022-02-13,239,1,False,3,False,13,229,119,120.3,1,0,2,43,Middle of the pack
+2022-02-14,240,1,False,3,False,8,229,119,118.7,2,1,1,51,Middle of the pack
+2022-02-15,241,1,False,3,False,12,140,45,65.7,1,1,3,25,Easier for the solver
+2022-02-16,242,1,False,4,False,13,59,39,37.0,1,0,2,30,Easier for the solver
+2022-02-17,243,1,False,4,False,45,13,190,82.7,7,0,2,79,Tricky
+2022-02-18,244,1,False,4,False,105,110,34,83.0,2,1,2,71,Tricky
+2022-02-19,245,1,False,4,False,273,18,105,132.0,5,1,1,94,Hard for the solver
+2022-02-20,246,1,False,3,False,28,52,62,47.3,1,1,2,14,Easier for the solver
+2022-02-21,247,1,False,2,False,126,73,128,109.0,2,0,2,9,Easier for the solver
+2022-02-22,248,1,False,3,False,13,90,165,89.3,2,0,1,31,Easier for the solver
+2022-02-23,249,1,False,3,False,26,18,199,81.0,4,0,2,33,Easier for the solver
+2022-02-24,250,1,False,3,False,105,13,199,105.7,2,0,2,38,Middle of the pack
+2022-02-25,251,1,False,4,False,273,229,26,176.0,2,2,2,97,Hard for the solver
+2022-02-26,252,1,False,4,False,273,18,105,132.0,5,1,1,94,Hard for the solver
+2022-02-27,253,1,False,3,False,3,20,289,104.0,2,0,1,36,Middle of the pack
+2022-02-28,254,1,False,3,False,11,110,199,106.7,3,0,2,42,Middle of the pack
+2022-03-01,255,1,False,3,False,40,110,23,57.7,1,1,3,20,Easier for the solver
+2022-03-02,256,1,False,3,False,47,6,289,114.0,4,0,1,47,Middle of the pack
+2022-03-03,257,1,False,3,False,13,229,193,145.0,1,0,2,50,Middle of the pack
+2022-03-04,258,1,False,3,False,46,62,4,37.3,1,1,3,10,Easier for the solver
+2022-03-05,259,1,False,4,False,5,110,53,56.0,4,0,2,53,Middle of the pack
+2022-03-06,260,1,False,3,False,27,2,165,64.7,2,0,1,16,Easier for the solver
+2022-03-07,261,1,False,3,False,24,49,44,39.0,2,0,2,8,Easier for the solver
+2022-03-08,262,1,False,4,False,128,11,128,89.0,3,1,2,76,Tricky
+2022-03-09,263,1,False,3,False,57,38,165,86.7,2,0,1,28,Easier for the solver
+2022-03-10,264,1,False,4,False,51,3,190,81.3,1,0,2,62,Middle of the pack
+2022-03-11,265,1,False,5,False,28,52,289,123.0,7,0,1,99,Hard for the solver
+2022-03-12,266,1,False,3,False,141,52,44,79.0,2,0,2,24,Easier for the solver
+2022-03-13,267,1,False,3,False,56,43,193,97.3,2,0,2,34,Easier for the solver
+2022-03-14,268,1,False,3,False,128,3,199,110.0,2,0,1,39,Middle of the pack
+2022-03-15,269,1,False,3,False,45,1,190,78.7,3,1,3,37,Middle of the pack
+2022-03-16,270,1,False,4,False,4,25,54,27.7,5,0,2,27,Easier for the solver
+2022-03-17,271,1,False,3,False,105,110,50,88.3,1,0,3,30,Easier for the solver
+2022-03-18,272,1,False,3,False,51,1,16,22.7,2,0,3,2,Easier for the solver
+2022-03-19,273,1,False,4,False,141,14,45,66.7,3,1,2,66,Tricky
+2022-03-20,274,1,False,3,False,28,170,128,108.7,1,1,2,47,Middle of the pack
+2022-03-21,275,1,False,3,False,126,73,50,83.0,1,0,2,26,Easier for the solver
+2022-03-22,276,1,False,4,False,273,12,165,150.0,3,1,1,93,Hard for the solver
+2022-03-23,277,1,False,4,False,40,110,59,69.7,3,0,2,59,Middle of the pack
+2022-03-24,278,1,False,4,False,11,15,199,75.0,2,0,1,59,Middle of the pack
+2022-03-25,279,1,False,3,False,128,73,34,78.3,1,0,2,23,Easier for the solver
+2022-03-26,280,1,False,4,False,128,170,199,165.7,1,0,2,89,Tricky
+2022-03-27,281,1,False,3,False,57,229,165,150.3,2,0,0,52,Middle of the pack
+2022-03-28,282,1,False,5,False,58,229,30,105.7,8,0,2,99,Hard for the solver
+2022-03-29,283,1,False,3,False,50,8,289,115.7,3,1,1,52,Middle of the pack
+2022-03-30,284,1,False,3,False,105,4,199,102.7,5,0,2,46,Middle of the pack
+2022-03-31,285,1,False,4,False,273,88,165,175.3,1,1,1,94,Hard for the solver
+2022-04-01,286,1,False,3,False,57,39,193,96.3,5,0,2,44,Middle of the pack
+2022-04-02,287,1,False,2,False,26,18,199,81.0,2,0,2,6,Easier for the solver
+2022-04-03,288,1,False,5,False,126,170,128,141.3,3,1,2,99,Hard for the solver
+2022-04-04,289,1,False,4,False,50,8,289,115.7,2,0,1,75,Tricky
+2022-04-05,290,1,False,3,False,47,17,289,117.7,3,1,2,53,Middle of the pack
+2022-04-06,291,1,False,3,False,13,140,289,147.3,1,1,2,59,Middle of the pack
+2022-04-07,292,1,False,3,False,68,140,289,165.7,2,0,2,56,Middle of the pack
+2022-04-08,293,1,False,3,False,1,13,190,68.0,5,0,2,29,Easier for the solver
+2022-04-09,294,1,False,3,False,24,14,62,33.3,3,0,2,7,Easier for the solver
+2022-04-10,295,1,False,4,False,13,20,289,107.3,4,0,1,79,Tricky
+2022-04-11,296,1,False,3,False,141,17,6,54.7,2,0,2,12,Easier for the solver
+2022-04-12,297,1,False,2,False,68,59,289,138.7,2,0,2,14,Easier for the solver
+2022-04-13,298,1,False,4,False,6,229,193,142.7,2,0,1,84,Tricky
+2022-04-14,299,1,False,3,False,11,110,50,57.0,3,0,2,15,Easier for the solver
+2022-04-15,300,1,False,3,False,45,13,190,82.7,7,0,2,44,Middle of the pack
+2022-04-16,301,1,False,3,False,11,170,128,103.0,2,1,2,44,Middle of the pack
+2022-04-17,302,1,False,4,False,51,16,22,29.7,2,0,2,19,Easier for the solver
+2022-04-18,303,1,False,3,False,24,20,62,35.3,2,0,2,7,Easier for the solver
+2022-04-19,304,1,False,4,False,126,170,128,141.3,2,0,2,83,Tricky
+2022-04-20,305,1,False,3,False,9,140,289,146.0,1,0,2,51,Middle of the pack
+2022-04-21,306,1,False,3,False,105,110,12,75.7,1,0,3,22,Easier for the solver
+2022-04-22,307,1,False,3,False,17,2,289,102.7,3,0,1,40,Middle of the pack
+2022-04-23,308,1,False,3,False,105,13,53,57.0,2,0,3,13,Easier for the solver
+2022-04-24,309,1,False,3,False,28,73,50,50.3,2,0,2,11,Easier for the solver
+2022-04-25,310,1,False,4,False,46,3,14,21.0,1,0,2,11,Easier for the solver
+2022-04-26,311,1,False,4,False,128,15,53,65.3,2,0,2,53,Middle of the pack
+2022-04-27,312,1,False,3,False,57,58,165,93.3,2,0,1,33,Easier for the solver
+2022-04-28,313,1,False,4,False,128,3,199,110.0,2,0,1,73,Tricky
+2022-04-29,314,1,False,3,False,22,5,289,105.3,3,0,1,41,Middle of the pack
+2022-04-30,315,1,False,4,False,68,59,289,138.7,1,1,2,89,Tricky
+2022-05-01,316,1,False,4,False,91,229,165,161.7,2,1,2,93,Hard for the solver
+2022-05-02,317,1,False,4,False,91,39,165,98.3,4,0,1,76,Tricky
+2022-05-03,318,1,False,4,False,68,140,17,75.0,3,0,2,62,Middle of the pack
+2022-05-04,319,1,False,4,False,7,20,62,29.7,4,0,2,26,Easier for the solver
+2022-05-05,320,1,False,4,False,126,170,128,141.3,2,0,2,83,Tricky
+2022-05-06,321,1,False,4,False,51,31,35,39.0,2,0,2,32,Easier for the solver
+2022-05-07,322,1,False,3,False,273,24,26,107.7,1,0,1,38,Middle of the pack
+2022-05-08,323,1,False,4,False,2,140,289,143.7,3,1,1,92,Hard for the solver
+2022-05-09,324,1,False,4,False,12,33,53,32.7,3,0,2,27,Easier for the solver
+2022-05-10,325,1,False,4,False,20,170,199,129.7,1,0,2,80,Tricky
+2022-05-11,326,1,False,4,False,1,31,190,74.0,2,0,2,58,Middle of the pack
+2022-05-12,327,1,False,3,False,58,12,193,87.7,3,0,1,33,Easier for the solver
+2022-05-13,328,1,False,3,False,273,24,119,138.7,2,0,1,49,Middle of the pack
+2022-05-14,329,1,False,4,False,46,6,190,80.7,3,0,2,66,Tricky
+2022-05-15,330,1,False,4,False,128,63,16,69.0,3,0,2,59,Middle of the pack
+2022-05-16,331,1,False,4,False,105,21,34,53.3,1,1,2,53,Middle of the pack
+2022-05-17,332,1,False,4,False,10,170,53,77.7,2,0,2,60,Middle of the pack
+2022-05-18,333,1,False,4,False,11,58,193,87.3,2,0,2,65,Tricky
+2022-05-19,334,1,False,4,False,50,6,289,115.0,2,1,1,84,Tricky
+2022-05-20,335,1,False,3,False,52,62,54,56.0,3,0,2,14,Easier for the solver
+2022-05-21,336,1,False,4,False,7,17,289,104.3,2,0,1,71,Tricky
+2022-05-22,337,1,False,4,False,62,170,128,120.0,3,0,2,80,Tricky
+2022-05-23,338,1,False,4,False,23,110,50,61.0,4,0,2,57,Middle of the pack
+2022-05-24,339,1,False,3,False,141,14,7,54.0,1,0,2,12,Easier for the solver
+2022-05-25,340,1,False,5,False,56,229,193,159.3,4,0,2,99,Hard for the solver
+2022-05-26,341,1,False,3,False,46,2,14,20.7,1,1,2,3,Easier for the solver
+2022-05-27,342,1,False,3,False,24,20,62,35.3,1,1,3,9,Easier for the solver
+2022-05-28,343,1,False,3,False,10,73,199,94.0,2,0,1,33,Easier for the solver
+2022-05-29,344,1,False,4,False,141,140,2,94.3,1,0,3,68,Tricky
+2022-05-30,345,1,False,3,False,141,17,45,67.7,1,1,2,26,Easier for the solver
+2022-05-31,346,1,False,4,False,10,140,289,146.3,3,0,2,87,Tricky
+2022-06-01,347,1,False,4,False,2,62,190,84.7,4,0,2,70,Tricky
+2022-06-02,348,1,False,4,False,273,58,165,165.3,2,0,1,88,Tricky
+2022-06-03,349,1,False,3,False,45,6,190,80.3,2,0,2,24,Easier for the solver
+2022-06-04,350,1,False,3,False,53,38,165,85.3,2,0,1,27,Easier for the solver
+2022-06-05,351,1,False,3,False,128,10,34,57.3,2,0,1,13,Easier for the solver
+2022-06-06,352,1,False,4,False,273,40,165,159.3,2,1,2,92,Hard for the solver
+2022-06-07,353,1,False,4,False,273,40,36,116.3,2,1,2,84,Tricky
+2022-06-08,354,1,False,3,False,22,20,62,34.7,3,1,2,10,Easier for the solver
+2022-06-09,355,1,False,3,False,91,38,119,82.7,3,0,1,31,Easier for the solver
+2022-06-10,356,1,False,3,False,128,10,50,62.7,1,0,2,15,Easier for the solver
+2022-06-11,357,1,False,3,False,105,27,199,110.3,4,1,3,54,Middle of the pack
+2022-06-12,358,1,False,3,False,141,7,289,145.7,3,0,2,53,Middle of the pack
+2022-06-13,359,1,False,4,False,13,229,36,92.7,2,1,2,75,Tricky
+2022-06-14,360,1,False,2,False,2,3,22,9.0,2,0,3,0,Easier for the solver
+2022-06-15,361,1,False,3,False,53,229,105,129.0,3,0,2,49,Middle of the pack
+2022-06-16,362,1,False,3,False,10,140,45,65.0,1,0,2,16,Easier for the solver
+2022-06-17,363,1,False,4,False,57,40,165,87.3,3,0,1,69,Tricky
+2022-06-18,364,1,False,3,False,13,140,289,147.3,1,2,3,68,Tricky
+2022-06-19,365,1,False,3,False,126,2,128,85.3,3,0,2,32,Easier for the solver
+2022-06-20,366,1,False,4,False,57,90,23,56.7,1,0,2,47,Middle of the pack
+2022-06-21,367,1,False,4,False,141,7,289,145.7,3,0,2,87,Tricky
+2022-06-22,368,1,False,3,False,141,59,7,69.0,1,0,2,18,Easier for the solver
+2022-06-23,369,1,False,3,False,17,229,105,117.0,4,0,1,48,Middle of the pack
+2022-06-24,370,1,False,3,False,105,4,53,54.0,3,0,2,14,Easier for the solver
+2022-06-25,371,1,False,3,False,19,12,35,22.0,3,0,2,3,Easier for the solver
+2022-06-26,372,1,False,2,False,91,5,193,96.3,5,0,1,11,Easier for the solver
+2022-06-27,373,1,False,2,False,126,73,199,132.7,2,1,2,18,Easier for the solver
+2022-06-28,374,1,False,4,False,53,88,36,59.0,2,1,1,57,Middle of the pack
+2022-06-29,375,1,False,4,False,141,140,289,190.0,1,0,1,92,Hard for the solver
+2022-06-30,376,1,False,4,False,56,90,193,113.0,3,1,1,85,Tricky
+2022-07-01,377,1,False,3,False,57,38,119,71.3,1,0,2,20,Easier for the solver
+2022-07-02,378,1,False,3,False,126,73,128,109.0,1,1,2,47,Middle of the pack
+2022-07-03,379,1,False,4,False,28,59,62,49.7,1,1,2,51,Middle of the pack
+2022-07-04,380,1,False,4,False,126,29,128,94.3,4,1,2,82,Tricky
+2022-07-05,381,1,False,4,False,128,63,16,69.0,3,0,2,59,Middle of the pack
+2022-07-06,382,1,False,4,False,273,40,193,168.7,2,1,1,93,Hard for the solver
+2022-07-07,383,1,False,3,False,45,28,22,31.7,2,1,3,8,Easier for the solver
+2022-07-08,384,1,False,4,False,9,110,53,57.3,1,0,3,48,Middle of the pack
+2022-07-09,385,1,False,4,False,46,4,35,28.3,4,0,2,24,Easier for the solver
+2022-07-10,386,1,False,2,False,126,10,199,111.7,2,0,1,10,Easier for the solver
+2022-07-11,387,1,False,4,False,141,140,44,108.3,1,2,2,88,Tricky
+2022-07-12,388,1,False,3,False,57,90,119,88.7,9,0,1,54,Middle of the pack
+2022-07-13,389,1,False,4,False,17,20,44,27.0,4,0,1,22,Easier for the solver
+2022-07-14,390,1,False,4,False,126,63,40,76.3,4,0,2,67,Tricky
+2022-07-15,391,1,False,4,False,105,110,34,83.0,3,1,2,73,Tricky
+2022-07-16,392,1,False,3,False,91,229,165,161.7,1,1,2,63,Middle of the pack
+2022-07-17,393,1,False,5,False,28,140,289,152.3,2,0,1,99,Hard for the solver
+2022-07-18,394,1,False,4,False,56,40,165,87.0,4,0,1,71,Tricky
+2022-07-19,395,1,False,3,False,10,140,45,65.0,1,0,1,16,Easier for the solver
+2022-07-20,396,1,False,2,False,26,12,53,30.3,4,1,2,2,Easier for the solver
+2022-07-21,397,1,False,4,False,141,140,3,94.7,1,0,2,68,Tricky
+2022-07-22,398,1,False,3,False,53,24,165,80.7,2,1,0,35,Middle of the pack
+2022-07-23,399,1,False,3,False,105,110,16,77.0,2,0,2,23,Easier for the solver
+2022-07-24,400,1,False,4,False,126,170,128,141.3,7,0,2,94,Hard for the solver
+2022-07-25,401,1,False,4,False,105,13,199,105.7,2,1,3,80,Tricky
+2022-07-26,402,1,False,4,False,8,229,119,118.7,4,1,1,89,Tricky
+2022-07-27,403,1,False,3,False,273,38,165,158.7,1,2,2,70,Tricky
+2022-07-28,404,1,False,3,False,273,39,165,159.0,3,0,1,57,Middle of the pack
+2022-07-29,405,1,False,4,False,128,15,23,55.3,2,0,2,46,Middle of the pack
+2022-07-30,406,1,False,4,False,273,40,193,168.7,2,1,1,93,Hard for the solver
+2022-07-31,407,1,False,4,False,7,49,289,115.0,3,0,1,78,Tricky
+2022-08-01,408,1,False,4,False,24,20,39,27.7,2,0,2,17,Easier for the solver
+2022-08-02,409,1,False,3,False,27,88,165,93.3,1,1,1,41,Middle of the pack
+2022-08-03,410,1,False,3,False,273,38,193,168.0,3,0,2,60,Middle of the pack
+2022-08-04,411,1,False,3,False,40,110,199,116.3,2,0,1,42,Middle of the pack
+2022-08-05,412,1,False,4,False,273,229,193,231.7,2,1,1,98,Hard for the solver
+2022-08-06,413,1,False,3,False,22,8,1,10.3,2,0,3,1,Easier for the solver
+2022-08-07,414,1,False,3,False,52,10,190,84.0,4,0,2,35,Middle of the pack
+2022-08-08,415,1,False,3,False,57,90,23,56.7,2,0,2,13,Easier for the solver
+2022-08-09,416,1,False,3,False,141,15,289,148.3,6,1,1,72,Tricky
+2022-08-10,417,1,False,4,False,6,40,105,50.3,3,0,1,46,Middle of the pack
+2022-08-11,418,1,False,4,False,22,8,190,73.3,2,0,2,58,Middle of the pack
+2022-08-12,419,1,False,3,False,46,31,54,43.7,2,1,2,12,Easier for the solver
+2022-08-13,420,1,False,4,False,57,229,193,159.7,3,0,1,89,Tricky
+2022-08-14,421,1,False,3,False,50,49,62,53.7,1,1,2,17,Easier for the solver
+2022-08-15,422,1,False,4,False,126,170,128,141.3,3,0,2,86,Tricky
+2022-08-16,423,1,False,4,False,22,63,23,36.0,2,0,2,27,Easier for the solver
+2022-08-17,424,1,False,3,False,9,18,53,26.7,2,0,2,3,Easier for the solver
+2022-08-18,425,1,False,4,False,17,20,289,108.7,1,0,1,73,Tricky
+2022-08-19,426,1,False,4,False,91,58,193,114.0,2,0,1,75,Tricky
+2022-08-20,427,1,False,4,False,9,25,190,74.7,2,1,2,67,Tricky
+2022-08-21,428,1,False,4,False,51,6,190,82.3,6,0,2,75,Tricky
+2022-08-22,429,1,False,4,False,126,73,50,83.0,1,0,2,63,Middle of the pack
+2022-08-23,430,1,False,4,False,62,170,128,120.0,3,0,2,80,Tricky
+2022-08-24,431,1,False,4,False,62,170,34,88.7,4,1,2,79,Tricky
+2022-08-25,432,1,False,4,False,8,40,165,71.0,3,0,1,60,Middle of the pack
+2022-08-26,433,1,False,3,False,17,229,119,121.7,2,0,2,43,Middle of the pack
+2022-08-27,434,1,False,4,False,126,170,7,101.0,2,1,2,78,Tricky
+2022-08-28,435,1,False,4,False,51,31,16,32.7,2,0,3,23,Easier for the solver
+2022-08-29,436,1,False,3,False,11,170,9,63.3,2,0,2,15,Easier for the solver
+2022-08-30,437,1,False,3,False,62,15,128,68.3,2,0,2,18,Easier for the solver
+2022-08-31,438,1,False,4,False,26,110,53,63.0,4,0,2,59,Middle of the pack
+2022-09-01,439,1,False,4,False,57,229,23,103.0,1,0,2,71,Tricky
+2022-09-02,440,1,False,4,False,4,49,289,114.0,3,0,1,78,Tricky
+2022-09-03,441,1,False,5,False,273,88,193,184.7,5,1,1,100,Hard for the solver
+2022-09-04,442,1,False,3,False,28,73,40,47.0,3,0,2,11,Easier for the solver
+2022-09-05,443,1,False,4,False,273,229,165,222.3,1,1,2,97,Hard for the solver
+2022-09-06,444,1,False,5,False,20,52,39,37.0,6,1,2,85,Tricky
+2022-09-07,445,1,False,4,False,126,63,199,129.3,1,1,2,87,Tricky
+2022-09-08,446,1,False,4,False,13,6,289,102.7,3,1,1,82,Tricky
+2022-09-09,447,1,False,3,False,105,18,199,107.3,3,1,2,50,Middle of the pack
+2022-09-10,448,1,False,3,False,273,2,165,146.7,2,0,1,51,Middle of the pack
+2022-09-11,449,1,False,3,False,141,52,62,85.0,1,1,3,37,Middle of the pack
+2022-09-12,450,1,False,4,False,105,110,199,138.0,2,1,3,89,Tricky
+2022-09-13,451,1,False,3,False,141,14,45,66.7,2,1,2,25,Easier for the solver
+2022-09-14,452,1,False,3,False,105,18,199,107.3,2,0,1,38,Middle of the pack
+2022-09-15,453,1,False,3,False,273,90,30,131.0,1,0,2,46,Middle of the pack
+2022-09-16,454,1,False,5,False,52,62,54,56.0,4,1,2,92,Hard for the solver
+2022-09-17,455,1,False,3,False,11,12,59,27.3,1,0,2,4,Easier for the solver
+2022-09-18,456,1,False,4,False,56,39,105,66.7,4,0,1,61,Middle of the pack
+2022-09-19,457,1,False,3,False,3,18,53,24.7,4,0,2,4,Easier for the solver
+2022-09-20,458,1,False,3,False,51,4,6,20.3,2,0,3,2,Easier for the solver
+2022-09-21,459,1,False,4,False,2,62,190,84.7,1,0,2,64,Middle of the pack
+2022-09-22,460,1,False,4,False,20,8,17,15.0,4,0,2,9,Easier for the solver
+2022-09-23,461,1,False,3,False,91,40,165,98.7,1,0,1,34,Easier for the solver
+2022-09-24,462,1,False,3,False,13,6,190,69.7,6,0,2,34,Easier for the solver
+2022-09-25,463,1,False,3,False,141,52,2,65.0,2,0,2,16,Easier for the solver
+2022-09-26,464,1,False,3,False,53,43,105,67.0,3,0,1,21,Easier for the solver
+2022-09-27,465,1,False,3,False,273,58,165,165.3,2,1,1,64,Middle of the pack
+2022-09-28,466,1,False,4,False,91,43,193,109.0,1,1,2,81,Tricky
+2022-09-29,467,1,False,4,False,13,8,44,21.7,4,0,1,15,Easier for the solver
+2022-09-30,468,1,False,4,False,2,58,165,75.0,3,0,1,62,Middle of the pack
+2022-10-01,469,1,False,3,False,45,2,190,79.0,3,1,3,38,Middle of the pack
+2022-10-02,470,1,False,4,False,12,18,53,27.7,2,0,2,17,Easier for the solver
+2022-10-03,471,1,False,3,False,58,39,105,67.3,4,0,1,24,Easier for the solver
+2022-10-04,472,1,False,3,False,273,229,193,231.7,5,0,2,78,Tricky
+2022-10-05,473,1,False,4,False,68,17,289,124.7,2,0,1,78,Tricky
+2022-10-06,474,1,False,3,False,273,1,165,146.3,2,0,1,51,Middle of the pack
+2022-10-07,475,1,False,4,False,47,140,44,77.0,5,1,1,77,Tricky
+2022-10-08,476,1,False,3,False,91,229,119,146.3,2,0,2,51,Middle of the pack
+2022-10-09,477,1,False,4,False,273,229,36,179.3,3,0,1,92,Hard for the solver
+2022-10-10,478,1,False,3,False,62,170,199,143.7,2,0,2,50,Middle of the pack
+2022-10-11,479,1,False,4,False,141,59,13,71.0,2,0,2,56,Middle of the pack
+2022-10-12,480,1,False,4,False,18,229,119,122.0,4,1,3,90,Hard for the solver
+2022-10-13,481,1,False,4,False,46,31,16,31.0,1,0,3,21,Easier for the solver
+2022-10-14,482,1,False,4,False,91,40,165,98.7,2,1,2,77,Tricky
+2022-10-15,483,1,False,3,False,13,52,289,118.0,7,1,1,68,Tricky
+2022-10-16,484,1,False,4,False,45,13,35,31.0,4,0,2,29,Easier for the solver
+2022-10-17,485,1,False,3,False,62,11,50,41.0,2,0,2,8,Easier for the solver
+2022-10-18,486,1,False,3,False,128,15,53,65.3,1,0,2,16,Easier for the solver
+2022-10-19,487,1,False,4,False,91,229,13,111.0,2,0,2,73,Tricky
+2022-10-20,488,1,False,4,False,62,170,16,82.7,1,0,2,63,Middle of the pack
+2022-10-21,489,1,False,3,False,26,110,199,111.7,4,0,2,46,Middle of the pack
+2022-10-22,490,1,False,3,False,128,6,9,47.7,2,0,2,10,Easier for the solver
+2022-10-23,491,1,False,4,False,273,229,193,231.7,3,1,1,98,Hard for the solver
+2022-10-24,492,1,False,3,False,141,17,39,65.7,2,0,2,16,Easier for the solver
+2022-10-25,493,1,False,4,False,273,229,165,222.3,2,1,1,97,Hard for the solver
+2022-10-26,494,1,False,3,False,273,7,193,157.7,2,0,2,53,Middle of the pack
+2022-10-27,495,1,False,2,False,9,140,289,146.0,4,1,1,30,Easier for the solver
+2022-10-28,496,1,False,4,False,22,10,190,74.0,3,0,2,62,Middle of the pack
+2022-10-29,497,1,False,3,False,128,63,40,77.0,2,1,2,33,Easier for the solver
+2022-10-30,498,1,False,3,False,141,1,289,143.7,1,0,1,50,Middle of the pack
+2022-10-31,499,1,False,3,False,141,17,45,67.7,2,0,1,18,Easier for the solver
+2022-11-01,500,1,False,3,False,62,170,40,90.7,2,0,2,31,Easier for the solver
+2022-11-02,501,1,False,3,False,62,73,50,61.7,2,0,2,15,Easier for the solver
+2022-11-03,502,1,False,4,False,141,14,1,52.0,2,0,3,44,Middle of the pack
+2022-11-04,503,1,False,3,False,273,38,165,158.7,1,1,2,62,Middle of the pack
+2022-11-05,504,1,False,4,False,9,62,35,35.3,2,0,2,26,Easier for the solver
+2022-11-06,505,1,False,3,False,45,1,190,78.7,6,0,2,39,Middle of the pack
+2022-11-07,506,1,False,4,False,62,170,50,94.0,3,0,2,71,Tricky
+2022-11-08,507,1,False,4,False,128,6,199,111.0,4,1,1,88,Tricky
+2022-11-09,508,1,False,3,False,1,140,17,52.7,1,0,2,11,Easier for the solver
+2022-11-10,509,1,False,3,False,23,12,8,14.3,2,0,3,1,Easier for the solver
+2022-11-11,510,1,False,3,False,46,31,35,37.3,2,0,2,7,Easier for the solver
+2022-11-12,511,1,False,3,False,46,6,54,35.3,1,0,2,7,Easier for the solver
+2022-11-13,512,1,False,4,False,2,28,5,11.7,1,1,3,6,Easier for the solver
+2022-11-14,513,1,False,3,False,51,16,190,85.7,1,0,2,28,Easier for the solver
+2022-11-15,514,1,False,3,False,1,8,289,99.3,2,0,1,35,Middle of the pack
+2022-11-16,515,1,False,5,False,52,62,54,56.0,3,0,2,84,Tricky
+2022-11-17,516,1,False,3,False,40,18,199,85.7,3,1,2,41,Middle of the pack
+2022-11-18,517,1,False,3,False,273,40,165,159.3,1,0,0,54,Middle of the pack
+2022-11-19,518,1,False,3,False,52,25,22,33.0,2,0,2,5,Easier for the solver
+2022-11-20,519,1,False,5,False,13,28,190,77.0,3,0,2,93,Hard for the solver
+2022-11-21,520,1,False,3,False,141,140,10,97.0,2,0,3,34,Easier for the solver
+2022-11-22,521,1,False,3,False,26,110,53,63.0,4,0,2,21,Easier for the solver
+2022-11-23,522,1,False,4,False,26,110,12,49.3,2,0,2,42,Middle of the pack
+2022-11-24,523,1,False,3,False,19,3,190,70.7,4,0,2,26,Easier for the solver
+2022-11-25,524,1,False,4,False,56,90,119,88.3,1,0,1,66,Tricky
+2022-11-26,525,1,False,3,False,1,8,190,66.3,3,0,2,20,Easier for the solver
+2022-11-27,526,1,False,4,False,141,140,289,190.0,2,1,1,95,Hard for the solver
+2022-11-28,527,1,False,4,False,128,73,16,72.3,1,0,2,57,Middle of the pack
+2022-11-29,528,1,False,4,False,23,110,15,49.3,1,1,3,50,Middle of the pack
+2022-11-30,529,1,False,4,False,273,39,30,114.0,1,0,1,75,Tricky
+2022-12-01,530,1,False,3,False,20,73,199,97.3,3,1,2,46,Middle of the pack
+2022-12-02,531,1,False,4,False,3,28,190,73.7,2,0,2,58,Middle of the pack
+2022-12-03,532,1,False,2,False,91,24,165,93.3,1,1,2,10,Easier for the solver
+2022-12-04,533,1,False,2,False,8,31,4,14.3,2,0,3,0,Easier for the solver
+2022-12-05,534,1,False,3,False,62,170,128,120.0,3,0,2,46,Middle of the pack
+2022-12-06,535,1,False,3,False,52,62,14,42.7,2,0,2,9,Easier for the solver
+2022-12-07,536,1,False,4,False,273,24,193,163.3,2,0,2,88,Tricky
+2022-12-08,537,1,False,4,False,28,170,40,79.3,3,0,2,64,Middle of the pack
+2022-12-09,538,1,False,4,False,22,49,13,28.0,2,0,2,17,Easier for the solver
+2022-12-10,539,1,False,3,False,18,229,165,137.3,2,1,1,56,Middle of the pack
+2022-12-11,540,1,False,3,False,6,31,4,13.7,2,0,3,1,Easier for the solver
+2022-12-12,541,1,False,4,False,141,59,45,81.7,2,1,1,70,Tricky
+2022-12-13,542,1,False,4,False,105,33,199,112.3,3,0,2,77,Tricky
+2022-12-14,543,1,False,3,False,141,7,39,62.3,1,1,3,22,Easier for the solver
+2022-12-15,544,1,False,3,False,68,59,62,63.0,1,0,2,15,Easier for the solver
+2022-12-16,545,1,False,4,False,26,110,199,111.7,4,0,2,80,Tricky
+2022-12-17,546,1,False,4,False,9,229,36,91.3,2,0,1,67,Tricky
+2022-12-18,547,1,False,4,False,52,25,54,43.7,3,0,2,41,Middle of the pack
+2022-12-19,548,1,False,3,False,45,1,190,78.7,4,0,2,32,Easier for the solver
+2022-12-20,549,1,False,3,False,91,90,9,63.3,1,0,1,15,Easier for the solver
+2022-12-21,550,1,False,4,False,10,59,39,36.0,1,0,2,27,Easier for the solver
+2022-12-22,551,1,False,4,False,20,63,128,70.3,2,1,2,65,Tricky
+2022-12-23,552,1,False,2,False,68,15,45,42.7,1,1,3,2,Easier for the solver
+2022-12-24,553,1,False,3,False,105,27,53,61.7,2,0,3,15,Easier for the solver
+2022-12-25,554,1,False,4,False,52,25,190,89.0,1,0,2,66,Tricky
+2022-12-26,555,1,False,5,False,105,110,15,76.7,4,0,2,94,Hard for the solver
+2022-12-27,556,1,False,3,False,8,229,36,91.0,1,1,2,40,Middle of the pack
+2022-12-28,557,1,False,3,False,128,63,40,77.0,1,0,2,23,Easier for the solver
+2022-12-29,558,1,False,4,False,28,140,289,152.3,1,0,2,85,Tricky
+2022-12-30,559,1,False,3,False,68,59,289,138.7,3,0,2,52,Middle of the pack
+2022-12-31,560,1,False,4,False,47,59,289,131.7,2,0,1,80,Tricky
+2023-01-01,561,1,False,3,False,12,110,53,58.3,3,0,2,16,Easier for the solver
+2023-01-02,562,1,False,4,False,91,39,105,78.3,2,0,1,61,Middle of the pack
+2023-01-03,563,1,False,3,False,5,52,9,22.0,2,0,2,2,Easier for the solver
+2023-01-04,564,1,False,4,False,52,31,54,45.7,4,0,2,45,Middle of the pack
+2023-01-05,565,1,False,3,False,128,2,128,86.0,3,1,2,42,Middle of the pack
+2023-01-06,566,1,False,3,False,105,21,50,58.7,2,1,3,20,Easier for the solver
+2023-01-07,567,1,False,3,False,62,63,199,108.0,2,0,2,39,Middle of the pack
+2023-01-08,568,1,False,2,False,52,62,190,101.3,1,0,3,9,Easier for the solver
+2023-01-09,569,1,False,4,False,105,110,50,88.3,1,1,3,73,Tricky
+2023-01-10,570,1,False,4,False,53,229,105,129.0,2,0,1,79,Tricky
+2023-01-11,571,1,False,3,False,22,10,35,22.3,1,0,2,2,Easier for the solver
+2023-01-12,572,1,False,4,False,19,4,190,71.0,3,0,2,60,Middle of the pack
+2023-01-13,573,1,False,3,False,47,140,39,75.3,1,0,2,22,Easier for the solver
+2023-01-14,574,1,False,3,False,50,11,289,116.7,1,1,3,50,Middle of the pack
+2023-01-15,575,1,False,3,False,40,33,53,42.0,5,0,2,12,Easier for the solver
+2023-01-16,576,1,False,5,False,5,229,165,133.0,2,0,1,99,Hard for the solver
+2023-01-17,577,1,False,3,False,141,52,3,65.3,3,0,2,19,Easier for the solver
+2023-01-18,578,1,False,4,False,4,49,44,32.3,3,0,1,26,Easier for the solver
+2023-01-19,579,1,False,4,False,56,229,193,159.3,3,0,1,89,Tricky
+2023-01-20,580,1,False,3,False,52,5,14,23.7,3,0,2,3,Easier for the solver
+2023-01-21,581,1,False,3,False,91,40,193,108.0,2,1,1,47,Middle of the pack
+2023-01-22,582,1,False,4,False,46,25,54,41.7,1,0,2,35,Middle of the pack
+2023-01-23,583,1,False,4,False,105,13,15,44.3,2,1,3,46,Middle of the pack
+2023-01-24,584,1,False,3,False,6,90,193,96.3,2,0,2,34,Easier for the solver
+2023-01-25,585,1,False,4,False,51,31,4,28.7,1,0,3,18,Easier for the solver
+2023-01-26,586,1,False,4,False,128,170,199,165.7,1,1,2,93,Hard for the solver
+2023-01-27,587,1,False,4,False,91,229,165,161.7,3,1,1,94,Hard for the solver
+2023-01-28,588,1,False,3,False,91,7,105,67.7,2,0,1,18,Easier for the solver
+2023-01-29,589,1,False,3,False,273,43,119,145.0,1,0,1,50,Middle of the pack
+2023-01-30,590,1,False,4,False,3,28,190,73.7,4,0,2,65,Tricky
+2023-01-31,591,1,False,4,False,13,43,165,73.7,3,1,1,69,Tricky
+2023-02-01,592,1,False,3,False,56,18,36,36.7,2,0,1,7,Easier for the solver
+2023-02-02,593,1,False,3,False,91,58,105,84.7,3,0,1,32,Easier for the solver
+2023-02-03,594,1,False,4,False,141,6,289,145.3,4,1,1,94,Hard for the solver
+2023-02-04,595,1,False,4,False,57,14,23,31.3,2,0,2,21,Easier for the solver
+2023-02-05,596,1,False,4,False,2,31,35,22.7,2,0,2,12,Easier for the solver
+2023-02-06,597,1,False,3,False,57,38,119,71.3,1,1,1,29,Easier for the solver
+2023-02-07,598,1,False,5,False,51,16,22,29.7,2,1,2,65,Tricky
+2023-02-08,599,1,False,4,False,50,20,62,44.0,2,1,2,45,Middle of the pack
+2023-02-09,600,1,False,3,False,45,4,190,79.7,6,0,2,40,Middle of the pack
+2023-02-10,601,1,False,3,False,19,12,35,22.0,3,0,2,3,Easier for the solver
+2023-02-11,602,1,False,4,False,128,170,15,104.3,2,0,2,71,Tricky
+2023-02-12,603,1,False,3,False,17,20,62,33.0,2,0,2,5,Easier for the solver
+2023-02-13,604,1,False,3,False,45,6,16,22.3,1,0,3,2,Easier for the solver
+2023-02-14,605,1,False,3,False,58,58,30,48.7,8,0,2,24,Easier for the solver
+2023-02-15,606,1,False,4,False,141,8,289,146.0,2,2,2,94,Hard for the solver
+2023-02-16,607,1,False,4,False,28,140,62,76.7,2,0,2,60,Middle of the pack
+2023-02-17,608,1,False,4,False,4,31,190,75.0,1,1,2,67,Tricky
+2023-02-18,609,1,False,3,False,50,11,9,23.3,1,1,3,4,Easier for the solver
+2023-02-19,610,1,False,3,False,273,43,119,145.0,1,1,2,59,Middle of the pack
+2023-02-20,611,1,False,3,False,46,4,190,80.0,3,0,2,29,Easier for the solver
+2023-02-21,612,1,False,3,False,91,229,30,116.7,3,1,1,53,Middle of the pack
+2023-02-22,613,1,False,4,False,126,170,40,112.0,4,1,2,88,Tricky
+2023-02-23,614,1,False,4,False,51,31,16,32.7,2,0,3,23,Easier for the solver
+2023-02-24,615,1,False,3,False,12,140,45,65.7,3,1,2,29,Easier for the solver
+2023-02-25,616,1,False,4,False,273,38,119,143.3,2,1,1,90,Hard for the solver
+2023-02-26,617,1,False,4,False,91,58,193,114.0,1,0,1,75,Tricky
+2023-02-27,618,1,False,3,False,40,27,199,88.7,2,0,2,30,Easier for the solver
+2023-02-28,619,1,False,3,False,141,59,289,163.0,1,0,2,55,Middle of the pack
+2023-03-01,620,1,False,3,False,105,27,199,110.3,4,1,3,54,Middle of the pack
+2023-03-02,621,1,False,3,False,51,31,22,34.7,2,0,3,6,Easier for the solver
+2023-03-03,622,1,False,4,False,141,8,39,62.7,2,0,2,52,Middle of the pack
+2023-03-04,623,1,False,4,False,1,73,34,36.0,2,0,1,27,Easier for the solver
+2023-03-05,624,1,False,4,False,56,90,119,88.3,3,0,2,69,Tricky
+2023-03-06,625,1,False,4,False,57,229,119,135.0,2,0,1,81,Tricky
+2023-03-07,626,1,False,3,False,40,27,199,88.7,2,0,2,30,Easier for the solver
+2023-03-08,627,1,False,3,False,52,31,190,91.0,2,0,2,31,Easier for the solver
+2023-03-09,628,1,False,4,False,40,110,199,116.3,2,1,2,84,Tricky
+2023-03-10,629,1,False,4,False,126,63,128,105.7,3,1,2,83,Tricky
+2023-03-11,630,1,False,3,False,19,8,5,10.7,1,0,3,1,Easier for the solver
+2023-03-12,631,1,False,3,False,91,38,119,82.7,3,0,1,31,Easier for the solver
+2023-03-13,632,1,False,3,False,45,12,190,82.3,4,0,2,34,Easier for the solver
+2023-03-14,633,1,False,3,False,91,18,193,100.7,3,0,1,39,Middle of the pack
+2023-03-15,634,1,False,4,False,128,29,128,95.0,4,1,2,82,Tricky
+2023-03-16,635,1,False,4,False,7,170,9,62.0,4,0,2,58,Middle of the pack
+2023-03-17,636,1,False,3,False,19,8,190,72.3,2,0,2,20,Easier for the solver
+2023-03-18,637,1,False,3,False,28,52,289,123.0,1,0,1,43,Middle of the pack
+2023-03-19,638,1,False,3,False,10,170,34,71.3,1,0,2,20,Easier for the solver
+2023-03-20,639,1,False,3,False,105,13,199,105.7,2,0,2,38,Middle of the pack
+2023-03-21,640,1,False,4,False,273,90,193,185.3,5,0,2,96,Hard for the solver
+2023-03-22,641,1,False,3,False,128,73,7,69.3,1,0,2,19,Easier for the solver
+2023-03-23,642,1,False,3,False,50,14,13,25.7,3,0,2,4,Easier for the solver
+2023-03-24,643,1,False,3,False,53,90,193,112.0,2,0,2,40,Middle of the pack
+2023-03-25,644,1,False,3,False,126,73,128,109.0,1,0,2,39,Middle of the pack
+2023-03-26,645,1,False,4,False,23,18,7,16.0,2,0,3,7,Easier for the solver
+2023-03-27,646,1,False,2,False,17,49,39,35.0,1,0,3,1,Easier for the solver
+2023-03-28,647,1,False,4,False,91,229,193,171.0,3,1,1,95,Hard for the solver
+2023-03-29,648,1,False,3,False,128,15,128,90.3,3,1,2,43,Middle of the pack
+2023-03-30,649,1,False,4,False,9,62,35,35.3,3,0,2,32,Easier for the solver
+2023-03-31,650,1,False,4,False,126,170,199,165.0,1,1,2,93,Hard for the solver
+2023-04-01,651,1,False,3,False,7,140,289,145.3,2,0,1,51,Middle of the pack
+2023-04-02,652,1,False,3,False,56,39,165,86.7,4,0,1,36,Middle of the pack
+2023-04-03,653,1,False,4,False,68,14,289,123.7,1,0,2,78,Tricky
+2023-04-04,654,1,False,2,False,68,52,62,60.7,2,0,3,3,Easier for the solver
+2023-04-05,655,1,False,4,False,50,24,289,121.0,4,1,1,90,Hard for the solver
+2023-04-06,656,1,False,3,False,19,8,190,72.3,2,0,2,20,Easier for the solver
+2023-04-07,657,1,False,3,False,56,4,193,84.3,2,0,2,27,Easier for the solver
+2023-04-08,658,1,False,4,False,105,21,34,53.3,3,1,2,56,Middle of the pack
+2023-04-09,659,1,False,4,False,9,24,2,11.7,1,0,2,4,Easier for the solver
+2023-04-10,660,1,False,4,False,28,170,7,68.3,2,0,2,55,Middle of the pack
+2023-04-11,661,1,False,3,False,50,11,39,33.3,1,0,2,6,Easier for the solver
+2023-04-12,662,1,False,3,False,68,140,289,165.7,1,0,2,56,Middle of the pack
+2023-04-13,663,1,False,3,False,9,52,289,116.7,1,1,2,50,Middle of the pack
+2023-04-14,664,1,False,3,False,128,73,9,70.0,2,0,2,19,Easier for the solver
+2023-04-15,665,1,False,3,False,20,140,45,68.3,1,0,2,18,Easier for the solver
+2023-04-16,666,1,False,3,False,128,11,34,57.7,2,0,1,14,Easier for the solver
+2023-04-17,667,1,False,4,False,273,229,105,202.3,1,1,1,96,Hard for the solver
+2023-04-18,668,1,False,5,False,58,229,30,105.7,8,0,2,99,Hard for the solver
+2023-04-19,669,1,False,4,False,273,90,193,185.3,2,0,1,91,Hard for the solver
+2023-04-20,670,1,False,3,False,45,2,190,79.0,3,0,2,28,Easier for the solver
+2023-04-21,671,1,False,4,False,141,140,289,190.0,1,2,2,98,Hard for the solver
+2023-04-22,672,1,False,4,False,26,110,199,111.7,2,0,2,74,Tricky
+2023-04-23,673,1,False,4,False,57,229,23,103.0,1,0,2,71,Tricky
+2023-04-24,674,1,False,3,False,273,38,26,112.3,2,1,2,49,Middle of the pack
+2023-04-25,675,1,False,3,False,126,170,128,141.3,2,0,2,49,Middle of the pack
+2023-04-26,676,1,False,3,False,126,73,199,132.7,2,0,2,47,Middle of the pack
+2023-04-27,677,1,False,4,False,56,88,119,87.7,2,0,2,66,Tricky
+2023-04-28,678,1,False,3,False,9,140,62,70.3,1,1,2,28,Easier for the solver
+2023-04-29,679,1,False,3,False,4,62,35,33.7,1,0,2,6,Easier for the solver
+2023-04-30,680,1,False,4,False,50,20,289,119.7,1,1,2,85,Tricky
+2023-05-01,681,1,False,3,False,1,31,190,74.0,2,0,2,21,Easier for the solver
+2023-05-02,682,1,False,4,False,273,18,193,161.3,2,0,1,88,Tricky
+2023-05-03,683,1,False,3,False,40,110,34,61.3,2,0,2,15,Easier for the solver
+2023-05-04,684,1,False,5,False,273,229,193,231.7,2,1,1,100,Hard for the solver
+2023-05-05,685,1,False,3,False,128,63,199,130.0,1,0,2,46,Middle of the pack
+2023-05-06,686,1,False,4,False,5,62,14,27.0,2,0,2,16,Easier for the solver
+2023-05-07,687,1,False,3,False,273,88,193,184.7,1,0,2,60,Middle of the pack
+2023-05-08,688,1,False,3,False,141,59,45,81.7,2,0,2,25,Easier for the solver
+2023-05-09,689,1,False,3,False,13,140,289,147.3,1,2,3,68,Tricky
+2023-05-10,690,1,False,4,False,20,73,50,47.7,1,0,2,41,Middle of the pack
+2023-05-11,691,1,False,4,False,53,229,165,149.0,3,1,2,93,Hard for the solver
+2023-05-12,692,1,False,4,False,2,24,289,105.0,5,0,1,81,Tricky
+2023-05-13,693,1,False,4,False,7,140,3,50.0,1,0,2,42,Middle of the pack
+2023-05-14,694,1,False,4,False,3,24,289,105.3,3,0,1,75,Tricky
+2023-05-15,695,1,False,3,False,1,31,190,74.0,2,0,3,21,Easier for the solver
+2023-05-16,696,1,False,3,False,51,1,190,80.7,2,1,2,35,Middle of the pack
+2023-05-17,697,1,False,4,False,17,20,289,108.7,4,0,1,79,Tricky
+2023-05-18,698,1,False,4,False,13,58,165,78.7,3,0,1,64,Middle of the pack
+2023-05-19,699,1,False,4,False,22,170,9,67.0,2,0,2,54,Middle of the pack
+2023-05-20,700,1,False,3,False,50,6,289,115.0,3,0,1,44,Middle of the pack
+2023-05-21,701,1,False,3,False,22,13,289,108.0,3,0,1,42,Middle of the pack
+2023-05-22,702,1,False,3,False,273,88,119,160.0,1,1,3,63,Middle of the pack
+2023-05-23,703,1,False,3,False,7,18,199,74.7,1,0,1,22,Easier for the solver
+2023-05-24,704,1,False,3,False,126,73,23,74.0,2,1,2,32,Easier for the solver
+2023-05-25,705,1,False,4,False,46,31,54,43.7,1,0,2,36,Middle of the pack
+2023-05-26,706,1,False,4,False,12,33,53,32.7,3,0,2,27,Easier for the solver
+2023-05-27,707,1,False,3,False,5,62,54,40.3,2,0,2,8,Easier for the solver
+2023-05-28,708,1,False,3,False,273,58,105,145.3,1,0,1,51,Middle of the pack
+2023-05-29,709,1,False,3,False,105,27,59,63.7,4,0,3,22,Easier for the solver
+2023-05-30,710,1,False,3,False,62,63,128,84.3,2,1,2,36,Middle of the pack
+2023-05-31,711,1,False,3,False,51,16,6,24.3,1,0,3,3,Easier for the solver
+2023-06-01,712,1,False,5,False,141,140,289,190.0,1,1,1,100,Hard for the solver
+2023-06-02,713,1,False,4,False,273,229,7,169.7,1,0,2,89,Tricky
+2023-06-03,714,1,False,3,False,20,140,289,149.7,3,1,1,63,Middle of the pack
+2023-06-04,715,1,False,3,False,19,3,190,70.7,4,0,2,26,Easier for the solver
+2023-06-05,716,1,False,4,False,62,170,7,79.7,1,1,3,69,Tricky
+2023-06-06,717,1,False,4,False,56,39,193,96.0,5,0,2,78,Tricky
+2023-06-07,718,1,False,4,False,52,25,54,43.7,5,0,2,47,Middle of the pack
+2023-06-08,719,1,False,4,False,13,229,193,145.0,2,0,1,85,Tricky
+2023-06-09,720,1,False,3,False,141,7,289,145.7,2,1,2,59,Middle of the pack
+2023-06-10,721,1,False,3,False,9,49,9,22.3,1,1,3,4,Easier for the solver
+2023-06-11,722,1,False,4,False,24,49,6,26.3,1,0,2,15,Easier for the solver
+2023-06-12,723,1,False,4,False,17,229,165,137.0,3,0,1,85,Tricky
+2023-06-13,724,1,False,4,False,58,40,193,97.0,4,0,1,75,Tricky
+2023-06-14,725,1,False,3,False,4,110,53,55.7,3,0,2,14,Easier for the solver
+2023-06-15,726,1,False,3,False,51,31,190,90.7,1,0,2,31,Easier for the solver
+2023-06-16,727,1,False,3,False,68,8,289,121.7,3,0,1,47,Middle of the pack
+2023-06-17,728,1,False,3,False,2,140,289,143.7,1,0,1,50,Middle of the pack
+2023-06-18,729,1,False,3,False,273,18,165,152.0,2,1,0,61,Middle of the pack
+2023-06-19,730,1,False,4,False,141,140,289,190.0,1,1,3,95,Hard for the solver
+2023-06-20,731,1,False,3,False,53,24,165,80.7,2,0,1,25,Easier for the solver
+2023-06-21,732,1,False,4,False,1,28,190,73.0,4,0,2,64,Middle of the pack
+2023-06-22,733,1,False,4,False,51,6,190,82.3,6,1,2,83,Tricky
+2023-06-23,734,1,False,3,False,11,73,128,70.7,4,0,2,26,Easier for the solver
+2023-06-24,735,1,False,3,False,6,49,44,33.0,2,0,1,5,Easier for the solver
+2023-06-25,736,1,False,3,False,126,170,24,106.7,1,1,3,46,Middle of the pack
+2023-06-26,737,1,False,3,False,128,15,59,67.3,2,0,2,17,Easier for the solver
+2023-06-27,738,1,False,3,False,141,52,7,66.7,2,0,3,17,Easier for the solver
+2023-06-28,739,1,False,4,False,3,20,289,104.0,3,1,1,83,Tricky
+2023-06-29,740,1,False,4,False,28,170,9,69.0,4,0,2,62,Middle of the pack
+2023-06-30,741,1,False,3,False,68,8,289,121.7,3,0,1,47,Middle of the pack
+2023-07-01,742,1,False,5,False,128,18,128,91.3,2,1,2,97,Hard for the solver
+2023-07-02,743,1,False,4,False,273,43,165,160.3,2,1,1,92,Hard for the solver
+2023-07-03,744,1,False,3,False,128,11,128,89.0,2,0,2,30,Easier for the solver
+2023-07-04,745,1,False,3,False,13,6,5,8.0,3,0,3,0,Easier for the solver
+2023-07-05,746,1,False,3,False,62,170,199,143.7,1,0,2,50,Middle of the pack
+2023-07-06,747,1,False,5,False,57,229,26,104.0,1,0,1,96,Hard for the solver
+2023-07-07,748,1,False,3,False,57,90,30,59.0,1,0,2,14,Easier for the solver
+2023-07-08,749,1,False,4,False,7,170,128,101.7,7,0,2,86,Tricky
+2023-07-09,750,1,False,2,False,28,73,128,76.3,3,1,2,9,Easier for the solver
+2023-07-10,751,1,False,4,False,273,88,165,175.3,5,1,1,97,Hard for the solver
+2023-07-11,752,1,False,2,False,52,2,190,81.3,1,0,2,6,Easier for the solver
+2023-07-12,753,1,False,4,False,91,88,105,94.7,1,0,1,68,Tricky
+2023-07-13,754,1,False,3,False,8,31,190,76.3,2,0,2,22,Easier for the solver
+2023-07-14,755,1,False,3,False,10,170,16,65.3,2,0,2,16,Easier for the solver
+2023-07-15,756,1,False,3,False,1,110,199,103.3,3,0,2,40,Middle of the pack
+2023-07-16,757,1,False,3,False,141,52,289,160.7,1,0,2,54,Middle of the pack
+2023-07-17,758,1,False,4,False,53,229,36,106.0,2,1,2,80,Tricky
+2023-07-18,759,1,False,4,False,126,18,128,90.7,2,0,1,67,Tricky
+2023-07-19,760,1,False,3,False,18,90,119,75.7,4,0,2,31,Easier for the solver
+2023-07-20,761,1,False,4,False,17,20,289,108.7,4,0,1,79,Tricky
+2023-07-21,762,1,False,4,False,91,88,193,124.0,3,0,1,81,Tricky
+2023-07-22,763,1,False,4,False,26,110,199,111.7,1,0,2,74,Tricky
+2023-07-23,764,1,False,4,False,45,2,190,79.0,3,0,2,64,Middle of the pack
+2023-07-24,765,1,False,4,False,273,229,165,222.3,3,1,1,98,Hard for the solver
+2023-07-25,766,1,False,4,False,128,63,128,106.3,1,1,2,80,Tricky
+2023-07-26,767,1,False,2,False,9,8,190,69.0,2,0,2,4,Easier for the solver
+2023-07-27,768,1,False,3,False,56,43,26,41.7,1,0,2,9,Easier for the solver
+2023-07-28,769,1,False,3,False,128,15,199,114.0,1,0,2,41,Middle of the pack
+2023-07-29,770,1,False,3,False,9,88,193,96.7,3,0,1,37,Middle of the pack
+2023-07-30,771,1,False,2,False,51,3,190,81.3,2,0,2,6,Easier for the solver
+2023-07-31,772,1,False,3,False,105,2,199,102.0,3,0,1,40,Middle of the pack
+2023-08-01,773,1,False,4,False,62,10,199,90.3,2,1,1,73,Tricky
+2023-08-02,774,1,False,3,False,128,73,128,109.7,3,1,2,51,Middle of the pack
+2023-08-03,775,1,False,2,False,68,15,289,124.0,3,0,1,13,Easier for the solver
+2023-08-04,776,1,False,4,False,4,20,289,104.3,3,0,1,74,Tricky
+2023-08-05,777,1,False,3,False,6,31,4,13.7,2,0,3,1,Easier for the solver
+2023-08-06,778,1,False,4,False,273,88,165,175.3,1,1,1,94,Hard for the solver
+2023-08-07,779,1,False,4,False,53,229,165,149.0,3,1,2,93,Hard for the solver
+2023-08-08,780,1,False,4,False,273,88,193,184.7,5,1,1,98,Hard for the solver
+2023-08-09,781,1,False,4,False,126,63,128,105.7,5,0,2,82,Tricky
+2023-08-10,782,1,False,3,False,128,10,199,112.3,1,0,1,40,Middle of the pack
+2023-08-11,783,1,False,4,False,128,63,199,130.0,2,1,2,87,Tricky
+2023-08-12,784,1,False,4,False,56,229,13,99.3,2,0,2,70,Tricky
+2023-08-13,785,1,False,2,False,22,1,289,104.0,1,0,1,9,Easier for the solver
+2023-08-14,786,1,False,4,False,9,24,289,107.3,2,0,1,72,Tricky
+2023-08-15,787,1,False,3,False,62,170,9,80.3,1,0,2,24,Easier for the solver
+2023-08-16,788,1,False,3,False,11,58,193,87.3,2,0,1,29,Easier for the solver
+2023-08-17,789,1,False,4,False,141,17,10,56.0,2,1,2,55,Middle of the pack
+2023-08-18,790,1,False,4,False,5,8,190,67.7,2,0,2,54,Middle of the pack
+2023-08-19,791,1,False,4,False,141,140,289,190.0,2,2,2,98,Hard for the solver
+2023-08-20,792,1,False,4,False,128,15,59,67.3,2,0,2,54,Middle of the pack
+2023-08-21,793,1,False,3,False,5,12,190,69.0,5,0,2,30,Easier for the solver
+2023-08-22,794,1,False,3,False,9,33,53,31.7,5,0,2,8,Easier for the solver
+2023-08-23,795,1,False,4,False,40,110,199,116.3,3,2,2,92,Hard for the solver
+2023-08-24,796,1,False,4,False,91,229,36,118.7,2,0,1,76,Tricky
+2023-08-25,797,1,False,3,False,2,62,190,84.7,1,0,3,27,Easier for the solver
+2023-08-26,798,1,False,3,False,9,229,119,119.0,2,0,2,43,Middle of the pack
+2023-08-27,799,1,False,4,False,4,28,190,74.0,2,1,3,67,Tricky
+2023-08-28,800,1,False,3,False,26,12,53,30.3,2,0,2,5,Easier for the solver
+2023-08-29,801,1,False,4,False,4,62,54,40.0,3,0,2,36,Middle of the pack
+2023-08-30,802,1,False,3,False,141,140,2,94.3,2,0,4,33,Easier for the solver
+2023-08-31,803,1,False,4,False,26,110,12,49.3,3,0,2,45,Middle of the pack
+2023-09-01,804,1,False,3,False,4,13,190,69.0,4,0,2,25,Easier for the solver
+2023-09-02,805,1,False,3,False,57,229,105,130.3,2,2,3,63,Middle of the pack
+2023-09-03,806,1,False,3,False,50,20,9,26.3,1,1,3,5,Easier for the solver
+2023-09-04,807,1,False,5,False,273,229,26,176.0,2,1,1,99,Hard for the solver
+2023-09-05,808,1,False,3,False,11,229,119,119.7,2,0,1,43,Middle of the pack
+2023-09-06,809,1,False,4,False,9,13,289,103.7,1,0,1,71,Tricky
+2023-09-07,810,1,False,4,False,128,63,34,75.0,2,1,1,67,Tricky
+2023-09-08,811,1,False,3,False,40,27,59,42.0,4,0,3,11,Easier for the solver
+2023-09-09,812,1,False,4,False,56,88,193,112.3,2,0,1,74,Tricky
+2023-09-10,813,1,False,2,False,105,12,59,58.7,3,0,3,3,Easier for the solver
+2023-09-11,814,1,False,4,False,126,18,24,56.0,3,0,2,50,Middle of the pack
+2023-09-12,815,1,False,4,False,273,43,105,140.3,1,0,1,83,Tricky
+2023-09-13,816,1,False,3,False,4,8,190,67.3,3,0,2,21,Easier for the solver
+2023-09-14,817,1,False,2,False,10,140,289,146.3,1,0,2,15,Easier for the solver
+2023-09-15,818,1,False,4,False,126,73,199,132.7,1,1,2,88,Tricky
+2023-09-16,819,1,False,3,False,22,31,14,22.3,2,0,2,2,Easier for the solver
+2023-09-17,820,1,False,4,False,56,43,23,40.7,1,0,2,34,Easier for the solver
+2023-09-18,821,1,False,4,False,6,49,289,114.7,4,0,1,82,Tricky
+2023-09-19,822,1,False,3,False,11,1,199,70.3,3,0,2,22,Easier for the solver
+2023-09-20,823,1,False,4,False,1,13,190,68.0,5,0,2,65,Tricky
+2023-09-21,824,1,False,3,False,12,4,199,71.7,5,0,2,32,Easier for the solver
+2023-09-22,825,1,False,3,False,53,43,193,96.3,2,0,1,34,Easier for the solver
+2023-09-23,826,1,False,4,False,9,59,289,119.0,2,0,2,76,Tricky
+2023-09-24,827,1,False,2,False,91,90,119,100.0,9,0,1,22,Easier for the solver
+2023-09-25,828,1,False,3,False,11,229,165,135.0,1,0,1,48,Middle of the pack
+2023-09-26,829,1,False,3,False,141,59,289,163.0,2,1,2,63,Middle of the pack
+2023-09-27,830,1,False,3,False,105,2,53,53.3,2,0,2,12,Easier for the solver
+2023-09-28,831,1,False,3,False,13,49,289,117.0,3,1,2,53,Middle of the pack
+2023-09-29,832,1,False,3,False,8,31,5,14.7,1,0,3,1,Easier for the solver
+2023-09-30,833,1,False,5,False,141,140,44,108.3,3,1,1,99,Hard for the solver
+2023-10-01,834,1,False,3,False,126,73,128,109.0,3,1,2,51,Middle of the pack
+2023-10-02,835,1,False,4,False,126,170,199,165.0,3,1,1,94,Hard for the solver
+2023-10-03,836,1,False,4,False,105,21,53,59.7,3,0,2,52,Middle of the pack
+2023-10-04,837,1,False,3,False,91,39,193,107.7,2,0,1,38,Middle of the pack
+2023-10-05,838,1,False,4,False,18,229,193,146.7,5,0,1,91,Hard for the solver
+2023-10-06,839,1,False,4,False,11,110,53,58.0,2,0,2,48,Middle of the pack
+2023-10-07,840,1,False,4,False,141,59,62,87.3,2,0,3,65,Tricky
+2023-10-08,841,1,False,3,False,23,110,50,61.0,4,0,2,20,Easier for the solver
+2023-10-09,842,1,False,3,False,53,38,193,94.7,1,1,1,42,Middle of the pack
+2023-10-10,843,1,False,3,False,9,8,62,26.3,2,0,2,3,Easier for the solver
+2023-10-11,844,1,False,3,False,58,58,193,103.0,4,1,1,52,Middle of the pack
+2023-10-12,845,1,False,4,False,62,11,199,90.7,2,0,1,67,Tricky
+2023-10-13,846,1,False,3,False,11,21,59,30.3,1,0,2,5,Easier for the solver
+2023-10-14,847,1,False,4,False,3,25,22,16.7,1,0,2,8,Easier for the solver
+2023-10-15,848,1,False,4,False,19,8,190,72.3,2,0,2,57,Middle of the pack
+2023-10-16,849,1,False,3,False,22,49,289,120.0,2,0,1,43,Middle of the pack
+2023-10-17,850,1,False,4,False,141,17,1,53.0,1,0,2,44,Middle of the pack
+2023-10-18,851,1,False,5,False,10,170,199,126.3,2,0,1,98,Hard for the solver
+2023-10-19,852,1,False,4,False,141,1,289,143.7,2,0,1,84,Tricky
+2023-10-20,853,1,False,4,False,11,229,193,144.3,1,1,2,90,Hard for the solver
+2023-10-21,854,1,False,4,False,91,58,105,84.7,2,0,1,64,Middle of the pack
+2023-10-22,855,1,False,3,False,62,170,40,90.7,2,0,2,31,Easier for the solver
+2023-10-23,856,1,False,3,False,128,73,199,133.3,1,0,2,47,Middle of the pack
+2023-10-24,857,1,False,3,False,4,10,16,10.0,2,0,3,1,Easier for the solver
+2023-10-25,858,1,False,3,False,126,73,199,132.7,2,1,1,55,Middle of the pack
+2023-10-26,859,1,False,4,False,105,110,7,74.0,1,0,3,58,Middle of the pack
+2023-10-27,860,1,False,4,False,23,21,199,81.0,2,0,2,62,Middle of the pack
+2023-10-28,861,1,False,3,False,47,17,289,117.7,1,0,2,42,Middle of the pack
+2023-10-29,862,1,False,3,False,58,229,165,150.7,2,0,1,52,Middle of the pack
+2023-10-30,863,1,False,3,False,22,11,62,31.7,3,0,2,6,Easier for the solver
+2023-10-31,864,1,False,4,False,46,8,190,81.3,2,0,2,62,Middle of the pack
+2023-11-01,865,1,False,4,False,23,27,53,34.3,2,0,3,25,Easier for the solver
+2023-11-02,866,1,False,4,False,57,14,23,31.3,2,0,2,21,Easier for the solver
+2023-11-03,867,1,False,4,False,12,140,2,51.3,3,1,2,55,Middle of the pack
+2023-11-04,868,1,False,4,False,47,140,62,83.0,2,1,3,71,Tricky
+2023-11-05,869,1,False,4,False,7,12,190,69.7,3,0,2,59,Middle of the pack
+2023-11-06,870,1,False,3,False,13,2,35,16.7,2,0,2,1,Easier for the solver
+2023-11-07,871,1,False,4,False,273,14,119,135.3,1,1,2,89,Tricky
+2023-11-08,872,1,False,3,False,47,140,62,83.0,1,1,2,36,Middle of the pack
+2023-11-09,873,1,False,4,False,45,12,190,82.3,3,0,2,66,Tricky
+2023-11-10,874,1,False,3,False,19,1,190,70.0,3,0,2,22,Easier for the solver
+2023-11-11,875,1,False,3,False,7,52,45,34.7,1,0,2,6,Easier for the solver
+2023-11-12,876,1,False,3,False,2,8,190,66.7,2,0,2,17,Easier for the solver
+2023-11-13,877,1,False,4,False,2,170,128,100.0,3,1,2,81,Tricky
+2023-11-14,878,1,False,4,False,141,17,289,149.0,2,1,1,91,Hard for the solver
+2023-11-15,879,1,False,3,False,273,39,119,143.7,9,0,1,72,Tricky
+2023-11-16,880,1,False,4,False,53,24,193,90.0,2,1,1,73,Tricky
+2023-11-17,881,1,False,3,False,68,52,44,54.7,2,0,1,12,Easier for the solver
+2023-11-18,882,1,False,4,False,58,90,105,84.3,2,0,1,63,Middle of the pack
+2023-11-19,883,1,False,4,False,105,110,59,91.3,1,2,4,82,Tricky
+2023-11-20,884,1,False,4,False,5,140,44,63.0,5,0,1,62,Middle of the pack
+2023-11-21,885,1,False,3,False,17,49,62,42.7,1,0,3,9,Easier for the solver
+2023-11-22,886,1,False,4,False,128,63,40,77.0,1,0,2,60,Middle of the pack
+2023-11-23,887,1,False,4,False,62,170,23,85.0,2,1,3,72,Tricky
+2023-11-24,888,1,False,4,False,91,90,165,115.3,2,0,1,75,Tricky
+2023-11-25,889,1,False,4,False,105,110,1,72.0,3,0,3,61,Middle of the pack
+2023-11-26,890,1,False,3,False,273,18,26,105.7,1,0,2,38,Middle of the pack
+2023-11-27,891,1,False,3,False,20,52,289,120.3,1,0,1,43,Middle of the pack
+2023-11-28,892,1,False,3,False,9,33,199,80.3,3,0,2,29,Easier for the solver
+2023-11-29,893,1,False,4,False,273,58,23,118.0,1,1,2,85,Tricky
+2023-11-30,894,1,False,3,False,28,19,50,32.3,1,0,2,5,Easier for the solver
+2023-12-01,895,1,False,4,False,22,25,54,33.7,2,0,2,24,Easier for the solver
+2023-12-02,896,1,False,3,False,5,110,199,104.7,2,1,2,45,Middle of the pack
+2023-12-03,897,1,False,3,False,50,20,3,24.3,3,1,2,5,Easier for the solver
+2023-12-04,898,1,False,3,False,91,24,165,93.3,2,0,1,33,Easier for the solver
+2023-12-05,899,1,False,4,False,58,229,193,160.0,1,0,2,87,Tricky
+2023-12-06,900,1,False,3,False,47,140,289,158.7,2,0,2,54,Middle of the pack
+2023-12-07,901,1,False,4,False,128,2,128,86.0,4,1,2,78,Tricky
+2023-12-08,902,1,False,4,False,24,24,289,112.3,4,0,1,81,Tricky
+2023-12-09,903,1,False,3,False,273,39,105,139.0,2,0,1,49,Middle of the pack
+2023-12-10,904,1,False,3,False,1,49,62,37.3,2,0,2,7,Easier for the solver
+2023-12-11,905,1,False,3,False,105,27,59,63.7,4,0,3,22,Easier for the solver
+2023-12-12,906,1,False,3,False,105,4,199,102.7,3,1,2,48,Middle of the pack
+2023-12-13,907,1,False,4,False,10,11,199,73.3,2,0,1,58,Middle of the pack
+2023-12-14,908,1,False,3,False,273,88,30,130.3,2,0,2,46,Middle of the pack
+2023-12-15,909,1,False,3,False,56,90,119,88.3,3,0,2,33,Easier for the solver
+2023-12-16,910,1,False,4,False,105,13,199,105.7,2,0,2,72,Tricky
+2023-12-17,911,1,False,4,False,5,140,289,144.7,3,0,2,86,Tricky
+2023-12-18,912,1,False,4,False,58,229,193,160.0,4,1,1,95,Hard for the solver
+2023-12-19,913,1,False,3,False,51,2,190,81.0,3,0,2,30,Easier for the solver
+2023-12-20,914,1,False,4,False,50,8,289,115.7,3,1,1,86,Tricky
+2023-12-21,915,1,False,4,False,273,14,13,100.0,3,0,2,73,Tricky
+2023-12-22,916,1,False,3,False,56,90,193,113.0,4,0,2,47,Middle of the pack
+2023-12-23,917,1,False,3,False,105,4,199,102.7,2,0,2,36,Middle of the pack
+2023-12-24,918,1,False,4,False,3,28,190,73.7,6,0,2,71,Tricky
+2023-12-25,919,1,False,4,False,105,110,199,138.0,1,1,3,89,Tricky
+2023-12-26,920,1,False,4,False,12,110,199,107.0,2,0,2,72,Tricky
+2023-12-27,921,1,False,4,False,141,17,4,54.0,3,0,2,49,Middle of the pack
+2023-12-28,922,1,False,3,False,2,8,190,66.7,2,0,2,17,Easier for the solver
+2023-12-29,923,1,False,4,False,27,88,9,41.3,3,0,1,38,Middle of the pack
+2023-12-30,924,1,False,3,False,40,18,128,62.0,2,1,2,22,Easier for the solver
+2023-12-31,925,1,False,3,False,141,1,289,143.7,2,0,1,50,Middle of the pack
+2024-01-01,926,1,False,3,False,68,59,39,55.3,2,0,2,13,Easier for the solver
+2024-01-02,927,1,False,3,False,20,140,10,56.7,2,1,2,19,Easier for the solver
+2024-01-03,928,1,False,3,False,91,14,105,70.0,2,0,1,19,Easier for the solver
+2024-01-04,929,1,False,3,False,1,14,289,101.3,2,0,1,35,Middle of the pack
+2024-01-05,930,1,False,3,False,23,21,59,34.3,1,0,2,6,Easier for the solver
+2024-01-06,931,1,False,4,False,4,16,190,70.0,3,0,2,59,Middle of the pack
+2024-01-07,932,1,False,4,False,58,39,165,87.3,2,0,1,65,Tricky
+2024-01-08,933,1,False,3,False,47,59,62,56.0,1,0,2,13,Easier for the solver
+2024-01-09,934,1,False,3,False,28,63,40,43.7,4,0,2,11,Easier for the solver
+2024-01-10,935,1,False,3,False,126,73,128,109.0,2,0,1,39,Middle of the pack
+2024-01-11,936,1,False,3,False,22,170,9,67.0,2,0,2,17,Easier for the solver
+2024-01-12,937,1,False,2,False,40,12,59,37.0,3,0,3,1,Easier for the solver
+2024-01-13,938,1,False,3,False,9,12,35,18.7,2,0,2,2,Easier for the solver
+2024-01-14,939,1,False,4,False,58,229,9,98.7,2,0,2,70,Tricky
+2024-01-15,940,1,False,4,False,18,88,193,99.7,5,0,1,79,Tricky
+2024-01-16,941,1,False,3,False,58,40,36,44.7,4,0,1,11,Easier for the solver
+2024-01-17,942,1,False,3,False,9,90,193,97.3,2,0,2,34,Easier for the solver
+2024-01-18,943,1,False,3,False,105,2,199,102.0,5,0,2,46,Middle of the pack
+2024-01-19,944,1,False,3,False,58,90,105,84.3,2,0,1,27,Easier for the solver
+2024-01-20,945,1,False,4,False,8,16,190,71.3,2,0,2,56,Middle of the pack
+2024-01-21,946,1,False,3,False,13,38,165,72.0,3,0,1,23,Easier for the solver
+2024-01-22,947,1,False,3,False,46,25,190,87.0,1,0,2,29,Easier for the solver
+2024-01-23,948,1,False,4,False,273,5,105,127.7,5,1,1,93,Hard for the solver
+2024-01-24,949,1,False,3,False,10,63,50,41.0,1,0,2,8,Easier for the solver
+2024-01-25,950,1,False,4,False,56,40,165,87.0,3,0,1,68,Tricky
+2024-01-26,951,1,False,3,False,141,14,45,66.7,1,1,3,25,Easier for the solver
+2024-01-27,952,1,False,4,False,2,13,190,68.3,3,0,2,58,Middle of the pack
+2024-01-28,953,1,False,5,False,126,170,128,141.3,2,1,2,99,Hard for the solver
+2024-01-29,954,1,False,4,False,128,63,199,130.0,1,1,1,87,Tricky
+2024-01-30,955,1,False,4,False,128,63,128,106.3,2,1,2,80,Tricky
+2024-01-31,956,1,False,4,False,273,88,193,184.7,2,0,1,91,Hard for the solver
+2024-02-01,957,1,False,4,False,51,4,6,20.3,2,0,3,10,Easier for the solver
+2024-02-02,958,1,False,3,False,11,3,199,71.0,2,0,1,19,Easier for the solver
+2024-02-03,959,1,False,4,False,11,229,119,119.7,2,0,2,76,Tricky
+2024-02-04,960,1,False,4,False,40,110,199,116.3,3,1,2,86,Tricky
+2024-02-05,961,1,False,4,False,126,63,128,105.7,3,1,2,83,Tricky
+2024-02-06,962,1,False,4,False,56,229,105,130.0,1,1,1,87,Tricky
+2024-02-07,963,1,False,3,False,52,25,14,30.3,3,0,2,5,Easier for the solver
+2024-02-08,964,1,False,3,False,4,12,190,68.7,3,0,2,22,Easier for the solver
+2024-02-09,965,1,False,4,False,273,39,105,139.0,3,1,1,91,Hard for the solver
+2024-02-10,966,1,False,5,False,22,170,9,67.0,5,0,2,93,Hard for the solver
+2024-02-11,967,1,False,4,False,28,170,128,108.7,4,1,2,87,Tricky
+2024-02-12,968,1,False,3,False,141,6,289,145.3,3,1,2,62,Middle of the pack
+2024-02-13,969,1,False,3,False,7,17,289,104.3,2,0,1,37,Middle of the pack
+2024-02-14,970,1,False,3,False,47,17,289,117.7,2,0,2,42,Middle of the pack
+2024-02-15,971,1,False,3,False,28,5,45,26.0,1,0,2,3,Easier for the solver
+2024-02-16,972,1,False,4,False,50,14,289,117.7,4,1,1,89,Tricky
+2024-02-17,973,1,False,3,False,50,1,289,113.3,1,0,1,41,Middle of the pack
+2024-02-18,974,1,False,3,False,40,110,16,55.3,2,0,2,13,Easier for the solver
+2024-02-19,975,1,False,4,False,3,110,53,55.3,4,0,2,53,Middle of the pack
+2024-02-20,976,1,False,4,False,28,52,289,123.0,7,0,1,91,Hard for the solver
+2024-02-21,977,1,False,4,False,273,88,2,121.0,2,0,2,77,Tricky
+2024-02-22,978,1,False,3,False,19,12,190,73.7,2,0,2,21,Easier for the solver
+2024-02-23,979,1,False,4,False,24,20,45,29.7,1,1,2,29,Easier for the solver
+2024-02-24,980,1,False,4,False,126,170,40,112.0,3,1,2,85,Tricky
+2024-02-25,981,1,False,4,False,273,6,105,128.0,2,0,1,79,Tricky
+2024-02-26,982,1,False,3,False,62,73,128,87.7,1,0,2,29,Easier for the solver
+2024-02-27,983,1,False,3,False,23,33,199,85.0,3,2,2,49,Middle of the pack
+2024-02-28,984,1,False,3,False,128,63,16,69.0,1,0,2,18,Easier for the solver
+2024-02-29,985,1,False,4,False,45,28,5,26.0,1,0,3,15,Easier for the solver
+2024-03-01,986,1,False,3,False,91,38,165,98.0,3,0,1,38,Middle of the pack
+2024-03-02,987,1,False,4,False,4,140,39,61.0,1,0,2,50,Middle of the pack
+2024-03-03,988,1,False,4,False,45,3,190,79.3,6,1,2,82,Tricky
+2024-03-04,989,1,False,4,False,45,12,190,82.3,3,0,2,66,Tricky
+2024-03-05,990,1,False,4,False,18,229,193,146.7,5,1,1,95,Hard for the solver
+2024-03-06,991,1,False,3,False,9,8,190,69.0,2,0,2,18,Easier for the solver
+2024-03-07,992,1,False,3,False,1,13,199,71.0,3,0,2,23,Easier for the solver
+2024-03-08,993,1,False,4,False,52,31,190,91.0,1,0,2,67,Tricky
+2024-03-09,994,1,False,4,False,7,170,128,101.7,2,1,2,78,Tricky
+2024-03-10,995,1,False,3,False,22,13,289,108.0,2,0,1,39,Middle of the pack
+2024-03-11,996,1,False,4,False,128,19,199,115.3,2,0,1,75,Tricky
+2024-03-12,997,1,False,4,False,45,28,190,87.7,3,1,3,76,Tricky
+2024-03-13,998,1,False,3,False,28,59,289,125.3,3,1,2,56,Middle of the pack
+2024-03-14,999,1,False,3,False,11,33,50,31.3,3,0,2,6,Easier for the solver
+2024-03-15,1000,1,False,3,False,22,73,59,51.3,1,0,2,11,Easier for the solver
+2024-03-16,1001,1,False,3,False,57,90,119,88.7,2,0,2,30,Easier for the solver
+2024-03-17,1002,1,False,3,False,13,39,165,72.3,3,0,1,24,Easier for the solver
+2024-03-18,1003,1,False,4,False,128,3,199,110.0,2,0,1,73,Tricky
+2024-03-19,1004,1,False,4,False,51,31,2,28.0,2,0,3,17,Easier for the solver
+2024-03-20,1005,1,False,3,False,57,88,119,88.0,3,0,2,33,Easier for the solver
+2024-03-21,1006,1,False,4,False,45,13,35,31.0,7,0,2,40,Middle of the pack
+2024-03-22,1007,1,False,4,False,6,62,35,34.3,3,0,2,30,Easier for the solver
+2024-03-23,1008,1,False,3,False,28,19,40,29.0,2,0,2,4,Easier for the solver
+2024-03-24,1009,1,False,3,False,128,11,128,89.0,4,0,2,37,Middle of the pack
+2024-03-25,1010,1,False,4,False,141,8,289,146.0,4,1,1,94,Hard for the solver
+2024-03-26,1011,1,False,4,False,68,140,289,165.7,3,0,2,90,Hard for the solver
+2024-03-27,1012,1,False,3,False,58,39,193,96.7,3,0,1,37,Middle of the pack
+2024-03-28,1013,1,False,4,False,46,10,190,82.0,3,0,2,66,Tricky
+2024-03-29,1014,1,False,3,False,9,8,190,69.0,2,0,2,18,Easier for the solver
+2024-03-30,1015,1,False,3,False,3,110,199,104.0,3,0,2,41,Middle of the pack
+2024-03-31,1016,1,False,3,False,141,52,289,160.7,1,1,3,63,Middle of the pack
+2024-04-01,1017,1,False,3,False,17,229,36,94.0,2,0,1,33,Easier for the solver
+2024-04-02,1018,1,False,3,False,126,29,59,71.3,2,0,2,20,Easier for the solver
+2024-04-03,1019,1,False,3,False,50,2,62,38.0,3,0,2,8,Easier for the solver
+2024-04-04,1020,1,False,4,False,27,40,105,57.3,1,0,1,48,Middle of the pack
+2024-04-05,1021,1,False,4,False,53,24,105,60.7,2,0,1,50,Middle of the pack
+2024-04-06,1022,1,False,4,False,18,229,119,122.0,4,0,1,84,Tricky
+2024-04-07,1023,1,False,3,False,141,59,17,72.3,1,0,3,20,Easier for the solver
+2024-04-08,1024,1,False,4,False,22,170,24,72.0,4,1,2,72,Tricky
+2024-04-09,1025,1,False,3,False,40,110,199,116.3,2,1,2,50,Middle of the pack
+2024-04-10,1026,1,False,2,False,53,38,165,85.3,2,0,1,7,Easier for the solver
+2024-04-11,1027,1,False,3,False,105,3,59,55.7,4,0,3,17,Easier for the solver
+2024-04-12,1028,1,False,4,False,58,229,105,130.7,2,0,1,80,Tricky
+2024-04-13,1029,1,False,3,False,128,3,128,86.3,4,1,2,44,Middle of the pack
+2024-04-14,1030,1,False,3,False,273,40,105,139.3,1,0,1,49,Middle of the pack
+2024-04-15,1031,1,False,4,False,128,170,7,101.7,1,0,3,70,Tricky
+2024-04-16,1032,1,False,3,False,17,24,289,110.0,3,0,1,43,Middle of the pack
+2024-04-17,1033,1,False,3,False,105,18,50,57.7,2,1,2,20,Easier for the solver
+2024-04-18,1034,1,False,4,False,6,25,54,28.3,1,0,2,17,Easier for the solver
+2024-04-19,1035,1,False,2,False,8,10,4,7.3,1,0,3,0,Easier for the solver
+2024-04-20,1036,1,False,4,False,56,88,7,50.3,2,0,2,43,Middle of the pack
+2024-04-21,1037,1,False,5,False,273,88,165,175.3,5,1,1,100,Hard for the solver
+2024-04-22,1038,1,False,4,False,52,2,54,36.0,4,0,2,35,Middle of the pack
+2024-04-23,1039,1,False,3,False,126,170,128,141.3,5,1,2,68,Tricky
+2024-04-24,1040,1,False,3,False,126,73,199,132.7,2,0,2,47,Middle of the pack
+2024-04-25,1041,1,False,3,False,13,90,119,74.0,1,0,2,21,Easier for the solver
+2024-04-26,1042,1,False,4,False,141,140,13,98.0,2,0,2,69,Tricky
+2024-04-27,1043,1,False,4,False,46,8,190,81.3,2,0,2,62,Middle of the pack
+2024-04-28,1044,1,False,4,False,5,110,59,58.0,2,0,2,48,Middle of the pack
+2024-04-29,1045,1,False,4,False,7,20,289,105.3,3,0,1,75,Tricky
+2024-04-30,1046,1,False,4,False,53,88,165,102.0,2,0,1,70,Tricky
+2024-05-01,1047,1,False,4,False,24,49,13,28.7,1,0,2,18,Easier for the solver
+2024-05-02,1048,1,False,4,False,9,4,53,22.0,3,0,2,13,Easier for the solver
+2024-05-03,1049,1,False,3,False,10,170,199,126.3,1,0,2,44,Middle of the pack
+2024-05-04,1050,1,False,4,False,51,16,16,27.7,2,0,3,17,Easier for the solver
+2024-05-05,1051,1,False,3,False,6,31,35,24.0,2,0,2,3,Easier for the solver
+2024-05-06,1052,1,False,4,False,45,13,190,82.7,7,0,2,79,Tricky
+2024-05-07,1053,1,False,4,False,273,5,193,157.0,5,0,1,93,Hard for the solver
+2024-05-08,1054,1,False,4,False,273,43,23,113.0,1,0,3,74,Tricky
+2024-05-09,1055,1,False,4,False,126,170,199,165.0,2,0,1,88,Tricky
+2024-05-10,1056,1,False,3,False,46,62,1,36.3,2,0,3,7,Easier for the solver
+2024-05-11,1057,1,False,3,False,141,17,13,57.0,1,0,2,13,Easier for the solver
+2024-05-12,1058,1,False,3,False,126,73,23,74.0,2,0,3,21,Easier for the solver
+2024-05-13,1059,1,False,3,False,8,229,23,86.7,1,0,2,28,Easier for the solver
+2024-05-14,1060,1,False,4,False,50,13,45,36.0,2,2,2,46,Middle of the pack
+2024-05-15,1061,1,False,4,False,18,229,119,122.0,4,0,1,84,Tricky
+2024-05-16,1062,1,False,4,False,50,3,289,114.0,3,1,1,86,Tricky
+2024-05-17,1063,1,False,4,False,91,90,193,124.7,2,1,2,86,Tricky
+2024-05-18,1064,1,False,4,False,17,229,105,117.0,4,0,1,82,Tricky
+2024-05-19,1065,1,False,4,False,56,90,119,88.3,4,1,1,79,Tricky
+2024-05-20,1066,1,False,4,False,1,170,40,70.3,1,0,2,56,Middle of the pack
+2024-05-21,1067,1,False,4,False,57,229,26,104.0,3,0,2,74,Tricky
+2024-05-22,1068,1,False,3,False,19,4,190,71.0,2,0,2,19,Easier for the solver
+2024-05-23,1069,1,False,4,False,273,58,105,145.3,2,1,1,90,Hard for the solver
+2024-05-24,1070,1,False,3,False,105,13,12,43.3,3,0,2,10,Easier for the solver
+2024-05-25,1071,1,False,4,False,47,52,62,53.7,1,1,2,53,Middle of the pack
+2024-05-26,1072,1,False,4,False,128,63,128,106.3,3,1,2,84,Tricky
+2024-05-27,1073,1,False,3,False,126,29,9,54.7,1,0,2,12,Easier for the solver
+2024-05-28,1074,1,False,3,False,57,43,23,41.0,1,0,2,8,Easier for the solver
+2024-05-29,1075,1,False,4,False,141,59,289,163.0,2,2,2,96,Hard for the solver
+2024-05-30,1076,1,False,4,False,273,229,193,231.7,3,1,1,98,Hard for the solver
+2024-05-31,1077,1,False,3,False,13,13,289,105.0,1,0,2,37,Middle of the pack
+2024-06-01,1078,1,False,3,False,47,17,62,42.0,4,0,2,11,Easier for the solver
+2024-06-02,1079,1,False,2,False,22,49,289,120.0,2,0,2,11,Easier for the solver
+2024-06-03,1080,1,False,3,False,24,14,289,109.0,4,0,1,45,Middle of the pack
+2024-06-04,1081,1,False,4,False,53,229,165,149.0,2,1,2,91,Hard for the solver
+2024-06-05,1082,1,False,4,False,4,140,289,144.3,1,0,2,84,Tricky
+2024-06-06,1083,1,False,3,False,126,73,128,109.0,2,1,2,47,Middle of the pack
+2024-06-07,1084,1,False,3,False,62,63,199,108.0,2,0,2,39,Middle of the pack
+2024-06-08,1085,1,False,4,False,11,110,199,106.7,3,1,2,84,Tricky
+2024-06-09,1086,1,False,4,False,13,229,36,92.7,2,0,1,68,Tricky
+2024-06-10,1087,1,False,3,False,47,140,289,158.7,4,1,2,69,Tricky
+2024-06-11,1088,1,False,4,False,58,58,193,103.0,3,0,1,74,Tricky
+2024-06-12,1089,1,False,3,False,126,73,24,74.3,2,1,2,32,Easier for the solver
+2024-06-13,1090,1,False,3,False,47,5,45,32.3,1,0,1,5,Easier for the solver
+2024-06-14,1091,1,False,4,False,141,17,39,65.7,2,0,2,53,Middle of the pack
+2024-06-15,1092,1,False,4,False,53,229,30,104.0,1,0,2,71,Tricky
+2024-06-16,1093,1,False,4,False,17,229,9,85.0,2,0,1,64,Middle of the pack
+2024-06-17,1094,1,False,4,False,53,229,105,129.0,1,1,2,87,Tricky
+2024-06-18,1095,1,False,4,False,7,170,128,101.7,5,0,2,80,Tricky
+2024-06-19,1096,1,False,3,False,40,4,199,81.0,3,1,2,39,Middle of the pack
+2024-06-20,1097,1,False,3,False,1,11,199,70.3,2,0,1,19,Easier for the solver
+2024-06-21,1098,1,False,4,False,20,52,17,29.7,4,0,2,26,Easier for the solver
+2024-06-22,1099,1,False,3,False,20,73,2,31.7,2,0,2,5,Easier for the solver
+2024-06-23,1100,1,False,3,False,105,21,59,61.7,1,0,2,15,Easier for the solver
+2024-06-24,1101,1,False,3,False,273,88,36,132.3,5,1,1,66,Tricky
+2024-06-25,1102,1,False,4,False,68,17,289,124.7,2,0,2,78,Tricky
+2024-06-26,1103,1,False,4,False,22,62,35,39.7,2,0,2,33,Easier for the solver
+2024-06-27,1104,1,False,3,False,22,170,24,72.0,3,1,2,34,Easier for the solver
+2024-06-28,1105,1,False,4,False,26,110,34,56.7,4,0,2,54,Middle of the pack
+2024-06-29,1106,1,False,5,False,52,62,190,101.3,1,0,2,96,Hard for the solver
+2024-06-30,1107,1,False,4,False,273,229,30,177.3,3,1,1,95,Hard for the solver
+2024-07-01,1108,1,False,4,False,45,28,4,25.7,1,1,3,22,Easier for the solver
+2024-07-02,1109,1,False,3,False,47,59,62,56.0,1,0,2,13,Easier for the solver
+2024-07-03,1110,1,False,4,False,273,90,105,156.0,1,1,1,92,Hard for the solver
+2024-07-04,1111,1,False,4,False,128,73,15,72.0,2,0,2,57,Middle of the pack
+2024-07-05,1112,1,False,3,False,13,43,193,83.0,2,0,1,26,Easier for the solver
+2024-07-06,1113,1,False,4,False,56,58,165,93.0,1,1,1,75,Tricky
+2024-07-07,1114,1,False,3,False,5,140,289,144.7,2,1,2,59,Middle of the pack
+2024-07-08,1115,1,False,4,False,45,13,190,82.7,7,0,2,79,Tricky
+2024-07-09,1116,1,False,4,False,7,12,190,69.7,4,0,2,62,Middle of the pack
+2024-07-10,1117,1,False,4,False,20,52,39,37.0,6,0,2,43,Middle of the pack
+2024-07-11,1118,1,False,2,False,7,62,54,41.0,2,0,3,1,Easier for the solver
+2024-07-12,1119,1,False,5,False,273,229,119,207.0,1,1,1,100,Hard for the solver
+2024-07-13,1120,1,False,3,False,1,8,190,66.3,2,0,2,17,Easier for the solver
+2024-07-14,1121,1,False,3,False,128,170,9,102.3,1,0,3,36,Middle of the pack
+2024-07-15,1122,1,False,4,False,57,58,165,93.3,2,1,2,75,Tricky
+2024-07-16,1123,1,False,3,False,20,170,34,74.7,3,0,2,25,Easier for the solver
+2024-07-17,1124,1,False,3,False,105,12,8,41.7,2,0,3,9,Easier for the solver
+2024-07-18,1125,1,False,4,False,28,170,34,77.3,2,0,1,60,Middle of the pack
+2024-07-19,1126,1,False,3,False,126,170,128,141.3,2,2,2,67,Tricky
+2024-07-20,1127,1,False,3,False,50,14,289,117.7,2,0,1,42,Middle of the pack
+2024-07-21,1128,1,False,4,False,20,29,199,82.7,2,0,1,63,Middle of the pack
+2024-07-22,1129,1,False,3,False,7,25,2,11.3,1,0,2,1,Easier for the solver
+2024-07-23,1130,1,False,3,False,17,229,165,137.0,2,0,1,48,Middle of the pack
+2024-07-24,1131,1,False,2,False,40,12,199,83.7,3,0,2,8,Easier for the solver
+2024-07-25,1132,1,False,3,False,11,229,165,135.0,3,0,1,51,Middle of the pack
+2024-07-26,1133,1,False,4,False,50,13,45,36.0,2,1,2,37,Middle of the pack
+2024-07-27,1134,1,False,4,False,9,110,8,42.3,2,0,3,35,Middle of the pack
+2024-07-28,1135,1,False,4,False,56,58,165,93.0,3,0,1,70,Tricky
+2024-07-29,1136,1,False,4,False,126,29,23,59.3,2,0,2,49,Middle of the pack
+2024-07-30,1137,1,False,3,False,52,31,190,91.0,3,0,2,34,Easier for the solver
+2024-07-31,1138,1,False,3,False,12,110,199,107.0,2,2,2,55,Middle of the pack
+2024-08-01,1139,1,False,3,False,13,11,289,104.3,1,0,1,37,Middle of the pack
+2024-08-02,1140,1,False,4,False,45,12,190,82.3,3,0,2,66,Tricky
+2024-08-03,1141,1,False,3,False,4,2,190,65.3,4,0,2,23,Easier for the solver
+2024-08-04,1142,1,False,4,False,126,63,128,105.7,7,0,2,87,Tricky
+2024-08-05,1143,1,False,4,False,23,27,59,36.3,1,1,3,38,Middle of the pack
+2024-08-06,1144,1,False,4,False,47,59,9,38.3,1,0,2,32,Easier for the solver
+2024-08-07,1145,1,False,3,False,28,140,289,152.3,1,1,2,61,Middle of the pack
+2024-08-08,1146,1,False,4,False,28,17,39,28.0,2,0,2,17,Easier for the solver
+2024-08-09,1147,1,False,4,False,11,110,59,60.0,2,0,3,49,Middle of the pack
+2024-08-10,1148,1,False,4,False,20,170,16,68.7,2,0,2,55,Middle of the pack
+2024-08-11,1149,1,False,3,False,2,33,199,78.0,3,0,2,27,Easier for the solver
+2024-08-12,1150,1,False,4,False,273,58,105,145.3,3,1,1,92,Hard for the solver
+2024-08-13,1151,1,False,4,False,62,170,53,95.0,2,0,2,69,Tricky
+2024-08-14,1152,1,False,4,False,40,33,199,90.7,6,0,2,79,Tricky
+2024-08-15,1153,1,False,3,False,2,140,45,62.3,2,0,2,15,Easier for the solver
+2024-08-16,1154,1,False,3,False,3,28,190,73.7,3,0,2,24,Easier for the solver
+2024-08-17,1155,1,False,4,False,91,39,165,98.3,4,0,1,76,Tricky
+2024-08-18,1156,1,False,3,False,47,59,289,131.7,1,0,1,46,Middle of the pack
+2024-08-19,1157,1,False,4,False,126,73,128,109.0,2,1,2,81,Tricky
+2024-08-20,1158,1,False,4,False,46,31,35,37.3,2,0,2,30,Easier for the solver
+2024-08-21,1159,1,False,3,False,56,88,193,112.3,2,0,1,40,Middle of the pack
+2024-08-22,1160,1,False,3,False,26,12,59,32.3,1,0,2,5,Easier for the solver
+2024-08-23,1161,1,False,4,False,20,63,199,94.0,2,1,2,75,Tricky
+2024-08-24,1162,1,False,3,False,128,11,40,59.7,2,0,2,14,Easier for the solver
+2024-08-25,1163,1,False,3,False,45,3,190,79.3,4,0,2,33,Easier for the solver
+2024-08-26,1164,1,False,4,False,45,4,190,79.7,6,0,2,73,Tricky
+2024-08-27,1165,1,False,4,False,1,229,165,131.7,5,0,1,89,Tricky
+2024-08-28,1166,1,False,3,False,105,5,50,53.3,2,0,2,12,Easier for the solver
+2024-08-29,1167,1,False,4,False,58,40,193,97.0,4,0,1,75,Tricky
+2024-08-30,1168,1,False,4,False,2,28,190,73.3,1,0,2,58,Middle of the pack
+2024-08-31,1169,1,False,3,False,273,39,193,168.3,5,0,2,67,Tricky
+2024-09-01,1170,1,False,3,False,273,43,193,169.7,3,0,1,60,Middle of the pack
+2024-09-02,1171,1,False,4,False,7,31,54,30.7,2,0,2,21,Easier for the solver
+2024-09-03,1172,1,False,4,False,20,52,17,29.7,4,0,2,26,Easier for the solver
+2024-09-04,1173,1,False,3,False,28,11,199,79.3,2,0,1,24,Easier for the solver
+2024-09-05,1174,1,False,4,False,62,170,9,80.3,2,0,2,62,Middle of the pack
+2024-09-06,1175,1,False,3,False,28,170,59,85.7,1,1,2,37,Middle of the pack
+2024-09-07,1176,1,False,4,False,28,170,128,108.7,1,0,2,73,Tricky
+2024-09-08,1177,1,False,4,False,7,49,44,33.3,3,0,1,28,Easier for the solver
+2024-09-09,1178,1,False,4,False,128,73,16,72.3,2,0,2,57,Middle of the pack
+2024-09-10,1179,1,False,4,False,126,63,128,105.7,3,1,2,83,Tricky
+2024-09-11,1180,1,False,3,False,51,3,1,18.3,1,0,3,1,Easier for the solver
+2024-09-12,1181,1,False,4,False,22,13,289,108.0,3,1,1,84,Tricky
+2024-09-13,1182,1,False,4,False,68,17,289,124.7,2,1,1,86,Tricky
+2024-09-14,1183,1,False,4,False,12,140,44,65.3,2,0,2,53,Middle of the pack
+2024-09-15,1184,1,False,3,False,10,170,59,79.7,2,1,2,34,Easier for the solver
+2024-09-16,1185,1,False,4,False,62,170,128,120.0,3,0,2,80,Tricky
+2024-09-17,1186,1,False,3,False,19,8,16,14.3,2,0,3,1,Easier for the solver
+2024-09-18,1187,1,False,4,False,273,88,193,184.7,5,1,1,98,Hard for the solver
+2024-09-19,1188,1,False,4,False,22,19,199,80.0,3,1,1,72,Tricky
+2024-09-20,1189,1,False,3,False,105,33,199,112.3,3,0,2,43,Middle of the pack
+2024-09-21,1190,1,False,4,False,62,29,128,73.0,2,1,2,67,Tricky
+2024-09-22,1191,1,False,4,False,5,8,190,67.7,5,0,2,65,Tricky
+2024-09-23,1192,1,False,4,False,46,4,190,80.0,4,0,2,68,Tricky
+2024-09-24,1193,1,False,4,False,47,140,44,77.0,5,0,1,70,Tricky
+2024-09-25,1194,1,False,3,False,11,90,165,88.7,2,0,1,30,Easier for the solver
+2024-09-26,1195,1,False,3,False,17,20,289,108.7,2,0,1,39,Middle of the pack
+2024-09-27,1196,1,False,3,False,141,15,17,57.7,1,0,2,14,Easier for the solver
+2024-09-28,1197,1,False,3,False,7,49,62,39.3,4,0,2,10,Easier for the solver
+2024-09-29,1198,1,False,4,False,126,170,9,101.7,4,1,2,85,Tricky
+2024-09-30,1199,1,False,4,False,27,40,30,32.3,2,0,2,23,Easier for the solver
+2024-10-01,1200,1,False,3,False,128,170,24,107.3,2,1,2,46,Middle of the pack
+2024-10-02,1201,1,False,5,False,128,6,199,111.0,4,1,1,99,Hard for the solver
+2024-10-03,1202,1,False,4,False,47,140,289,158.7,1,0,2,87,Tricky
+2024-10-04,1203,1,False,3,False,105,5,50,53.3,2,1,2,16,Easier for the solver
+2024-10-05,1204,1,False,4,False,28,170,40,79.3,4,0,2,68,Tricky
+2024-10-06,1205,1,False,3,False,52,31,54,45.7,4,0,2,12,Easier for the solver
+2024-10-07,1206,1,False,3,False,91,40,193,108.0,2,0,2,39,Middle of the pack
+2024-10-08,1207,1,False,3,False,58,90,105,84.3,2,0,2,27,Easier for the solver
+2024-10-09,1208,1,False,4,False,273,229,165,222.3,3,1,1,98,Hard for the solver
+2024-10-10,1209,1,False,3,False,1,31,190,74.0,2,0,2,21,Easier for the solver
+2024-10-11,1210,1,False,4,False,273,5,193,157.0,5,0,1,93,Hard for the solver
+2024-10-12,1211,1,False,3,False,9,14,62,28.3,3,0,2,5,Easier for the solver
+2024-10-13,1212,1,False,3,False,5,110,199,104.7,4,0,2,44,Middle of the pack
+2024-10-14,1213,1,False,3,False,141,52,39,77.3,1,0,2,23,Easier for the solver
+2024-10-15,1214,1,False,4,False,7,170,128,101.7,3,1,2,82,Tricky
+2024-10-16,1215,1,False,3,False,6,20,289,105.0,2,0,1,37,Middle of the pack
+2024-10-17,1216,1,False,3,False,51,16,190,85.7,3,0,2,32,Easier for the solver
+2024-10-18,1217,1,False,3,False,58,39,105,67.3,3,1,1,31,Easier for the solver
+2024-10-19,1218,1,False,4,False,126,170,40,112.0,4,0,2,81,Tricky
+2024-10-20,1219,1,False,4,False,20,170,9,66.3,1,0,2,53,Middle of the pack
+2024-10-21,1220,1,False,4,False,57,58,165,93.3,4,1,2,82,Tricky
+2024-10-22,1221,1,False,3,False,273,39,193,168.3,5,0,2,67,Tricky
+2024-10-23,1222,1,False,4,False,273,229,165,222.3,3,1,2,98,Hard for the solver
+2024-10-24,1223,1,False,4,False,273,43,165,160.3,2,1,1,92,Hard for the solver
+2024-10-25,1224,1,False,4,False,5,229,165,133.0,5,0,1,89,Tricky
+2024-10-26,1225,1,False,4,False,9,62,190,87.0,4,0,2,71,Tricky
+2024-10-27,1226,1,False,4,False,47,17,44,36.0,5,0,1,39,Middle of the pack
+2024-10-28,1227,1,False,4,False,141,140,44,108.3,1,0,1,72,Tricky
+2024-10-29,1228,1,False,3,False,18,90,23,43.7,2,0,2,9,Easier for the solver
+2024-10-30,1229,1,False,4,False,46,2,54,34.0,1,1,3,35,Middle of the pack
+2024-10-31,1230,1,False,3,False,126,170,12,102.7,1,0,2,36,Middle of the pack
+2024-11-01,1231,1,False,4,False,273,6,119,132.7,2,0,1,81,Tricky
+2024-11-02,1232,1,False,4,False,57,58,165,93.3,5,1,2,85,Tricky
+2024-11-03,1233,1,False,4,False,45,12,190,82.3,4,0,2,69,Tricky
+2024-11-04,1234,1,False,4,False,57,88,119,88.0,1,0,1,66,Tricky
+2024-11-05,1235,1,False,3,False,20,73,128,73.7,1,1,2,31,Easier for the solver
+2024-11-06,1236,1,False,3,False,53,14,193,86.7,1,0,1,28,Easier for the solver
+2024-11-07,1237,1,False,4,False,10,73,199,94.0,1,1,2,75,Tricky
+2024-11-08,1238,1,False,3,False,9,12,35,18.7,3,0,2,2,Easier for the solver
+2024-11-09,1239,1,False,4,False,128,6,199,111.0,4,1,1,88,Tricky
+2024-11-10,1240,1,False,4,False,28,170,40,79.3,3,1,2,72,Tricky
+2024-11-11,1241,1,False,3,False,56,39,119,71.3,1,0,2,20,Easier for the solver
+2024-11-12,1242,1,False,4,False,57,40,165,87.3,3,0,1,69,Tricky
+2024-11-13,1243,1,False,4,False,53,229,105,129.0,3,1,1,89,Tricky
+2024-11-14,1244,1,False,4,False,141,59,39,79.7,1,1,3,69,Tricky
+2024-11-15,1245,1,False,4,False,28,52,289,123.0,2,0,1,77,Tricky
+2024-11-16,1246,1,False,4,False,91,43,119,84.3,2,0,2,63,Middle of the pack
+2024-11-17,1247,1,False,4,False,141,17,289,149.0,4,1,1,94,Hard for the solver
+2024-11-18,1248,1,False,4,False,22,11,62,31.7,3,0,2,25,Easier for the solver
+2024-11-19,1249,1,False,4,False,58,229,105,130.7,2,1,2,88,Tricky
+2024-11-20,1250,1,False,4,False,11,110,50,57.0,1,0,2,48,Middle of the pack
+2024-11-21,1251,1,False,4,False,12,33,53,32.7,5,0,2,35,Middle of the pack
+2024-11-22,1252,1,False,3,False,9,8,190,69.0,1,0,2,18,Easier for the solver
+2024-11-23,1253,1,False,4,False,128,63,199,130.0,2,1,1,87,Tricky
+2024-11-24,1254,1,False,4,False,273,24,105,134.0,2,1,1,88,Tricky
+2024-11-25,1255,1,False,4,False,5,229,165,133.0,5,0,1,89,Tricky
+2024-11-26,1256,1,False,5,False,56,90,119,88.3,4,0,1,96,Hard for the solver
+2024-11-27,1257,1,False,3,False,17,4,289,103.3,3,0,1,40,Middle of the pack
+2024-11-28,1258,1,False,3,False,27,229,165,140.3,4,1,1,64,Middle of the pack
+2024-11-29,1259,1,False,4,False,273,229,119,207.0,2,1,2,97,Hard for the solver
+2024-11-30,1260,1,False,3,False,141,140,44,108.3,1,0,2,39,Middle of the pack
+2024-12-01,1261,1,False,4,False,51,31,16,32.7,1,0,3,23,Easier for the solver
+2024-12-02,1262,1,False,3,False,105,21,8,44.7,3,0,3,10,Easier for the solver
+2024-12-03,1263,1,False,3,False,50,24,289,121.0,2,0,1,43,Middle of the pack
+2024-12-04,1264,1,False,3,False,13,90,165,89.3,2,0,0,31,Easier for the solver
+2024-12-05,1265,1,False,3,False,62,170,34,88.7,1,0,2,30,Easier for the solver
+2024-12-06,1266,1,False,4,False,105,33,199,112.3,3,0,2,77,Tricky
+2024-12-07,1267,1,False,5,False,273,88,119,160.0,6,1,1,100,Hard for the solver
+2024-12-08,1268,1,False,4,False,3,62,190,85.0,1,0,2,64,Middle of the pack
+2024-12-09,1269,1,False,5,False,58,40,193,97.0,3,0,1,96,Hard for the solver
+2024-12-10,1270,1,False,3,False,141,52,62,85.0,2,0,3,27,Easier for the solver
+2024-12-11,1271,1,False,4,False,273,40,193,168.7,3,0,1,90,Hard for the solver
+2024-12-12,1272,1,False,4,False,58,229,105,130.7,5,0,1,89,Tricky
+2024-12-13,1273,1,False,4,False,126,170,128,141.3,1,0,2,83,Tricky
+2024-12-14,1274,1,False,3,False,53,88,36,59.0,2,1,2,21,Easier for the solver
+2024-12-15,1275,1,False,4,False,57,229,193,159.7,3,0,1,89,Tricky
+2024-12-16,1276,1,False,3,False,50,5,289,114.7,4,0,2,48,Middle of the pack
+2024-12-17,1277,1,False,4,False,56,18,165,79.7,1,0,1,61,Middle of the pack
+2024-12-18,1278,1,False,3,False,128,10,199,112.3,2,0,1,40,Middle of the pack
+2024-12-19,1279,1,False,4,False,68,8,289,121.7,3,0,1,81,Tricky
+2024-12-20,1280,1,False,3,False,50,6,289,115.0,3,0,1,44,Middle of the pack
+2024-12-21,1281,1,False,4,False,45,12,35,30.7,4,0,2,28,Easier for the solver
+2024-12-22,1282,1,False,4,False,7,49,289,115.0,3,0,1,78,Tricky
+2024-12-23,1283,1,False,3,False,20,17,39,25.3,2,1,3,5,Easier for the solver
+2024-12-24,1284,1,False,4,False,51,16,190,85.7,1,1,3,72,Tricky
+2024-12-25,1285,1,False,3,False,7,13,190,70.0,7,0,2,38,Middle of the pack
+2024-12-26,1286,1,False,3,False,141,140,9,96.7,1,1,2,43,Middle of the pack
+2024-12-27,1287,1,False,3,False,7,49,62,39.3,4,0,2,10,Easier for the solver
+2024-12-28,1288,1,False,3,False,10,170,34,71.3,3,0,1,23,Easier for the solver
+2024-12-29,1289,1,False,4,False,141,140,289,190.0,1,1,2,95,Hard for the solver
+2024-12-30,1290,1,False,3,False,7,4,190,67.0,6,0,2,33,Easier for the solver
+2024-12-31,1291,1,False,4,False,126,63,59,82.7,3,0,2,66,Tricky
+2025-01-01,1292,1,False,4,False,5,110,199,104.7,3,1,2,83,Tricky
+2025-01-02,1293,1,False,3,False,11,27,199,79.0,3,0,2,28,Easier for the solver
+2025-01-03,1294,1,False,4,False,7,62,190,86.3,2,0,2,64,Middle of the pack
+2025-01-04,1295,1,False,4,False,52,31,190,91.0,2,0,2,67,Tricky
+2025-01-05,1296,1,False,4,False,7,170,128,101.7,1,0,1,70,Tricky
+2025-01-06,1297,1,False,3,False,91,58,119,89.3,1,0,1,31,Easier for the solver
+2025-01-07,1298,1,False,4,False,141,1,45,62.3,1,1,2,60,Middle of the pack
+2025-01-08,1299,1,False,4,False,22,20,44,28.7,3,0,1,21,Easier for the solver
+2025-01-09,1300,1,False,4,False,52,62,54,56.0,4,0,2,53,Middle of the pack
+2025-01-10,1301,1,False,4,False,7,11,289,102.3,4,0,1,77,Tricky
+2025-01-11,1302,1,False,4,False,57,229,26,104.0,2,0,1,71,Tricky
+2025-01-12,1303,1,False,3,False,141,17,289,149.0,2,1,2,60,Middle of the pack
+2025-01-13,1304,1,False,4,False,13,14,289,105.3,2,0,2,72,Tricky
+2025-01-14,1305,1,False,4,False,5,140,289,144.7,2,0,1,84,Tricky
+2025-01-15,1306,1,False,4,False,2,49,289,113.3,2,1,1,83,Tricky
+2025-01-16,1307,1,False,3,False,58,7,105,56.7,2,0,1,13,Easier for the solver
+2025-01-17,1308,1,False,4,False,26,27,199,84.0,4,0,2,70,Tricky
+2025-01-18,1309,1,False,4,False,273,18,119,136.7,6,1,1,95,Hard for the solver
+2025-01-19,1310,1,False,3,False,126,170,128,141.3,7,1,2,73,Tricky
+2025-01-20,1311,1,False,4,False,273,58,7,112.7,2,0,2,74,Tricky
+2025-01-21,1312,1,False,4,False,1,229,105,111.7,1,1,2,82,Tricky
+2025-01-22,1313,1,False,3,False,2,12,190,68.0,5,0,2,29,Easier for the solver
+2025-01-23,1314,1,False,5,False,126,170,23,106.3,1,1,2,98,Hard for the solver
+2025-01-24,1315,1,False,3,False,4,110,199,104.3,2,1,2,45,Middle of the pack
+2025-01-25,1316,1,False,3,False,13,43,105,53.7,2,0,1,12,Easier for the solver
+2025-01-26,1317,1,False,3,False,58,58,193,103.0,4,1,1,52,Middle of the pack
+2025-01-27,1318,1,False,2,False,58,39,193,96.7,2,0,1,8,Easier for the solver
+2025-01-28,1319,1,False,4,False,126,170,128,141.3,4,1,2,93,Hard for the solver
+2025-01-29,1320,1,False,4,False,126,170,1,99.0,2,1,2,77,Tricky
+2025-01-30,1321,1,False,3,False,51,3,190,81.3,1,0,2,25,Easier for the solver
+2025-01-31,1322,1,False,3,False,50,5,289,114.7,4,1,2,56,Middle of the pack
+2025-02-01,1323,1,False,3,False,126,73,40,79.7,2,0,2,24,Easier for the solver
+2025-02-02,1324,1,False,3,False,3,110,199,104.0,3,0,2,41,Middle of the pack
+2025-02-03,1325,1,False,3,False,40,110,59,69.7,1,1,3,28,Easier for the solver
+2025-02-04,1326,1,False,4,False,273,38,165,158.7,3,2,2,97,Hard for the solver
+2025-02-05,1327,1,False,4,False,46,31,35,37.3,3,0,2,34,Easier for the solver
+2025-02-06,1328,1,False,4,False,273,88,23,128.0,2,1,2,87,Tricky
+2025-02-07,1329,1,False,2,False,50,1,289,113.3,2,0,1,10,Easier for the solver
+2025-02-08,1330,1,False,4,False,128,11,128,89.0,4,1,2,80,Tricky
+2025-02-09,1331,1,False,4,False,57,43,193,97.7,1,0,2,69,Tricky
+2025-02-10,1332,1,False,4,False,273,229,36,179.3,3,1,2,96,Hard for the solver
+2025-02-11,1333,1,False,4,False,3,33,199,78.3,6,0,2,73,Tricky
+2025-02-12,1334,1,False,4,False,68,140,13,73.7,2,0,2,58,Middle of the pack
+2025-02-13,1335,1,False,4,False,68,140,39,82.3,1,0,2,62,Middle of the pack
+2025-02-14,1336,1,False,3,False,273,38,26,112.3,4,1,1,55,Middle of the pack
+2025-02-15,1337,1,False,4,False,13,229,165,135.7,3,1,2,90,Hard for the solver
+2025-02-16,1338,1,False,3,False,45,13,16,24.7,4,0,3,4,Easier for the solver
+2025-02-17,1339,1,False,3,False,22,2,62,28.7,3,0,2,5,Easier for the solver
+2025-02-18,1340,1,False,4,False,23,110,16,49.7,1,1,3,51,Middle of the pack
+2025-02-19,1341,1,False,4,False,141,59,44,81.3,3,0,1,66,Tricky
+2025-02-20,1342,1,False,2,False,3,49,289,113.7,2,0,2,10,Easier for the solver
+2025-02-21,1343,1,False,4,False,11,13,199,74.3,3,0,2,62,Middle of the pack
+2025-02-22,1344,1,False,3,False,2,62,190,84.7,2,0,2,27,Easier for the solver
+2025-02-23,1345,1,False,3,False,126,73,128,109.0,2,1,2,47,Middle of the pack
+2025-02-24,1346,1,False,4,False,17,20,44,27.0,2,0,1,16,Easier for the solver
+2025-02-25,1347,1,False,4,False,22,170,24,72.0,2,1,1,66,Tricky
+2025-02-26,1348,1,False,3,False,24,49,2,25.0,2,1,2,5,Easier for the solver
+2025-02-27,1349,1,False,3,False,105,21,34,53.3,2,0,2,12,Easier for the solver
+2025-02-28,1350,1,False,4,False,273,229,193,231.7,2,1,1,98,Hard for the solver
+2025-03-01,1351,1,False,5,False,126,170,128,141.3,5,0,2,99,Hard for the solver
+2025-03-02,1352,1,False,3,False,128,10,12,50.0,1,0,2,11,Easier for the solver
+2025-03-03,1353,1,False,5,False,52,10,190,84.0,4,0,2,95,Hard for the solver
+2025-03-04,1354,1,False,4,False,11,170,199,126.7,4,1,1,91,Hard for the solver
+2025-03-05,1355,1,False,4,False,11,58,193,87.3,2,0,1,65,Tricky
+2025-03-06,1356,1,False,3,False,52,5,22,26.3,2,0,2,3,Easier for the solver
+2025-03-07,1357,1,False,4,False,53,90,165,102.7,2,1,2,79,Tricky
+2025-03-08,1358,1,False,3,False,22,31,54,35.7,2,0,2,7,Easier for the solver
+2025-03-09,1359,1,False,5,False,22,170,24,72.0,4,1,2,96,Hard for the solver
+2025-03-10,1360,1,False,3,False,105,4,53,54.0,5,0,2,19,Easier for the solver
+2025-03-11,1361,1,False,4,False,3,20,289,104.0,3,0,1,74,Tricky
+2025-03-12,1362,1,False,4,False,47,140,289,158.7,4,0,2,91,Hard for the solver
+2025-03-13,1363,1,False,4,False,3,6,190,66.3,2,0,2,53,Middle of the pack
+2025-03-14,1364,1,False,4,False,9,110,50,56.3,2,1,3,56,Middle of the pack
+2025-03-15,1365,1,False,4,False,51,16,35,34.0,1,1,2,35,Middle of the pack
+2025-03-16,1366,1,False,4,False,50,14,289,117.7,3,0,1,79,Tricky
+2025-03-17,1367,1,False,3,False,141,7,289,145.7,1,1,2,59,Middle of the pack
+2025-03-18,1368,1,False,4,False,126,73,40,79.7,2,0,2,61,Middle of the pack
+2025-03-19,1369,1,False,4,False,24,24,289,112.3,3,0,1,77,Tricky
+2025-03-20,1370,1,False,3,False,51,6,190,82.3,6,0,2,41,Middle of the pack
+2025-03-21,1371,1,False,3,False,23,110,15,49.3,4,0,2,14,Easier for the solver
+2025-03-22,1372,1,False,3,False,51,16,22,29.7,2,0,2,4,Easier for the solver
+2025-03-23,1373,1,False,3,False,128,170,24,107.3,1,0,2,38,Middle of the pack
+2025-03-24,1374,1,False,4,False,6,16,22,14.7,2,0,2,6,Easier for the solver
+2025-03-25,1375,1,False,4,False,128,6,199,111.0,2,0,1,73,Tricky
+2025-03-26,1376,1,False,3,False,128,18,199,115.0,1,0,2,42,Middle of the pack
+2025-03-27,1377,1,False,3,False,128,11,128,89.0,4,1,2,45,Middle of the pack
+2025-03-28,1378,1,False,4,False,40,27,199,88.7,3,1,2,76,Tricky
+2025-03-29,1379,1,False,4,False,91,58,165,104.7,3,1,1,83,Tricky
+2025-03-30,1380,1,False,2,False,141,15,39,65.0,3,0,3,4,Easier for the solver
+2025-03-31,1381,1,False,3,False,273,38,165,158.7,3,1,2,66,Tricky
+2025-04-01,1382,1,False,4,False,128,63,128,106.3,1,1,2,80,Tricky
+2025-04-02,1383,1,False,3,False,3,27,59,29.7,3,0,2,5,Easier for the solver
+2025-04-03,1384,1,False,4,False,52,10,190,84.0,4,0,2,70,Tricky
+2025-04-04,1385,1,False,3,False,53,88,105,82.0,4,1,1,43,Middle of the pack
+2025-04-05,1386,1,False,3,False,50,49,289,129.3,2,0,2,45,Middle of the pack
+2025-04-06,1387,1,False,4,False,141,59,62,87.3,2,1,2,72,Tricky
+2025-04-07,1388,1,False,4,False,46,31,54,43.7,1,0,2,36,Middle of the pack
+2025-04-08,1389,1,False,3,False,7,13,190,70.0,5,0,2,31,Easier for the solver
+2025-04-09,1390,1,False,4,False,46,25,190,87.0,2,0,2,65,Tricky
+2025-04-10,1391,1,False,4,False,91,90,193,124.7,1,0,2,78,Tricky
+2025-04-11,1392,1,False,3,False,12,140,45,65.7,1,1,2,25,Easier for the solver
+2025-04-12,1393,1,False,4,False,5,27,59,30.3,3,0,2,23,Easier for the solver
+2025-04-13,1394,1,False,4,False,141,59,39,79.7,1,0,2,61,Middle of the pack
+2025-04-14,1395,1,False,4,False,10,15,199,74.7,2,0,1,59,Middle of the pack
+2025-04-15,1396,1,False,3,False,22,3,14,13.0,1,0,2,1,Easier for the solver
+2025-04-16,1397,1,False,3,False,68,59,289,138.7,2,0,2,49,Middle of the pack
+2025-04-17,1398,1,False,4,False,273,39,36,116.0,3,1,2,86,Tricky
+2025-04-18,1399,1,False,3,False,40,110,16,55.3,1,0,2,13,Easier for the solver
+2025-04-19,1400,1,False,4,False,57,229,119,135.0,1,0,2,81,Tricky
+2025-04-20,1401,1,False,4,False,28,52,289,123.0,7,0,1,91,Hard for the solver
+2025-04-21,1402,1,False,3,False,45,3,190,79.3,4,0,2,33,Easier for the solver
+2025-04-22,1403,1,False,3,False,12,5,45,20.7,1,0,1,2,Easier for the solver
+2025-04-23,1404,1,False,3,False,12,110,199,107.0,1,1,3,46,Middle of the pack
+2025-04-24,1405,1,False,4,False,23,110,50,61.0,2,1,3,59,Middle of the pack
+2025-04-25,1406,1,False,3,False,57,229,165,150.3,1,1,1,61,Middle of the pack
+2025-04-26,1407,1,False,4,False,13,6,289,102.7,3,0,1,74,Tricky
+2025-04-27,1408,1,False,4,False,128,170,34,110.7,4,1,2,88,Tricky
+2025-04-28,1409,1,False,4,False,273,229,30,177.3,3,1,1,95,Hard for the solver
+2025-04-29,1410,1,False,3,False,273,6,105,128.0,2,1,1,53,Middle of the pack
+2025-04-30,1411,1,False,3,False,126,63,1,63.3,1,0,2,15,Easier for the solver
+2025-05-01,1412,1,False,3,False,46,25,4,25.0,3,0,2,4,Easier for the solver
+2025-05-02,1413,1,False,4,False,105,27,199,110.3,3,0,2,76,Tricky
+2025-05-03,1414,1,False,4,False,141,5,289,145.0,3,0,1,86,Tricky
+2025-05-04,1415,1,False,4,False,53,90,193,112.0,2,1,2,82,Tricky
+2025-05-05,1416,1,False,4,False,273,58,193,174.7,2,2,1,97,Hard for the solver
+2025-05-06,1417,1,False,3,False,105,4,8,39.0,3,0,3,9,Easier for the solver
+2025-05-07,1418,1,False,4,False,28,140,289,152.3,2,0,2,85,Tricky
+2025-05-08,1419,1,False,4,False,141,59,289,163.0,1,0,1,88,Tricky
+2025-05-09,1420,1,False,3,False,26,18,53,32.3,4,0,2,8,Easier for the solver
+2025-05-10,1421,1,False,4,False,19,3,190,70.7,4,0,2,63,Middle of the pack
+2025-05-11,1422,1,False,4,False,128,63,24,71.7,4,0,2,64,Middle of the pack
+2025-05-12,1423,1,False,3,False,20,170,40,76.7,1,0,2,22,Easier for the solver
+2025-05-13,1424,1,False,4,False,7,28,22,19.0,2,1,3,13,Easier for the solver
+2025-05-14,1425,1,False,4,False,57,229,165,150.3,2,1,2,91,Hard for the solver
+2025-05-15,1426,1,False,3,False,52,62,54,56.0,3,1,3,22,Easier for the solver
+2025-05-16,1427,1,False,3,False,273,38,119,143.3,2,1,1,58,Middle of the pack
+2025-05-17,1428,1,False,3,False,5,229,165,133.0,5,0,1,57,Middle of the pack
+2025-05-18,1429,1,False,4,False,273,88,26,129.0,2,1,2,87,Tricky
+2025-05-19,1430,1,False,4,False,56,90,119,88.3,4,0,1,71,Tricky
+2025-05-20,1431,1,False,3,False,1,110,199,103.3,1,0,2,36,Middle of the pack
+2025-05-21,1432,1,False,4,False,24,20,45,29.7,1,1,2,29,Easier for the solver
+2025-05-22,1433,1,False,4,False,273,88,119,160.0,1,1,3,92,Hard for the solver
+2025-05-23,1434,1,False,4,False,56,58,193,102.3,3,0,1,73,Tricky
+2025-05-24,1435,1,False,3,False,105,33,15,51.0,1,1,3,15,Easier for the solver
+2025-05-25,1436,1,False,4,False,53,90,105,82.7,2,0,1,63,Middle of the pack
+2025-05-26,1437,1,False,4,False,5,110,34,49.7,3,0,2,45,Middle of the pack
+2025-05-27,1438,1,False,3,False,91,39,165,98.3,3,0,1,38,Middle of the pack
+2025-05-28,1439,1,False,3,False,68,59,289,138.7,3,0,2,52,Middle of the pack
+2025-05-29,1440,1,False,4,False,50,13,39,34.0,2,0,2,25,Easier for the solver
+2025-05-30,1441,1,False,3,False,273,229,2,168.0,2,1,3,65,Tricky
+2025-05-31,1442,1,False,4,False,141,52,62,85.0,1,0,2,64,Middle of the pack
+2025-06-01,1443,1,False,3,False,91,229,193,171.0,5,0,2,67,Tricky
+2025-06-02,1444,1,False,4,False,2,170,128,100.0,2,1,2,77,Tricky
+2025-06-03,1445,1,False,4,False,47,140,2,63.0,2,0,2,52,Middle of the pack
+2025-06-04,1446,1,False,3,False,3,6,190,66.3,3,1,3,30,Easier for the solver
+2025-06-05,1447,1,False,4,False,141,52,6,66.3,1,0,2,53,Middle of the pack
+2025-06-06,1448,1,False,3,False,128,170,2,100.0,1,0,2,35,Middle of the pack
+2025-06-07,1449,1,False,3,False,40,27,59,42.0,2,1,3,11,Easier for the solver
+2025-06-08,1450,1,False,3,False,45,1,190,78.7,3,1,3,37,Middle of the pack
+2025-06-09,1451,1,False,2,False,24,49,44,39.0,2,0,2,1,Easier for the solver
+2025-06-10,1452,1,False,4,False,141,52,289,160.7,1,1,1,92,Hard for the solver
+2025-06-11,1453,1,False,3,False,50,20,13,27.7,3,0,2,5,Easier for the solver
+2025-06-12,1454,1,False,4,False,62,170,40,90.7,1,0,2,67,Tricky
+2025-06-13,1455,1,False,3,False,105,21,50,58.7,2,0,2,14,Easier for the solver
+2025-06-14,1456,1,False,3,False,273,24,165,154.0,1,0,1,52,Middle of the pack
+2025-06-15,1457,1,False,4,False,50,11,2,21.0,1,0,3,11,Easier for the solver
+2025-06-16,1458,1,False,3,False,128,10,199,112.3,3,1,1,52,Middle of the pack
+2025-06-17,1459,1,False,4,False,6,49,289,114.7,4,0,1,82,Tricky
+2025-06-18,1460,1,False,4,False,18,229,193,146.7,5,0,1,91,Hard for the solver
+2025-06-19,1461,1,False,4,False,9,229,23,87.0,1,0,3,65,Tricky
+2025-06-20,1462,1,False,3,False,51,3,16,23.3,1,0,3,3,Easier for the solver
+2025-06-21,1463,1,False,4,False,45,12,35,30.7,3,0,2,24,Easier for the solver
+2025-06-22,1464,1,False,3,False,91,90,193,124.7,1,0,1,44,Middle of the pack
+2025-06-23,1465,1,False,4,False,273,88,1,120.7,1,1,1,85,Tricky
+2025-06-24,1466,1,False,3,False,105,2,53,53.3,2,1,3,16,Easier for the solver
+2025-06-25,1467,1,False,4,False,27,229,165,140.3,1,0,1,83,Tricky
+2025-06-26,1468,1,False,3,False,126,170,128,141.3,1,1,2,57,Middle of the pack
+2025-06-27,1469,1,False,4,False,9,20,62,30.3,3,0,2,23,Easier for the solver
+2025-06-28,1470,1,False,4,False,273,39,193,168.3,3,0,1,90,Hard for the solver
+2025-06-29,1471,1,False,3,False,273,38,119,143.3,4,1,1,65,Tricky
+2025-06-30,1472,1,False,4,False,58,40,105,67.7,3,0,1,58,Middle of the pack
+2025-07-01,1473,1,False,3,False,273,88,36,132.3,2,0,1,47,Middle of the pack
+2025-07-02,1474,1,False,3,False,2,229,23,84.7,1,0,2,27,Easier for the solver
+2025-07-03,1475,1,False,5,False,273,229,165,222.3,2,1,1,100,Hard for the solver
+2025-07-04,1476,1,False,4,False,3,110,59,57.3,2,0,2,48,Middle of the pack
+2025-07-05,1477,1,False,4,False,52,31,54,45.7,2,0,2,39,Middle of the pack
+2025-07-06,1478,1,False,3,False,68,52,9,43.0,1,1,3,12,Easier for the solver
+2025-07-07,1479,1,False,4,False,273,5,105,127.7,2,1,1,86,Tricky
+2025-07-08,1480,1,False,5,False,9,62,35,35.3,3,1,2,74,Tricky
+2025-07-09,1481,1,False,3,False,62,63,128,84.3,2,0,2,27,Easier for the solver
+2025-07-10,1482,1,False,4,False,273,229,193,231.7,3,0,1,96,Hard for the solver
+2025-07-11,1483,1,False,4,False,6,49,44,33.0,2,0,1,24,Easier for the solver
+2025-07-12,1484,1,False,3,False,105,21,53,59.7,1,1,3,21,Easier for the solver
+2025-07-13,1485,1,False,3,False,23,110,199,110.7,1,0,2,40,Middle of the pack
+2025-07-14,1486,1,False,5,False,57,229,7,97.7,1,1,2,98,Hard for the solver
+2025-07-15,1487,1,False,4,False,273,24,105,134.0,4,0,2,87,Tricky
+2025-07-16,1488,1,False,5,False,28,170,199,132.3,2,0,1,99,Hard for the solver
+2025-07-17,1489,1,False,3,False,141,59,44,81.3,2,0,2,25,Easier for the solver
+2025-07-18,1490,1,False,3,False,91,4,119,71.3,1,0,2,20,Easier for the solver
+2025-07-19,1491,1,False,4,False,91,58,36,61.7,3,0,1,54,Middle of the pack
+2025-07-20,1492,1,False,4,False,17,20,289,108.7,4,0,1,79,Tricky
+2025-07-21,1493,1,False,4,False,273,90,119,160.7,3,1,1,94,Hard for the solver
+2025-07-22,1494,1,False,3,False,5,90,193,96.0,2,0,1,34,Easier for the solver
+2025-07-23,1495,1,False,4,False,52,25,54,43.7,5,0,2,47,Middle of the pack
+2025-07-24,1496,1,False,3,False,45,28,16,29.7,1,0,3,4,Easier for the solver
+2025-07-25,1497,1,False,4,False,126,170,128,141.3,2,0,2,83,Tricky
+2025-07-26,1498,1,False,4,False,20,52,39,37.0,6,0,2,43,Middle of the pack
+2025-07-27,1499,1,False,3,False,105,21,199,108.3,3,0,2,42,Middle of the pack
+2025-07-28,1500,1,False,4,False,141,17,289,149.0,2,1,1,91,Hard for the solver
+2025-07-29,1501,1,False,3,False,46,62,190,99.3,1,0,3,35,Middle of the pack
+2025-07-30,1502,1,False,3,False,141,17,45,67.7,2,2,2,36,Middle of the pack
+2025-07-31,1503,1,False,4,False,53,88,105,82.0,4,1,1,76,Tricky
+2025-08-01,1504,1,False,3,False,47,140,289,158.7,1,0,2,54,Middle of the pack
+2025-08-02,1505,1,False,4,False,20,52,6,26.0,6,0,2,28,Easier for the solver
+2025-08-03,1506,1,False,3,False,273,88,193,184.7,3,0,1,64,Middle of the pack
+2025-08-04,1507,1,False,2,False,91,229,26,115.3,1,1,2,14,Easier for the solver
+2025-08-05,1508,1,False,4,False,91,39,165,98.3,4,0,1,76,Tricky
+2025-08-06,1509,1,False,4,False,4,140,289,144.3,3,0,2,86,Tricky
+2025-08-07,1510,1,False,3,False,9,59,289,119.0,2,0,2,43,Middle of the pack
+2025-08-08,1511,1,False,4,False,105,110,7,74.0,1,0,3,58,Middle of the pack
+2025-08-09,1512,1,False,2,False,47,7,289,114.3,3,1,2,16,Easier for the solver
+2025-08-10,1513,1,False,3,False,57,38,119,71.3,1,0,1,20,Easier for the solver
+2025-08-11,1514,1,False,3,False,273,6,193,157.3,3,0,2,57,Middle of the pack
+2025-08-12,1515,1,False,4,False,47,140,44,77.0,1,0,2,60,Middle of the pack
+2025-08-13,1516,1,False,3,False,126,170,50,115.3,1,0,2,42,Middle of the pack
+2025-08-14,1517,1,False,4,False,62,63,199,108.0,2,1,1,81,Tricky
+2025-08-15,1518,1,False,5,False,128,63,128,106.3,3,2,2,99,Hard for the solver
+2025-08-16,1519,1,False,4,False,51,3,190,81.3,2,1,2,70,Tricky
+2025-08-17,1520,1,False,3,False,273,4,193,156.7,2,0,2,53,Middle of the pack
+2025-08-18,1521,1,False,3,False,105,27,7,46.3,1,1,3,13,Easier for the solver
+2025-08-19,1522,1,False,3,False,91,229,36,118.7,3,0,1,45,Middle of the pack
+2025-08-20,1523,1,False,4,False,50,20,289,119.7,1,2,2,90,Hard for the solver
+2025-08-21,1524,1,False,3,False,128,11,199,112.7,1,0,2,41,Middle of the pack
+2025-08-22,1525,1,False,2,False,68,15,289,124.0,6,1,1,31,Easier for the solver
+2025-08-23,1526,1,False,4,False,57,229,13,99.7,2,1,3,77,Tricky
+2025-08-24,1527,1,False,3,False,40,33,199,90.7,6,0,2,44,Middle of the pack
+2025-08-25,1528,1,False,3,False,91,38,119,82.7,3,0,1,31,Easier for the solver
+2025-08-26,1529,1,False,3,False,22,62,14,32.7,1,1,2,8,Easier for the solver
+2025-08-27,1530,1,False,2,False,126,73,128,109.0,7,0,2,19,Easier for the solver
+2025-08-28,1531,1,False,4,False,273,5,119,132.3,2,0,1,81,Tricky
+2025-08-29,1532,1,False,4,False,22,20,289,110.3,3,0,1,76,Tricky
+2025-08-30,1533,1,False,3,False,45,2,190,79.0,3,1,3,38,Middle of the pack
+2025-08-31,1534,1,False,3,False,46,6,190,80.7,3,0,2,29,Easier for the solver
+2025-09-01,1535,1,False,3,False,19,1,190,70.0,4,0,2,26,Easier for the solver
+2025-09-02,1536,1,False,4,False,273,90,119,160.7,9,0,1,98,Hard for the solver
+2025-09-03,1537,1,False,4,False,20,73,199,97.3,2,0,1,69,Tricky
+2025-09-04,1538,1,False,3,False,10,18,34,20.7,4,0,1,3,Easier for the solver
+2025-09-05,1539,1,False,3,False,53,90,9,50.7,2,0,1,11,Easier for the solver
+2025-09-06,1540,1,False,4,False,105,21,59,61.7,2,0,2,51,Middle of the pack
+2025-09-07,1541,1,False,3,False,28,73,199,100.0,1,0,2,35,Middle of the pack
+2025-09-08,1542,1,False,3,False,9,229,105,114.3,1,0,1,41,Middle of the pack
+2025-09-09,1543,1,False,4,False,5,90,105,66.7,4,0,1,61,Middle of the pack
+2025-09-10,1544,1,False,3,False,273,38,193,168.0,1,0,2,56,Middle of the pack
+2025-09-11,1545,1,False,4,False,4,49,62,38.3,2,0,2,32,Easier for the solver
+2025-09-12,1546,1,False,3,False,91,90,165,115.3,2,0,1,42,Middle of the pack
+2025-09-13,1547,1,False,3,False,10,140,13,54.3,1,0,2,12,Easier for the solver
+2025-09-14,1548,1,False,4,False,57,43,105,68.3,2,0,2,55,Middle of the pack
+2025-09-15,1549,1,False,3,False,20,14,45,26.3,2,0,2,3,Easier for the solver
+2025-09-16,1550,1,False,4,False,128,1,199,109.3,2,0,1,73,Tricky
+2025-09-17,1551,1,False,3,False,128,10,199,112.3,2,2,2,56,Middle of the pack
+2025-09-18,1552,1,False,3,False,23,110,53,62.0,1,0,2,15,Easier for the solver
+2025-09-19,1553,1,False,3,False,52,6,54,37.3,5,0,2,10,Easier for the solver
+2025-09-20,1554,1,False,4,False,126,170,24,106.7,2,1,2,80,Tricky
+2025-09-21,1555,1,False,3,False,1,170,128,99.7,4,0,2,42,Middle of the pack
+2025-09-22,1556,1,False,4,False,273,88,13,124.7,2,1,2,86,Tricky
+2025-09-23,1557,1,False,3,False,273,38,193,168.0,3,0,2,60,Middle of the pack
+2025-09-24,1558,1,False,3,False,58,7,193,86.0,2,0,1,28,Easier for the solver
+2025-09-25,1559,1,False,3,False,13,28,35,25.3,2,0,2,3,Easier for the solver
+2025-09-26,1560,1,False,4,False,141,59,44,81.3,4,1,1,76,Tricky
+2025-09-27,1561,1,False,3,False,53,38,105,65.3,1,0,1,16,Easier for the solver
+2025-09-28,1562,1,False,4,False,128,170,128,142.0,3,1,3,92,Hard for the solver
+2025-09-29,1563,1,False,3,False,27,88,119,78.0,2,1,2,34,Easier for the solver
+2025-09-30,1564,1,False,3,False,105,27,199,110.3,1,1,3,48,Middle of the pack
+2025-10-01,1565,1,False,3,False,273,18,119,136.7,2,0,2,48,Middle of the pack
+2025-10-02,1566,1,False,3,False,273,38,26,112.3,1,0,1,40,Middle of the pack
+2025-10-03,1567,1,False,4,False,50,24,289,121.0,1,1,1,85,Tricky
+2025-10-04,1568,1,False,3,False,52,31,190,91.0,2,0,2,31,Easier for the solver
+2025-10-05,1569,1,False,4,False,2,12,190,68.0,3,0,2,58,Middle of the pack
+2025-10-06,1570,1,False,3,False,51,10,5,22.0,2,0,3,2,Easier for the solver
+2025-10-07,1571,1,False,3,False,57,88,165,103.3,1,1,1,45,Middle of the pack
+2025-10-08,1572,1,False,3,False,47,140,45,77.3,1,1,2,33,Easier for the solver
+2025-10-09,1573,1,False,3,False,68,140,44,84.0,3,0,1,32,Easier for the solver
+2025-10-10,1574,1,False,4,False,126,63,128,105.7,4,1,2,86,Tricky
+2025-10-11,1575,1,False,3,False,13,14,289,105.3,5,0,1,48,Middle of the pack
+2025-10-12,1576,1,False,5,False,58,229,30,105.7,8,0,2,99,Hard for the solver
+2025-10-13,1577,1,False,3,False,9,12,35,18.7,2,0,2,2,Easier for the solver
+2025-10-14,1578,1,False,3,False,91,229,193,171.0,1,0,2,57,Middle of the pack
+2025-10-15,1579,1,False,4,False,273,58,165,165.3,4,1,2,96,Hard for the solver
+2025-10-16,1580,1,False,4,False,13,15,289,105.7,6,1,1,90,Hard for the solver
+2025-10-17,1581,1,False,4,False,53,43,165,87.0,3,1,1,76,Tricky
+2025-10-18,1582,1,False,3,False,22,62,54,46.0,3,0,2,11,Easier for the solver
+2025-10-19,1583,1,False,4,False,46,31,1,26.0,1,0,3,15,Easier for the solver
+2025-10-20,1584,1,False,4,False,273,88,119,160.0,1,0,2,87,Tricky
+2025-10-21,1585,1,False,3,False,128,73,34,78.3,1,0,2,23,Easier for the solver
+2025-10-22,1586,1,False,3,False,58,39,193,96.7,3,1,1,45,Middle of the pack
+2025-10-23,1587,1,False,4,False,53,88,9,50.0,4,1,1,57,Middle of the pack
+2025-10-24,1588,1,False,4,False,126,73,23,74.0,1,0,2,58,Middle of the pack
+2025-10-25,1589,1,False,4,False,51,31,16,32.7,2,1,3,33,Easier for the solver
+2025-10-26,1590,1,False,4,False,273,40,193,168.7,3,1,1,95,Hard for the solver
+2025-10-27,1591,1,False,3,False,128,73,16,72.3,1,0,2,20,Easier for the solver
+2025-10-28,1592,1,False,4,False,273,88,165,175.3,5,1,1,97,Hard for the solver
+2025-10-29,1593,1,False,4,False,7,12,190,69.7,3,0,2,59,Middle of the pack
+2025-10-30,1594,1,False,3,False,51,2,190,81.0,2,0,2,25,Easier for the solver
+2025-10-31,1595,1,False,3,False,68,140,45,84.3,1,0,2,27,Easier for the solver
+2025-11-01,1596,1,False,3,False,128,11,128,89.0,2,0,2,30,Easier for the solver
+2025-11-02,1597,1,False,3,False,68,140,13,73.7,2,0,2,21,Easier for the solver
+2025-11-03,1598,1,False,3,False,51,31,22,34.7,2,0,3,6,Easier for the solver
+2025-11-04,1599,1,False,4,False,23,110,59,64.0,1,1,3,61,Middle of the pack
+2025-11-05,1600,1,False,3,False,91,39,165,98.3,3,0,1,38,Middle of the pack
+2025-11-06,1601,1,False,3,False,105,27,8,46.7,3,0,3,11,Easier for the solver
+2025-11-07,1602,1,False,3,False,126,63,50,79.7,1,0,2,24,Easier for the solver
+2025-11-08,1603,1,False,3,False,3,10,6,6.3,2,0,3,0,Easier for the solver
+2025-11-09,1604,1,False,4,False,105,110,59,91.3,1,1,3,74,Tricky
+2025-11-10,1605,1,False,3,False,141,52,289,160.7,2,1,1,63,Middle of the pack
+2025-11-11,1606,1,False,3,False,273,229,119,207.0,1,0,2,65,Tricky
+2025-11-12,1607,1,False,3,False,9,110,15,44.7,1,1,3,12,Easier for the solver
+2025-11-13,1608,1,False,4,False,23,18,50,30.3,4,0,2,27,Easier for the solver
+2025-11-14,1609,1,False,4,False,91,88,7,62.0,2,0,2,52,Middle of the pack
+2025-11-15,1610,1,False,4,False,6,40,193,79.7,3,0,1,65,Tricky
+2025-11-16,1611,1,False,4,False,128,63,16,69.0,3,0,2,59,Middle of the pack
+2025-11-17,1612,1,False,3,False,13,20,289,107.3,3,0,1,42,Middle of the pack
+2025-11-18,1613,1,False,3,False,12,110,53,58.3,2,0,3,14,Easier for the solver
+2025-11-19,1614,1,False,4,False,52,62,54,56.0,3,0,2,50,Middle of the pack
+2025-11-20,1615,1,False,4,False,13,28,190,77.0,6,0,2,72,Tricky
+2025-11-21,1616,1,False,3,False,128,63,128,106.3,4,0,2,44,Middle of the pack
+2025-11-22,1617,1,False,3,False,56,90,105,83.7,2,0,1,26,Easier for the solver
+2025-11-23,1618,1,False,4,False,58,229,193,160.0,4,1,1,95,Hard for the solver
+2025-11-24,1619,1,False,4,False,273,229,30,177.3,5,0,2,95,Hard for the solver
+2025-11-25,1620,1,False,4,False,46,8,35,29.7,2,0,2,19,Easier for the solver
+2025-11-26,1621,1,False,3,False,128,63,128,106.3,2,0,2,38,Middle of the pack
+2025-11-27,1622,1,False,3,False,126,73,50,83.0,2,0,2,26,Easier for the solver
+2025-11-28,1623,1,False,3,False,27,88,119,78.0,3,1,2,37,Middle of the pack
+2025-11-29,1624,1,False,4,False,53,229,193,158.3,1,1,1,92,Hard for the solver
+2025-11-30,1625,1,False,4,False,273,229,193,231.7,2,1,1,98,Hard for the solver
+2025-12-01,1626,1,False,3,False,5,8,190,67.7,5,0,2,29,Easier for the solver
+2025-12-02,1627,1,False,3,False,13,15,62,30.0,1,1,2,7,Easier for the solver
+2025-12-03,1628,1,False,3,False,51,6,190,82.3,6,0,2,41,Middle of the pack
+2025-12-04,1629,1,False,3,False,273,14,23,103.3,1,0,2,36,Middle of the pack
+2025-12-05,1630,1,False,4,False,20,140,45,68.3,2,0,2,55,Middle of the pack
+2025-12-06,1631,1,False,3,False,141,5,17,54.3,2,0,2,12,Easier for the solver
+2025-12-07,1632,1,False,3,False,105,2,59,55.3,3,0,2,14,Easier for the solver
+2025-12-08,1633,1,False,4,False,22,49,289,120.0,2,0,1,77,Tricky
+2025-12-09,1634,1,False,3,False,23,33,12,22.7,2,0,2,2,Easier for the solver
+2025-12-10,1635,1,False,3,False,13,6,190,69.7,1,1,3,28,Easier for the solver
+2025-12-11,1636,1,False,4,False,128,19,59,68.7,2,1,2,64,Middle of the pack
+2025-12-12,1637,1,False,3,False,5,90,193,96.0,3,0,1,37,Middle of the pack
+2025-12-13,1638,1,False,3,False,126,19,40,61.7,3,0,2,17,Easier for the solver
+2025-12-14,1639,1,False,3,False,58,58,105,73.7,4,0,1,29,Easier for the solver
+2025-12-15,1640,1,False,3,False,273,229,36,179.3,2,1,1,68,Tricky
+2025-12-16,1641,1,False,3,False,105,33,59,65.7,1,1,3,25,Easier for the solver
+2025-12-17,1642,1,False,4,False,22,13,289,108.0,3,1,1,84,Tricky
+2025-12-18,1643,1,False,3,False,91,229,193,171.0,1,0,1,57,Middle of the pack
+2025-12-19,1644,1,False,4,False,91,229,165,161.7,1,1,0,93,Hard for the solver
+2025-12-20,1645,1,False,4,False,105,12,53,56.7,3,0,2,51,Middle of the pack
+2025-12-21,1646,1,False,4,False,273,14,13,100.0,3,0,2,73,Tricky
+2025-12-22,1647,1,False,4,False,8,229,165,134.0,3,1,1,90,Hard for the solver
+2025-12-23,1648,1,False,4,False,58,7,105,56.7,2,0,1,47,Middle of the pack
+2025-12-24,1649,1,False,4,False,273,18,165,152.0,4,1,2,94,Hard for the solver
+2025-12-25,1650,1,False,3,False,53,43,105,67.0,1,0,1,17,Easier for the solver
+2025-12-26,1651,1,False,4,False,128,29,24,60.3,2,1,2,59,Middle of the pack
+2025-12-27,1652,1,False,4,False,28,52,289,123.0,7,0,1,91,Hard for the solver
+2025-12-28,1653,1,False,3,False,141,52,45,79.3,1,1,2,34,Easier for the solver
+2025-12-29,1654,1,False,3,False,53,90,23,55.3,1,0,2,13,Easier for the solver
+2025-12-30,1655,1,False,3,False,10,170,34,71.3,2,0,2,20,Easier for the solver
+2025-12-31,1656,1,False,3,False,28,29,40,32.3,1,0,2,5,Easier for the solver
+2026-01-01,1657,1,False,4,False,51,16,190,85.7,3,0,2,68,Tricky
+2026-01-02,1658,1,False,4,False,53,229,165,149.0,1,1,2,91,Hard for the solver
+2026-01-03,1659,1,False,3,False,68,8,62,46.0,1,0,2,10,Easier for the solver
+2026-01-04,1660,1,False,4,False,105,27,199,110.3,2,1,2,82,Tricky
+2026-01-05,1661,1,False,4,False,273,88,119,160.0,6,1,1,97,Hard for the solver
+2026-01-06,1662,1,False,4,False,273,229,165,222.3,1,1,2,97,Hard for the solver
+2026-01-07,1663,1,False,4,False,2,62,190,84.7,1,0,2,64,Middle of the pack
+2026-01-08,1664,1,False,3,False,50,1,289,113.3,3,0,1,44,Middle of the pack
+2026-01-09,1665,1,False,4,False,128,73,50,83.7,9,0,2,85,Tricky
+2026-01-10,1666,1,False,4,False,5,140,62,69.0,2,0,2,55,Middle of the pack
+2026-01-11,1667,1,False,4,False,24,49,39,37.3,2,0,2,30,Easier for the solver
+2026-01-12,1668,1,False,3,False,12,17,17,15.3,2,0,2,1,Easier for the solver
+2026-01-13,1669,1,False,3,False,273,229,193,231.7,2,0,2,69,Tricky
+2026-01-14,1670,1,False,4,False,141,140,3,94.7,2,0,3,68,Tricky
+2026-01-15,1671,1,False,3,False,13,13,289,105.0,2,0,1,37,Middle of the pack
+2026-01-16,1672,1,False,3,False,2,62,54,39.3,2,1,2,10,Easier for the solver
+2026-01-17,1673,1,False,3,False,126,170,50,115.3,1,0,2,42,Middle of the pack
+2026-01-18,1674,1,False,4,False,28,17,39,28.0,1,0,2,17,Easier for the solver
+2026-01-19,1675,1,False,4,False,22,62,54,46.0,1,0,2,39,Middle of the pack
+2026-01-20,1676,1,False,4,False,273,18,193,161.3,5,1,1,97,Hard for the solver
+2026-01-21,1677,1,False,4,False,27,229,23,93.0,2,1,2,75,Tricky
+2026-01-22,1678,1,False,4,False,6,40,105,50.3,3,0,1,46,Middle of the pack
+2026-01-23,1679,1,False,3,False,10,140,289,146.3,3,0,2,54,Middle of the pack
+2026-01-24,1680,1,False,4,False,27,40,105,57.3,1,1,1,56,Middle of the pack
+2026-01-25,1681,1,False,3,False,91,39,193,107.7,2,1,1,47,Middle of the pack
+2026-01-26,1682,1,False,5,False,9,62,190,87.0,4,0,2,96,Hard for the solver
+2026-01-27,1683,1,False,4,False,273,43,30,115.3,3,0,1,78,Tricky
+2026-01-28,1684,1,False,4,False,10,63,23,32.0,2,0,2,22,Easier for the solver
+2026-01-29,1685,1,False,3,False,50,20,289,119.7,2,0,1,43,Middle of the pack
+2026-01-30,1686,1,False,4,False,273,229,193,231.7,2,0,2,95,Hard for the solver
+2026-01-31,1687,1,False,3,False,141,7,45,64.3,3,1,2,28,Easier for the solver
+2026-02-01,1688,1,False,4,False,58,58,105,73.7,3,0,1,61,Middle of the pack
+2026-02-02,1689,2,True,3,False,9,140,62,70.3,1,0,2,19,Easier for the solver
+2026-02-03,1690,1,False,4,False,128,170,53,117.0,2,0,2,76,Tricky
+2026-02-04,1691,1,False,3,False,11,110,12,44.3,2,0,2,9,Easier for the solver
+2026-02-05,1692,1,False,4,False,273,58,165,165.3,5,1,2,97,Hard for the solver
+2026-02-06,1693,1,False,4,False,46,31,54,43.7,2,0,2,36,Middle of the pack
+2026-02-07,1694,1,False,3,False,46,5,190,80.3,3,0,2,29,Easier for the solver
+2026-02-08,1695,1,False,4,False,128,170,24,107.3,2,1,2,81,Tricky
+2026-02-09,1696,1,False,3,False,11,63,199,91.0,2,1,2,40,Middle of the pack
+2026-02-10,1697,1,False,3,False,2,33,199,78.0,2,1,2,34,Easier for the solver
+2026-02-11,1698,1,False,4,False,22,62,190,91.3,2,0,2,67,Tricky
+2026-02-12,1699,1,False,4,False,40,33,59,44.0,2,0,2,37,Middle of the pack
+2026-02-13,1700,1,False,3,False,56,229,165,150.0,2,1,2,60,Middle of the pack
+2026-02-14,1701,1,False,4,False,273,40,165,159.3,2,1,2,92,Hard for the solver
+2026-02-15,1702,1,False,4,False,273,18,193,161.3,2,1,1,92,Hard for the solver
+2026-02-16,1703,1,False,3,False,91,24,165,93.3,2,1,2,41,Middle of the pack
+2026-02-17,1704,2,True,3,False,141,17,6,54.7,2,0,2,12,Easier for the solver
+2026-02-18,1705,1,False,4,False,273,88,193,184.7,1,0,2,91,Hard for the solver
+2026-02-19,1706,1,False,4,False,273,24,105,134.0,4,0,2,87,Tricky
+2026-02-20,1707,1,False,3,False,17,14,289,106.7,4,0,1,44,Middle of the pack
+2026-02-21,1708,2,True,4,False,45,28,22,31.7,2,1,3,32,Easier for the solver
+2026-02-22,1709,1,False,3,False,50,49,39,46.0,1,1,3,13,Easier for the solver
+2026-02-23,1710,1,False,3,False,28,52,9,29.7,2,1,2,7,Easier for the solver
+2026-02-24,1711,1,False,4,False,126,170,23,106.3,1,0,2,72,Tricky
+2026-02-25,1712,1,False,3,False,126,29,24,59.7,2,0,1,14,Easier for the solver
+2026-02-26,1713,1,False,4,False,2,16,190,69.3,2,0,2,56,Middle of the pack
+2026-02-27,1714,1,False,5,False,273,229,26,176.0,3,1,1,100,Hard for the solver
+2026-02-28,1715,1,False,3,False,68,140,44,84.0,2,0,1,27,Easier for the solver
+2026-03-01,1716,1,False,4,False,105,13,59,59.0,3,0,2,52,Middle of the pack
+2026-03-02,1717,1,False,4,False,105,4,53,54.0,3,0,2,49,Middle of the pack
+2026-03-03,1718,2,True,4,False,62,63,40,55.0,3,1,2,58,Middle of the pack
+2026-03-04,1719,1,False,4,False,128,73,199,133.3,1,1,1,88,Tricky
+2026-03-05,1720,1,False,3,False,128,29,128,95.0,4,1,2,48,Middle of the pack
+2026-03-06,1721,1,False,4,False,57,229,193,159.7,3,0,1,89,Tricky
+2026-03-07,1722,1,False,3,False,105,110,59,91.3,2,0,3,32,Easier for the solver
+2026-03-08,1723,1,False,4,False,273,88,165,175.3,3,1,1,95,Hard for the solver
+2026-03-09,1724,1,False,3,False,141,6,289,145.3,4,0,1,57,Middle of the pack
+2026-03-10,1725,1,False,3,False,141,8,289,146.0,1,0,2,51,Middle of the pack
+2026-03-11,1726,1,False,4,False,128,73,34,78.3,2,1,1,69,Tricky
+2026-03-12,1727,1,False,4,False,128,6,199,111.0,4,1,1,88,Tricky
+2026-03-13,1728,1,False,3,False,22,25,54,33.7,2,1,3,8,Easier for the solver
+2026-03-14,1729,1,False,4,False,6,16,22,14.7,2,0,2,6,Easier for the solver
+2026-03-15,1730,2,True,4,False,13,28,35,25.3,6,0,2,26,Easier for the solver
+2026-03-16,1731,1,False,4,False,22,49,44,38.3,1,1,2,40,Middle of the pack
+2026-03-17,1732,1,False,4,False,13,6,289,102.7,3,0,1,74,Tricky
+2026-03-18,1733,1,False,4,False,141,59,45,81.7,2,0,1,62,Middle of the pack
+2026-03-19,1734,1,False,3,False,52,62,190,101.3,1,0,2,35,Middle of the pack
+2026-03-20,1735,1,False,3,False,141,17,62,73.3,2,1,3,31,Easier for the solver
+2026-03-21,1736,1,False,3,False,56,12,105,57.7,3,0,1,15,Easier for the solver
+2026-03-22,1737,1,False,3,False,141,7,62,70.0,4,0,2,26,Easier for the solver
+2026-03-23,1738,1,False,3,False,126,29,50,68.3,1,0,2,18,Easier for the solver
+2026-03-24,1739,1,False,4,False,53,229,36,106.0,3,1,2,84,Tricky
+2026-03-25,1740,1,False,4,False,126,19,40,61.7,3,0,2,54,Middle of the pack
+2026-03-26,1741,1,False,4,False,128,73,50,83.7,2,0,2,63,Middle of the pack
+2026-03-27,1742,2,True,4,False,91,229,119,146.3,1,0,2,85,Tricky
+2026-03-28,1743,1,False,4,False,141,52,45,79.3,1,1,3,69,Tricky
+2026-03-29,1744,1,False,3,False,27,229,193,149.7,3,0,1,55,Middle of the pack
+2026-03-30,1745,2,True,3,False,11,73,128,70.7,2,0,2,19,Easier for the solver
+2026-03-31,1746,1,False,4,False,50,24,289,121.0,3,0,1,80,Tricky
+2026-04-01,1747,1,False,4,False,273,229,119,207.0,3,1,1,97,Hard for the solver
+2026-04-02,1748,1,False,3,False,126,29,128,94.3,2,0,2,33,Easier for the solver
+2026-04-03,1749,1,False,3,False,23,33,50,35.3,4,0,2,8,Easier for the solver
+2026-04-04,1750,2,True,4,False,47,17,44,36.0,5,0,1,39,Middle of the pack
+2026-04-05,1751,1,False,4,False,62,170,199,143.7,2,0,2,84,Tricky
+2026-04-06,1752,1,False,4,False,13,58,165,78.7,3,0,1,64,Middle of the pack
+2026-04-07,1753,1,False,3,False,23,27,34,28.0,3,1,2,7,Easier for the solver
+2026-04-08,1754,1,False,4,False,62,11,40,37.7,2,0,2,31,Easier for the solver
+2026-04-09,1755,1,False,2,False,22,31,2,18.3,1,0,2,0,Easier for the solver
+2026-04-10,1756,1,False,3,False,9,140,289,146.0,2,0,2,51,Middle of the pack
+2026-04-11,1757,1,False,3,False,26,110,15,50.3,2,0,2,11,Easier for the solver
+2026-04-12,1758,1,False,3,False,46,8,14,22.7,3,1,2,5,Easier for the solver
+2026-04-13,1759,1,False,3,False,62,18,50,43.3,1,0,2,9,Easier for the solver
+2026-04-14,1760,1,False,4,False,11,21,199,77.0,1,1,1,69,Tricky
+2026-04-15,1761,1,False,3,False,62,170,59,97.0,3,0,2,37,Middle of the pack
+2026-04-16,1762,1,False,4,False,27,90,23,46.7,2,0,2,40,Middle of the pack
+2026-04-17,1763,1,False,4,False,105,21,199,108.3,2,2,2,88,Tricky
+2026-04-18,1764,1,False,3,False,50,20,44,38.0,2,0,2,7,Easier for the solver
+2026-04-19,1765,2,True,4,False,17,14,44,25.0,2,0,1,14,Easier for the solver
+2026-04-20,1766,1,False,5,False,45,28,190,87.7,3,1,3,97,Hard for the solver
+2026-04-21,1767,1,False,3,False,27,40,193,86.7,3,0,1,33,Easier for the solver
+2026-04-22,1768,1,False,3,False,5,33,199,79.0,6,0,2,39,Middle of the pack
+2026-04-23,1769,1,False,3,False,128,73,128,109.7,3,2,2,59,Middle of the pack
+2026-04-24,1770,1,False,3,False,17,229,30,92.0,3,0,1,35,Middle of the pack
+2026-04-25,1771,1,False,4,False,62,170,128,120.0,3,0,2,80,Tricky
+2026-04-26,1772,1,False,4,False,273,6,165,148.0,2,1,1,90,Hard for the solver
+2026-04-27,1773,1,False,4,False,40,110,50,66.7,1,1,4,62,Middle of the pack
+2026-04-28,1774,1,False,4,False,13,49,39,33.7,2,0,2,24,Easier for the solver
+2026-04-29,1775,1,False,3,False,68,59,39,55.3,2,1,2,18,Easier for the solver
+2026-04-30,1776,1,False,4,False,13,229,165,135.7,3,1,1,90,Hard for the solver
+2026-05-01,1777,1,False,4,False,105,13,59,59.0,3,0,2,52,Middle of the pack
+2026-05-02,1778,2,True,4,False,17,229,105,117.0,4,0,1,82,Tricky
+2026-05-03,1779,1,False,4,False,273,229,193,231.7,1,1,1,98,Hard for the solver
+2026-05-04,1780,1,False,3,False,126,19,40,61.7,4,1,2,31,Easier for the solver
+2026-05-05,1781,1,False,3,False,28,17,289,111.3,7,0,1,56,Middle of the pack
+2026-05-06,1782,1,False,4,False,62,63,40,55.0,3,0,2,49,Middle of the pack
+2026-05-07,1783,1,False,4,False,105,110,15,76.7,4,0,2,67,Tricky
+2026-05-08,1784,1,False,3,False,68,140,39,82.3,1,0,2,25,Easier for the solver
+2026-05-09,1785,1,False,3,False,47,8,62,39.0,1,0,2,8,Easier for the solver
+2026-05-10,1786,1,False,4,False,68,140,289,165.7,1,1,2,93,Hard for the solver
+2026-05-11,1787,1,False,4,False,62,63,199,108.0,1,0,1,72,Tricky
+2026-05-12,1788,2,True,4,False,27,40,165,77.3,4,1,1,74,Tricky
+2026-05-13,1789,1,False,4,False,273,229,36,179.3,3,1,1,96,Hard for the solver
+2026-05-14,1790,1,False,5,False,52,62,54,56.0,4,0,2,86,Tricky
+2026-05-15,1791,1,False,4,False,10,170,24,68.0,4,1,2,70,Tricky
+2026-05-16,1792,1,False,3,False,126,170,128,141.3,5,0,2,60,Middle of the pack
+2026-05-17,1793,1,False,3,False,141,59,289,163.0,1,0,1,55,Middle of the pack
+2026-05-18,1794,1,False,2,False,50,1,289,113.3,1,0,2,10,Easier for the solver
+2026-05-19,1795,1,False,3,False,273,5,30,102.7,5,0,1,46,Middle of the pack
+2026-05-20,1796,1,False,4,False,2,170,199,123.7,2,0,1,78,Tricky
+2026-05-21,1797,2,True,3,False,8,31,14,17.7,1,1,3,2,Easier for the solver
+2026-05-22,1798,1,False,4,False,28,59,289,125.3,3,0,2,82,Tricky
+2026-05-23,1799,1,False,4,False,27,229,193,149.7,4,1,1,94,Hard for the solver
+2026-05-24,1800,1,False,4,False,11,110,50,57.0,2,1,3,56,Middle of the pack
+2026-05-25,1801,1,False,4,False,273,24,119,138.7,1,1,2,89,Tricky
+2026-05-26,1802,1,False,4,False,27,229,193,149.7,4,1,2,94,Hard for the solver
+2026-05-27,1803,1,False,4,False,273,39,193,168.3,3,1,1,95,Hard for the solver
+2026-05-28,1804,1,False,3,False,273,90,26,129.7,2,0,2,45,Middle of the pack
+2026-05-29,1805,1,False,4,False,3,20,289,104.0,3,0,1,74,Tricky
+2026-05-30,1806,2,True,3,False,105,2,53,53.3,2,0,2,12,Easier for the solver
+2026-05-31,1807,1,False,3,False,105,18,15,46.0,2,1,3,13,Easier for the solver
+2026-06-01,1808,1,False,4,False,27,88,105,73.3,3,1,2,69,Tricky
+2026-06-02,1809,1,False,4,False,141,17,62,73.3,4,1,2,72,Tricky
+2026-06-03,1810,1,False,3,False,18,90,165,91.0,2,0,1,31,Easier for the solver
+2026-06-04,1811,1,False,4,False,141,14,45,66.7,3,1,2,66,Tricky
+2026-06-05,1812,1,False,5,False,57,88,165,103.3,2,0,1,96,Hard for the solver
+2026-06-06,1813,1,False,3,False,91,229,165,161.7,1,0,1,55,Middle of the pack
+2026-06-07,1814,2,True,3,False,273,90,193,185.3,2,0,1,61,Middle of the pack
+2026-06-08,1815,1,False,4,False,141,140,62,114.3,2,1,3,83,Tricky
+2026-06-09,1816,1,False,4,False,24,49,289,120.7,1,0,1,77,Tricky
+2026-06-10,1817,1,False,3,False,47,14,10,23.7,2,0,2,3,Easier for the solver
+2026-06-11,1818,1,False,3,False,128,3,199,110.0,2,1,1,48,Middle of the pack
+2026-06-12,1819,2,True,4,False,9,62,190,87.0,4,0,2,71,Tricky
+2026-06-13,1820,1,False,4,False,128,63,59,83.3,2,1,2,71,Tricky
+2026-06-14,1821,1,False,3,False,46,10,5,20.3,1,0,3,2,Easier for the solver
+2026-06-15,1822,1,False,3,False,53,88,119,86.7,1,0,2,28,Easier for the solver
+2026-06-16,1823,1,False,3,False,45,28,22,31.7,1,1,3,8,Easier for the solver
+2026-06-17,1824,1,False,3,False,62,73,128,87.7,2,0,2,29,Easier for the solver
+2026-06-18,1825,1,False,3,False,28,73,199,100.0,1,0,1,35,Middle of the pack
+2026-06-19,1826,1,False,3,False,128,170,50,116.0,1,0,3,42,Middle of the pack
+2026-06-20,1827,1,False,4,False,13,28,35,25.3,2,0,2,14,Easier for the solver
+2026-06-21,1828,1,False,4,False,141,14,10,55.0,1,1,3,55,Middle of the pack
+2026-06-22,1829,1,False,2,False,45,6,190,80.3,1,0,3,6,Easier for the solver
+2026-06-23,1830,1,False,4,False,9,229,193,143.7,3,1,1,92,Hard for the solver
+2026-06-24,1831,1,False,5,False,126,170,23,106.3,2,1,3,98,Hard for the solver
+2026-06-25,1832,1,False,3,False,57,38,13,36.0,2,0,2,7,Easier for the solver
+2026-06-26,1833,2,True,3,False,2,3,5,3.3,1,0,3,0,Easier for the solver
+2026-06-27,1834,1,False,3,False,56,58,165,93.0,5,1,2,51,Middle of the pack
+2026-06-28,1835,1,False,4,False,9,110,128,82.3,1,1,3,70,Tricky
+2026-06-29,1836,1,False,3,False,4,110,15,43.0,2,0,2,9,Easier for the solver
+2026-06-30,1837,1,False,5,False,273,229,193,231.7,2,1,1,100,Hard for the solver
+2026-07-01,1838,1,False,4,False,126,170,15,103.7,3,0,2,74,Tricky
+2026-07-02,1839,1,False,4,False,22,62,54,46.0,3,0,2,42,Middle of the pack
+2026-07-03,1840,2,True,3,False,47,52,289,129.3,3,0,2,49,Middle of the pack
+2026-07-04,1841,1,False,4,False,141,140,62,114.3,1,1,2,83,Tricky
+2026-07-05,1842,1,False,3,False,50,24,62,45.3,2,0,2,9,Easier for the solver
+2026-07-06,1843,1,False,4,False,273,90,36,133.0,2,1,1,88,Tricky
+2026-07-07,1844,1,False,4,False,58,12,105,58.3,4,0,1,55,Middle of the pack
+2026-07-08,1845,1,False,2,False,62,170,34,88.7,2,0,2,7,Easier for the solver
+2026-07-09,1846,1,False,3,False,3,62,4,23.0,1,0,2,3,Easier for the solver
+2026-07-10,1847,1,False,4,False,5,59,289,117.7,2,1,2,85,Tricky
+2026-07-11,1848,1,False,3,False,47,140,10,65.7,1,1,3,25,Easier for the solver
+2026-07-12,1849,1,False,4,False,13,20,289,107.3,4,1,1,86,Tricky
+2026-07-13,1850,2,True,4,False,273,39,193,168.3,5,1,2,97,Hard for the solver
+2026-07-14,1851,1,False,4,False,46,4,190,80.0,4,0,2,68,Tricky
+2026-07-15,1852,1,False,4,False,141,17,289,149.0,1,0,1,85,Tricky
+2026-07-16,1853,1,False,3,False,105,12,59,58.7,1,1,2,20,Easier for the solver
+2026-07-17,1854,1,False,3,False,46,31,190,89.0,2,1,2,39,Middle of the pack
+2026-07-18,1855,1,False,3,False,273,38,165,158.7,3,1,2,66,Tricky
+2026-07-19,1856,1,False,4,False,1,229,193,141.0,1,0,1,83,Tricky
+2026-07-20,1857,1,False,4,False,126,170,9,101.7,4,0,2,77,Tricky
+2026-07-21,1858,1,False,4,False,273,18,105,132.0,5,1,1,94,Hard for the solver
+2026-07-22,1859,1,False,4,False,91,88,165,114.7,3,1,1,86,Tricky
+2026-07-23,1860,1,False,4,False,53,90,119,87.3,1,0,2,65,Tricky
+2026-07-24,1861,1,False,4,False,273,38,193,168.0,3,1,1,94,Hard for the solver
+2026-07-25,1862,1,False,3,False,141,14,45,66.7,2,1,3,25,Easier for the solver
+2026-07-26,1863,1,False,4,False,13,28,190,77.0,6,0,2,72,Tricky
+2026-07-27,1864,1,False,4,False,126,19,128,91.0,3,0,2,70,Tricky
+2026-07-28,1865,1,False,3,False,10,17,289,105.3,2,0,2,37,Middle of the pack
+2026-07-29,1866,1,False,4,False,51,16,190,85.7,3,1,2,75,Tricky
+2026-07-30,1867,2,True,3,False,105,13,59,59.0,3,0,2,16,Easier for the solver
+2026-07-31,1868,1,False,3,False,40,27,59,42.0,3,0,2,9,Easier for the solver
+2026-08-01,1869,1,False,4,False,273,12,193,159.3,4,1,1,95,Hard for the solver
+2026-08-02,1870,1,False,3,False,22,31,190,81.0,3,0,2,30,Easier for the solver
+2026-08-03,1871,1,False,3,False,126,63,199,129.3,2,0,1,45,Middle of the pack
+2026-08-04,1872,1,False,3,False,273,90,119,160.7,1,0,2,54,Middle of the pack
+2026-08-05,1873,1,False,3,False,273,24,119,138.7,1,0,2,49,Middle of the pack
+2026-08-06,1874,2,True,3,False,26,110,53,63.0,3,0,2,18,Easier for the solver
+2026-08-07,1875,2,True,4,False,62,170,53,95.0,3,0,2,71,Tricky
+2026-08-08,1876,1,False,4,False,53,229,105,129.0,1,0,1,79,Tricky
+2026-08-09,1877,1,False,4,False,6,40,193,79.7,4,0,1,68,Tricky
+2026-08-10,1878,1,False,4,False,23,33,53,36.3,2,0,2,28,Easier for the solver
+2026-08-11,1879,1,False,4,False,11,110,199,106.7,3,1,2,84,Tricky
+2026-08-12,1880,1,False,3,False,273,229,119,207.0,2,0,1,65,Tricky
+2026-08-13,1881,1,False,4,False,7,13,289,103.0,3,0,1,74,Tricky
+2026-08-14,1882,1,False,3,False,105,110,34,83.0,1,1,3,36,Middle of the pack
+2026-08-15,1883,1,False,3,False,105,3,199,102.3,4,1,3,52,Middle of the pack
+2026-08-16,1884,1,False,4,False,28,17,9,18.0,1,0,2,9,Easier for the solver
+2026-08-17,1885,1,False,3,False,26,18,53,32.3,4,0,2,8,Easier for the solver
+2026-08-18,1886,1,False,3,False,91,39,119,83.0,2,0,1,26,Easier for the solver
+2026-08-19,1887,1,False,4,False,53,88,105,82.0,4,1,1,76,Tricky
+2026-08-20,1888,1,False,3,False,91,229,193,171.0,3,0,1,61,Middle of the pack
+2026-08-21,1889,2,True,2,False,3,2,190,65.0,3,0,2,4,Easier for the solver
+2026-08-22,1890,1,False,4,False,7,49,289,115.0,3,0,1,78,Tricky
+2026-08-23,1891,1,False,3,False,62,18,24,34.7,2,0,2,6,Easier for the solver
+2026-08-24,1892,1,False,3,False,5,229,193,142.3,4,1,1,65,Tricky
+2026-08-25,1893,2,True,4,False,27,40,105,57.3,4,1,1,63,Middle of the pack
+2026-08-26,1894,1,False,4,False,5,140,289,144.7,2,0,2,84,Tricky
+2026-08-27,1895,1,False,4,False,18,90,193,100.3,1,1,2,78,Tricky
+2026-08-28,1896,1,False,4,False,62,73,128,87.7,3,1,2,76,Tricky
+2026-08-29,1897,1,False,3,False,273,40,36,116.3,2,1,2,50,Middle of the pack
+2026-08-30,1898,1,False,3,False,62,11,40,37.7,2,0,2,7,Easier for the solver
+2026-08-31,1899,1,False,4,False,58,229,30,105.7,8,0,2,90,Hard for the solver

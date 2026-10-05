@@ -1,0 +1,108 @@
+dataset_id,field,type,nullable,description
+opener-rankings,word,string,False,Lowercase five-letter accepted guess.
+opener-rankings,average_guesses,number,False,Mean turns among games solved within six under the fixed policy.
+opener-rankings,win_rate_percent,number,False,Percentage of simulated games solved within six turns.
+opener-rankings,volatility,number,False,Population standard deviation of turns among games solved within six.
+opener-rankings,failed_within_six,integer,False,Failed within six.
+opener-rankings,solved_on_turn_1,integer,False,Simulation answers solved on turn 1.
+opener-rankings,solved_on_turn_2,integer,False,Simulation answers solved on turn 2.
+opener-rankings,solved_on_turn_3,integer,False,Simulation answers solved on turn 3.
+opener-rankings,solved_on_turn_4,integer,False,Simulation answers solved on turn 4.
+opener-rankings,solved_on_turn_5,integer,False,Simulation answers solved on turn 5.
+opener-rankings,solved_on_turn_6,integer,False,Simulation answers solved on turn 6.
+opener-rankings,entropy_bits,number,False,"Shannon entropy of the feedback partition, in bits."
+opener-rankings,expected_remaining,number,False,Expected candidate count after the represented guess or pair.
+opener-rankings,posterior_entropy_bits,number,False,Posterior entropy bits.
+opener-rankings,effective_remaining,number,False,Candidate count left by this measurement.
+opener-rankings,worst_remaining,integer,False,Largest candidate bucket after the represented guess or pair.
+opener-rankings,probability_bucket_ge_4,number,False,Probability bucket ge 4.
+opener-rankings,probability_bucket_ge_6,number,False,Probability bucket ge 6.
+opener-rankings,probability_solve_now,number,False,Probability solve now.
+opener-rankings,unique_feedback_patterns,integer,False,Unique feedback patterns.
+opener-rankings,largest_partition_pattern,string,False,Largest partition pattern.
+opener-rankings,information_tier,string,False,Information tier.
+opener-rankings,is_answer_candidate,boolean,False,Boolean indicator for the named condition.
+opener-rankings,rank,integer,False,Rank within this dataset using the method documented for it.
+answer-history-summary,metric,string,False,Metric.
+answer-history-summary,value,integer|string,False,Value.
+letter-frequency,scope,string,False,Scope.
+letter-frequency,position,string,False,Position.
+letter-frequency,letter,string,False,Letter.
+letter-frequency,count,integer,False,Count.
+answer-repeats,scope,string,False,Scope.
+answer-repeats,period,string,False,Period.
+answer-repeats,metric,string,False,Metric.
+answer-repeats,value,integer,False,Value.
+answer-repeats,unit,string,False,Unit.
+puzzle-difficulty,date,string,False,ISO 8601 date of a globally completed puzzle.
+puzzle-difficulty,puzzle_number,integer,False,"Puzzle number derived from the June 19, 2021 day-zero convention."
+puzzle-difficulty,repeat_number,integer,False,Repeat number.
+puzzle-difficulty,is_repeat,boolean,False,Boolean indicator for the named condition.
+puzzle-difficulty,optimal_turns,integer,False,Optimal turns.
+puzzle-difficulty,optimal_turns_imputed,boolean,False,Optimal turns imputed.
+puzzle-difficulty,crane_remaining,integer,False,Candidate count left by this measurement.
+puzzle-difficulty,slate_remaining,integer,False,Candidate count left by this measurement.
+puzzle-difficulty,adieu_remaining,integer,False,Candidate count left by this measurement.
+puzzle-difficulty,average_reference_remaining,number,False,Candidate count left by this measurement.
+puzzle-difficulty,trap_family_size,integer,False,Size of the answer's largest one-slot family; the answer is omitted.
+puzzle-difficulty,repeated_letter_count,integer,False,Count represented by this field.
+puzzle-difficulty,vowel_count,integer,False,Count represented by this field.
+puzzle-difficulty,solver_pressure_percentile,integer,False,Midrank percentile within the released completed-puzzle rows.
+puzzle-difficulty,solver_pressure_label,string,False,Human-readable band for solver_pressure_percentile.
+wordle-2000-fact-sheet,universe,string,False,Universe.
+wordle-2000-fact-sheet,data_through,string,False,Data through.
+wordle-2000-fact-sheet,release_id,string,False,Release id.
+wordle-2000-fact-sheet,caveat,string,False,Caveat.
+wordle-2000-fact-sheet,finding_id,string,False,Finding id.
+wordle-2000-fact-sheet,value,integer,False,Value.
+wordle-2000-fact-sheet,unit,string,False,Unit.
+wordle-2000-fact-sheet,definition,string,False,Definition.
+wordle-2000-fact-sheet,source_dataset,string,False,Source dataset.
+wordle-2000-fact-sheet,source_fields,string,False,Source fields.
+trap-families,rank,integer,False,Rank within this dataset using the method documented for it.
+trap-families,pattern,string,False,Five-character one-slot family pattern; underscore is the varying position.
+trap-families,varying_position,integer,False,Varying position.
+trap-families,family_size,integer,False,Count represented by this field.
+trap-families,member_words,array,False,Alphabetical list of working-pool members in the family.
+trap-families,varying_letters,array,False,Varying letters.
+trap-families,recorded_appearances_through_cutoff,integer,False,Recorded appearances through cutoff.
+trap-families,best_probe,string,False,Best probe.
+trap-families,best_probe_can_be_answer,boolean,False,Best probe can be answer.
+trap-families,best_probe_expected_remaining,number,False,Candidate count left by this measurement.
+trap-families,best_probe_worst_remaining,integer,False,Candidate count left by this measurement.
+trap-families,best_probe_entropy_bits,number,False,Best probe entropy bits.
+trap-families,candidate_only_guess,string,False,Candidate only guess.
+trap-families,candidate_only_expected_remaining,number,False,Candidate count left by this measurement.
+trap-families,candidate_only_worst_remaining,integer,False,Candidate count left by this measurement.
+trap-families,probe_search_count,integer,False,Count represented by this field.
+opener-feedback-branches,opener,string,False,Opener.
+opener-feedback-branches,opener_overall_rank,integer,False,Opener overall rank.
+opener-feedback-branches,branch_rank,integer,False,Branch rank.
+opener-feedback-branches,feedback,string,False,"Five feedback digits: 0 gray, 1 yellow, and 2 green."
+opener-feedback-branches,remaining_answers,integer,False,Working-pool answers that produce this exact feedback.
+opener-feedback-branches,probability_percent,number,False,Branch frequency under a uniform working-answer prior.
+opener-feedback-branches,is_all_gray,boolean,False,Boolean indicator for the named condition.
+opener-feedback-branches,is_solved,boolean,False,Boolean indicator for the named condition.
+familiar-opener-benchmark,familiar_rank,integer,False,Familiar rank.
+familiar-opener-benchmark,overall_rank,integer,False,Overall rank.
+familiar-opener-benchmark,word,string,False,Lowercase five-letter accepted guess.
+familiar-opener-benchmark,vocabulary_class,string,False,Reason the word passes the site's player-facing vocabulary screen.
+familiar-opener-benchmark,is_answer_candidate,boolean,False,Boolean indicator for the named condition.
+familiar-opener-benchmark,hard_mode_opening_legal,boolean,False,True because Hard Mode imposes no prior-hint constraint on turn one.
+familiar-opener-benchmark,six_turn_continuation_mode,string,False,Mode used by the six-turn continuation simulation columns.
+familiar-opener-benchmark,average_guesses,number,False,Mean turns among games solved within six under the fixed policy.
+familiar-opener-benchmark,win_rate_percent,number,False,Percentage of simulated games solved within six turns.
+familiar-opener-benchmark,volatility,number,False,Population standard deviation of turns among games solved within six.
+familiar-opener-benchmark,entropy_bits,number,False,"Shannon entropy of the feedback partition, in bits."
+familiar-opener-benchmark,expected_remaining,number,False,Expected candidate count after the represented guess or pair.
+familiar-opener-benchmark,worst_remaining,integer,False,Largest candidate bucket after the represented guess or pair.
+opening-pair-frontier,joint_entropy_rank,integer,False,Joint entropy rank.
+opening-pair-frontier,word_1,string,False,Word 1.
+opening-pair-frontier,word_2,string,False,Word 2.
+opening-pair-frontier,joint_entropy_bits,number,False,"Shannon entropy of the pair's joint feedback signature, in bits."
+opening-pair-frontier,expected_remaining,number,False,Expected candidate count after the represented guess or pair.
+opening-pair-frontier,worst_remaining,integer,False,Largest candidate bucket after the represented guess or pair.
+opening-pair-frontier,unique_joint_patterns,integer,False,Unique joint patterns.
+opening-pair-frontier,distinct_letters,integer,False,Distinct letters.
+opening-pair-frontier,shared_letters,string,False,Shared letters.
+opening-pair-frontier,expected_worst_pareto,boolean,False,Whether no evaluated pair is better on both expected and worst remainder.

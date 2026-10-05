@@ -1,0 +1,421 @@
+{
+  "answer_history_data_through": "2026-08-31",
+  "attribution": "FiveLetterWords.io, research release v2026-09-01",
+  "datasets": [
+    {
+      "description": "One row for every captured accepted guess, with complete six-turn outcomes and first-turn partition measurements.",
+      "files": [
+        "opener-rankings.csv",
+        "opener-rankings.json"
+      ],
+      "id": "opener-rankings",
+      "license": "CC-BY-4.0",
+      "name": "Complete normal-mode opener benchmark",
+      "records": 14855
+    },
+    {
+      "description": "Exact date-free input snapshot used by the six-turn opener benchmark.",
+      "files": [
+        "full-game-answer-pool.txt"
+      ],
+      "id": "full-game-answer-pool",
+      "license": "upstream-source-terms",
+      "name": "Six-turn simulation answer pool",
+      "records": 2354
+    },
+    {
+      "description": "Spoiler-safe totals for recorded answers through 2026-08-31.",
+      "files": [
+        "answer-history-summary.csv",
+        "answer-history-summary.json"
+      ],
+      "id": "answer-history-summary",
+      "license": "CC-BY-4.0",
+      "name": "Aggregate answer-history summary",
+      "records": 5
+    },
+    {
+      "description": "Aggregate letter counts by position, without a date-to-answer mapping.",
+      "files": [
+        "letter-frequency.csv",
+        "letter-frequency.json"
+      ],
+      "id": "letter-frequency",
+      "license": "CC-BY-4.0",
+      "name": "Letter frequencies in recorded answers",
+      "records": 151
+    },
+    {
+      "description": "Archive totals, annual repeat events, and first-to-latest gap bands without answer words or dates.",
+      "files": [
+        "answer-repeats.csv",
+        "answer-repeats.json"
+      ],
+      "id": "answer-repeats",
+      "license": "CC-BY-4.0",
+      "name": "Completed-answer repeat aggregates",
+      "records": 33
+    },
+    {
+      "description": "One dated row per completed puzzle with transparent solver-pressure ingredients; answer words are omitted.",
+      "files": [
+        "puzzle-difficulty.csv",
+        "puzzle-difficulty.json"
+      ],
+      "id": "puzzle-difficulty",
+      "license": "CC-BY-4.0",
+      "name": "Spoiler-safe puzzle difficulty rows",
+      "records": 1900
+    },
+    {
+      "description": "Claim-by-claim milestone facts computed from this release's own completed rows.",
+      "files": [
+        "wordle-2000-fact-sheet.csv",
+        "wordle-2000-fact-sheet.json"
+      ],
+      "id": "wordle-2000-fact-sheet",
+      "license": "CC-BY-4.0",
+      "name": "Wordle #2000 newsroom fact sheet",
+      "records": 14
+    },
+    {
+      "description": "Every 3+-answer working-pool family that differs in exactly one position, with bounded probe and candidate-only recommendations.",
+      "files": [
+        "trap-families.csv",
+        "trap-families.json"
+      ],
+      "id": "trap-families",
+      "license": "CC-BY-4.0",
+      "name": "One-slot Wordle trap-family census",
+      "records": 342
+    },
+    {
+      "description": "Every reachable first-turn feedback branch for a deterministic set of famous and leading openers.",
+      "files": [
+        "opener-feedback-branches.csv",
+        "opener-feedback-branches.json"
+      ],
+      "id": "opener-feedback-branches",
+      "license": "CC-BY-4.0",
+      "name": "Popular-opener feedback branch atlas",
+      "records": 5152
+    },
+    {
+      "description": "The complete opener benchmark filtered by the site's frequency screen and answer-pool protection policy.",
+      "files": [
+        "familiar-opener-benchmark.csv",
+        "familiar-opener-benchmark.json"
+      ],
+      "id": "familiar-opener-benchmark",
+      "license": "CC-BY-4.0",
+      "name": "Player-facing vocabulary opener benchmark",
+      "records": 3510
+    },
+    {
+      "description": "Joint-feedback leaders from every unordered pair among 250 leading vocabulary-screened matrix openers.",
+      "files": [
+        "opening-pair-frontier.csv",
+        "opening-pair-frontier.json"
+      ],
+      "id": "opening-pair-frontier",
+      "license": "CC-BY-4.0",
+      "name": "Opening-pair leaders and Pareto frontier",
+      "records": 500
+    },
+    {
+      "description": "Field names, JSON types, nullability, and definitions for every tabular dataset.",
+      "files": [
+        "data-dictionary.csv",
+        "data-dictionary.json"
+      ],
+      "id": "data-dictionary",
+      "license": "CC-BY-4.0",
+      "name": "Research corpus data dictionary",
+      "records": 107
+    }
+  ],
+  "documentation": [
+    "README.md",
+    "METHODS.md",
+    "PROVENANCE.md",
+    "LICENSE.txt",
+    "CITATION.cff",
+    "schema.json"
+  ],
+  "files": {
+    "CITATION.cff": {
+      "bytes": 343,
+      "license": "CC-BY-4.0",
+      "media_type": "text/yaml",
+      "role": "documentation",
+      "sha256": "0201dc23d93d939b2144dceb0f77128469399710cb63e0f86f897d839d8eb341"
+    },
+    "LICENSE.txt": {
+      "bytes": 558,
+      "license": "CC-BY-4.0",
+      "media_type": "text/plain",
+      "role": "documentation",
+      "sha256": "9d8bd3ae17f92240beb01f2ab03280122d24b10429bc3ca281e021f56f13ac76"
+    },
+    "METHODS.md": {
+      "bytes": 2313,
+      "license": "CC-BY-4.0",
+      "media_type": "text/markdown",
+      "role": "documentation",
+      "sha256": "08e1dfc7e2ac6cfa740bc981716de4dd5b38abccd750b2c315f60b4a93445477"
+    },
+    "PROVENANCE.md": {
+      "bytes": 2285,
+      "license": "CC-BY-4.0",
+      "media_type": "text/markdown",
+      "role": "documentation",
+      "sha256": "bb9803d017597d5b65d1bd58ece8bdaf4160d237034f13d7ab43cd93e5b736c9"
+    },
+    "README.md": {
+      "bytes": 597,
+      "license": "CC-BY-4.0",
+      "media_type": "text/markdown",
+      "role": "documentation",
+      "sha256": "b97a58bad1ca7b32115cb2bc05a50430bbdf16aafa399590f85900e66199197c"
+    },
+    "answer-history-summary.csv": {
+      "bytes": 158,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "c210581088a30ad476d9457f73b9aa55d5b400e9b1652c9aa5c7e3d001dad0a4"
+    },
+    "answer-history-summary.json": {
+      "bytes": 729,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "ddd5f4ba49fa291f38fa7cb849e7dc89a0155c697d7929ce30c2303fa0d293b9"
+    },
+    "answer-repeats.csv": {
+      "bytes": 1566,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "a9bb120c8ab5823b4bdbd550ff04e5827452d8b8fdb0d20365af42e379b6a68f"
+    },
+    "answer-repeats.json": {
+      "bytes": 3827,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "e8a0cb846bbe7da648e9d71c51c54e974009f26788872c75d83633fa4ffb05be"
+    },
+    "data-dictionary.csv": {
+      "bytes": 8900,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "1dce946108f0ab2854f6225b0bf19d52abf6cf3ebcdeb6f3da7774d256c99a31"
+    },
+    "data-dictionary.json": {
+      "bytes": 15921,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "cf18f1079113d5cd7401fc038b5c8a874c0dadeb793c7f7f78e195d0f2fad703"
+    },
+    "familiar-opener-benchmark.csv": {
+      "bytes": 322169,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "d5179881356808fa29f68be626178c763a65d64354e31bbbe00b626bbc9b839b"
+    },
+    "familiar-opener-benchmark.json": {
+      "bytes": 1186061,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "1b85e9c4fe915d331dc125f77d6318e3fb2025c5413cf8551d7b23dd9d711a33"
+    },
+    "full-game-answer-pool.txt": {
+      "bytes": 14124,
+      "license": "upstream-source-terms",
+      "media_type": "text/plain",
+      "role": "preserved-input",
+      "sha256": "d3c082e210363b6fb821c3009008c74204a937e48b63fd3ad1ffc974c79838ae"
+    },
+    "letter-frequency.csv": {
+      "bytes": 3751,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "b36879f324786b9e829733da731acc19e832863b4acbf095541948e53b899ce6"
+    },
+    "letter-frequency.json": {
+      "bytes": 10797,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "77a3ac79a7b5f3b7359fb9a275686c2e433b588424f92da6d8becb6e3a25aa34"
+    },
+    "opener-feedback-branches.csv": {
+      "bytes": 214047,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "bfacf64ef5f7aaebde7c380fcf55acf83392ae2121239d318c1df0b511a77972"
+    },
+    "opener-feedback-branches.json": {
+      "bytes": 884525,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "32c9e13623211b7deecd8c7f4d9889f661ccb6ed23882efd2633cc32e8b80bbe"
+    },
+    "opener-rankings.csv": {
+      "bytes": 1855761,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "04bf06d7ef2f03e497bd6314f4b148f245d991c7bc26651aa5d9e5bea48347fa"
+    },
+    "opener-rankings.json": {
+      "bytes": 8972803,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "fb063a7ee0122e34366c6ae18179732155bbf236279b3b77fee5e45ae0498e30"
+    },
+    "opening-pair-frontier.csv": {
+      "bytes": 25596,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "69eace5ab86333ffe0d83489ba6d5a2be16958f91b7daf1b2c9d816cd68730bf"
+    },
+    "opening-pair-frontier.json": {
+      "bytes": 123564,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "2d166fdd3bdb3f8074d5455793c1cfd19f4338cfdadabd37384487e793a9037d"
+    },
+    "puzzle-difficulty.csv": {
+      "bytes": 138367,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "8db7a4053576bbdb545cff82ac99fe5931b9a9936cb74f4450ce39e58f83a5bd"
+    },
+    "puzzle-difficulty.json": {
+      "bytes": 691569,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "9b82bd2423baccde44043ce861f4cd455eec183ae7b98b54822e1bd5d19af66f"
+    },
+    "schema.json": {
+      "bytes": 19519,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "documentation",
+      "sha256": "926bbbb5fc0d44ce2df054358f038bf872b796cfe099fb10d801ec0f86a138aa"
+    },
+    "trap-families.csv": {
+      "bytes": 41872,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "7f6422e241affc98f5e0e2205749811971abbc941a9a6fcac2d15fe1a434da38"
+    },
+    "trap-families.json": {
+      "bytes": 162342,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "e771388c752afe13297ad6960724f327866f5e44ec743e2dabf7aa9f05fc64bd"
+    },
+    "wordle-2000-fact-sheet.csv": {
+      "bytes": 5393,
+      "license": "CC-BY-4.0",
+      "media_type": "text/csv",
+      "role": "derived-dataset",
+      "sha256": "2b3d416e57992c9819e63bc59cc60ef518d646b92d4969ef25e0954a9c6e6170"
+    },
+    "wordle-2000-fact-sheet.json": {
+      "bytes": 7850,
+      "license": "CC-BY-4.0",
+      "media_type": "application/json",
+      "role": "derived-dataset",
+      "sha256": "dd2c61f3c69d974fbfb657f47a0a68e13179158a904f05ac3fea9f549f54b133"
+    }
+  },
+  "license": "CC BY 4.0 for derived statistics and documentation",
+  "methodology": {
+    "answer_history": "Globally completed rows on or before the requested cutoff; no date-to-answer mapping.",
+    "documentation": "METHODS.md",
+    "feedback_prior": "Uniform over the captured working answer pool.",
+    "input_snapshot": "All source files are read once into a byte snapshot used for parsing and provenance hashes, then revalidated immediately before atomic publication.",
+    "opener_rankings": "All 14,855 accepted guesses are ranked by mean turns among solved games in a six-turn, normal-mode fixed-policy simulation over 2,354 answers. First-turn partition columns use the current 2,373-answer working pool. The two scopes are identified separately and must not be blended.",
+    "parquet": "Not emitted because no Parquet writer is a project dependency."
+  },
+  "pool_snapshots": {
+    "bounded_feedback_matrix": {
+      "allowed_guess_count": 14855,
+      "allowed_guess_sha256": "ba86911aea83d038d53c0999fe6cbe310c8f59d2b79626c73bd0cd0773adc320",
+      "answer_pool_sha256": "e80f76ad6bc6313ac5b6b938ec689f50e612048afb4e2ce251b0b411873c39f6",
+      "matrix_bytes": 5932500,
+      "n_answers": 2373,
+      "n_splitters": 2500,
+      "source_artifact": "codes_matrix.bin",
+      "source_sha256": "a17131927726857ad100b7d702425a31bc4a713fa366ffbfb19b148e99d74456",
+      "splitter_order_sha256": "356d4c9c0cb869e295e8f11fa9616107146d2c8bb89074c821505299bb7ed3c6",
+      "splitter_words_sha256": "bd7bcc23cadf791dc8978f5cb7151333f5dc529d2b52a23813fc7cd08fb82f89",
+      "version": 2
+    },
+    "first_turn_metrics": {
+      "allowed_guess_count": 14855,
+      "allowed_guess_sha256": "ba86911aea83d038d53c0999fe6cbe310c8f59d2b79626c73bd0cd0773adc320",
+      "answer_count": 2373,
+      "answer_pool_sha256": "e80f76ad6bc6313ac5b6b938ec689f50e612048afb4e2ce251b0b411873c39f6",
+      "source_artifact": "word_stats.json",
+      "source_sha256": "dde8a4d0dea5ee8cb172f01f9aaff6304ac47061bd613983fb6cb47827fa0331"
+    },
+    "full_game_simulation": {
+      "answer_count": 2354,
+      "mode": "normal",
+      "policy_id": "expected-remainder-candidates-plus-top-500-v1",
+      "results_artifact": "all_opener_stats.json",
+      "results_sha256": "263f26bd677323f3c834e199349c2a604469bcb2c6909bb90da46f1ef4d5d318",
+      "source_artifact": "full-game-answer-pool.txt",
+      "source_sha256": "d3c082e210363b6fb821c3009008c74204a937e48b63fd3ad1ffc974c79838ae"
+    }
+  },
+  "published": "2026-09-01",
+  "release": "v2026-09-01",
+  "reproduce": "python scripts/generate_research_release.py --release-id v2026-09-01 --as-of 2026-08-31 --published 2026-09-01",
+  "requested_answer_history_cutoff": "2026-08-31",
+  "schema_version": 3,
+  "sources": {
+    "provenance_artifact": "PROVENANCE.md",
+    "provenance_url": "https://www.fiveletterwords.io/data#sources-title",
+    "source_hashes": {
+      "all_opener_stats": "263f26bd677323f3c834e199349c2a604469bcb2c6909bb90da46f1ef4d5d318",
+      "allowed_words": "ba86911aea83d038d53c0999fe6cbe310c8f59d2b79626c73bd0cd0773adc320",
+      "codes_matrix": "a17131927726857ad100b7d702425a31bc4a713fa366ffbfb19b148e99d74456",
+      "matrix_metadata": "d26bd751df99f529c089ba8b34acaf5c9b7c0cec3c5f945f4c4a21926919191c",
+      "optimal_paths": "e03c849aadac996b718e20f566892b06348421024cac85d682180c627fb9e980",
+      "past_answers": "b850ce3bd97cbbdd61ee2b5efa4019f64ab596521cfc68769d16af587be8b281",
+      "possible_words": "e80f76ad6bc6313ac5b6b938ec689f50e612048afb4e2ce251b0b411873c39f6",
+      "release_generator": "86688a1c2504f81885b0903fb6c7b41b48cd87c5c431a5e8d9f1dee95c13afe3",
+      "research_dataset_builder": "c7136ad4329d4440b51aa7d6a1b60341f0e7b29f196af10c6812c985cf6bc212",
+      "simulation_answers": "d3c082e210363b6fb821c3009008c74204a937e48b63fd3ad1ffc974c79838ae",
+      "splitter_order": "ce18bc4258ee6445c397910b9bb9b4dfd2dd4e9d1baa85bc699d4b21d921a0fe",
+      "word_rarity": "d0ec7a633bb6a0610e75c01d2588442d3bafcbe6c707e7199d4f8b4a5a3212f8",
+      "word_stats": "dde8a4d0dea5ee8cb172f01f9aaff6304ac47061bd613983fb6cb47827fa0331"
+    },
+    "upstream": {
+      "allowed_words": "https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93",
+      "daily_answer_history": "https://www.nytimes.com/svc/wordle/v2/<date>.json",
+      "possible_words": "https://gist.github.com/cfreshman/a03ef2cba789d8cf00c08f767e0fad7b"
+    }
+  },
+  "spoiler_policy": "Only globally completed daily-history rows are aggregated. The release contains no date-to-answer mapping; dated difficulty rows omit answer words."
+}

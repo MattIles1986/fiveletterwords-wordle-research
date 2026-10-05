@@ -1,0 +1,665 @@
+{
+  "$defs": {
+    "answer-history-summary": {
+      "additionalProperties": false,
+      "properties": {
+        "metric": {
+          "description": "Metric.",
+          "type": "string"
+        },
+        "value": {
+          "description": "Value.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        }
+      },
+      "required": [
+        "metric",
+        "value"
+      ],
+      "type": "object"
+    },
+    "answer-repeats": {
+      "additionalProperties": false,
+      "properties": {
+        "metric": {
+          "description": "Metric.",
+          "type": "string"
+        },
+        "period": {
+          "description": "Period.",
+          "type": "string"
+        },
+        "scope": {
+          "description": "Scope.",
+          "type": "string"
+        },
+        "unit": {
+          "description": "Unit.",
+          "type": "string"
+        },
+        "value": {
+          "description": "Value.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "scope",
+        "period",
+        "metric",
+        "value",
+        "unit"
+      ],
+      "type": "object"
+    },
+    "data-dictionary": {
+      "additionalProperties": false,
+      "properties": {
+        "dataset_id": {
+          "description": "Dataset id.",
+          "type": "string"
+        },
+        "description": {
+          "description": "Description.",
+          "type": "string"
+        },
+        "field": {
+          "description": "Field.",
+          "type": "string"
+        },
+        "nullable": {
+          "description": "Nullable.",
+          "type": "boolean"
+        },
+        "type": {
+          "description": "Observed JSON type; heterogeneous fields join exact types with |.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "dataset_id",
+        "field",
+        "type",
+        "nullable",
+        "description"
+      ],
+      "type": "object"
+    },
+    "familiar-opener-benchmark": {
+      "additionalProperties": false,
+      "properties": {
+        "average_guesses": {
+          "description": "Mean turns among games solved within six under the fixed policy.",
+          "type": "number"
+        },
+        "entropy_bits": {
+          "description": "Shannon entropy of the feedback partition, in bits.",
+          "type": "number"
+        },
+        "expected_remaining": {
+          "description": "Expected candidate count after the represented guess or pair.",
+          "type": "number"
+        },
+        "familiar_rank": {
+          "description": "Familiar rank.",
+          "type": "integer"
+        },
+        "hard_mode_opening_legal": {
+          "description": "True because Hard Mode imposes no prior-hint constraint on turn one.",
+          "type": "boolean"
+        },
+        "is_answer_candidate": {
+          "description": "Boolean indicator for the named condition.",
+          "type": "boolean"
+        },
+        "overall_rank": {
+          "description": "Overall rank.",
+          "type": "integer"
+        },
+        "six_turn_continuation_mode": {
+          "description": "Mode used by the six-turn continuation simulation columns.",
+          "type": "string"
+        },
+        "vocabulary_class": {
+          "description": "Reason the word passes the site's player-facing vocabulary screen.",
+          "type": "string"
+        },
+        "volatility": {
+          "description": "Population standard deviation of turns among games solved within six.",
+          "type": "number"
+        },
+        "win_rate_percent": {
+          "description": "Percentage of simulated games solved within six turns.",
+          "type": "number"
+        },
+        "word": {
+          "description": "Lowercase five-letter accepted guess.",
+          "type": "string"
+        },
+        "worst_remaining": {
+          "description": "Largest candidate bucket after the represented guess or pair.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "familiar_rank",
+        "overall_rank",
+        "word",
+        "vocabulary_class",
+        "is_answer_candidate",
+        "hard_mode_opening_legal",
+        "six_turn_continuation_mode",
+        "average_guesses",
+        "win_rate_percent",
+        "volatility",
+        "entropy_bits",
+        "expected_remaining",
+        "worst_remaining"
+      ],
+      "type": "object"
+    },
+    "letter-frequency": {
+      "additionalProperties": false,
+      "properties": {
+        "count": {
+          "description": "Count.",
+          "type": "integer"
+        },
+        "letter": {
+          "description": "Letter.",
+          "type": "string"
+        },
+        "position": {
+          "description": "Position.",
+          "type": "string"
+        },
+        "scope": {
+          "description": "Scope.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "scope",
+        "position",
+        "letter",
+        "count"
+      ],
+      "type": "object"
+    },
+    "opener-feedback-branches": {
+      "additionalProperties": false,
+      "properties": {
+        "branch_rank": {
+          "description": "Branch rank.",
+          "type": "integer"
+        },
+        "feedback": {
+          "description": "Five feedback digits: 0 gray, 1 yellow, and 2 green.",
+          "type": "string"
+        },
+        "is_all_gray": {
+          "description": "Boolean indicator for the named condition.",
+          "type": "boolean"
+        },
+        "is_solved": {
+          "description": "Boolean indicator for the named condition.",
+          "type": "boolean"
+        },
+        "opener": {
+          "description": "Opener.",
+          "type": "string"
+        },
+        "opener_overall_rank": {
+          "description": "Opener overall rank.",
+          "type": "integer"
+        },
+        "probability_percent": {
+          "description": "Branch frequency under a uniform working-answer prior.",
+          "type": "number"
+        },
+        "remaining_answers": {
+          "description": "Working-pool answers that produce this exact feedback.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "opener",
+        "opener_overall_rank",
+        "branch_rank",
+        "feedback",
+        "remaining_answers",
+        "probability_percent",
+        "is_all_gray",
+        "is_solved"
+      ],
+      "type": "object"
+    },
+    "opener-rankings": {
+      "additionalProperties": false,
+      "properties": {
+        "average_guesses": {
+          "description": "Mean turns among games solved within six under the fixed policy.",
+          "type": "number"
+        },
+        "effective_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "number"
+        },
+        "entropy_bits": {
+          "description": "Shannon entropy of the feedback partition, in bits.",
+          "type": "number"
+        },
+        "expected_remaining": {
+          "description": "Expected candidate count after the represented guess or pair.",
+          "type": "number"
+        },
+        "failed_within_six": {
+          "description": "Failed within six.",
+          "type": "integer"
+        },
+        "information_tier": {
+          "description": "Information tier.",
+          "type": "string"
+        },
+        "is_answer_candidate": {
+          "description": "Boolean indicator for the named condition.",
+          "type": "boolean"
+        },
+        "largest_partition_pattern": {
+          "description": "Largest partition pattern.",
+          "type": "string"
+        },
+        "posterior_entropy_bits": {
+          "description": "Posterior entropy bits.",
+          "type": "number"
+        },
+        "probability_bucket_ge_4": {
+          "description": "Probability bucket ge 4.",
+          "type": "number"
+        },
+        "probability_bucket_ge_6": {
+          "description": "Probability bucket ge 6.",
+          "type": "number"
+        },
+        "probability_solve_now": {
+          "description": "Probability solve now.",
+          "type": "number"
+        },
+        "rank": {
+          "description": "Rank within this dataset using the method documented for it.",
+          "type": "integer"
+        },
+        "solved_on_turn_1": {
+          "description": "Simulation answers solved on turn 1.",
+          "type": "integer"
+        },
+        "solved_on_turn_2": {
+          "description": "Simulation answers solved on turn 2.",
+          "type": "integer"
+        },
+        "solved_on_turn_3": {
+          "description": "Simulation answers solved on turn 3.",
+          "type": "integer"
+        },
+        "solved_on_turn_4": {
+          "description": "Simulation answers solved on turn 4.",
+          "type": "integer"
+        },
+        "solved_on_turn_5": {
+          "description": "Simulation answers solved on turn 5.",
+          "type": "integer"
+        },
+        "solved_on_turn_6": {
+          "description": "Simulation answers solved on turn 6.",
+          "type": "integer"
+        },
+        "unique_feedback_patterns": {
+          "description": "Unique feedback patterns.",
+          "type": "integer"
+        },
+        "volatility": {
+          "description": "Population standard deviation of turns among games solved within six.",
+          "type": "number"
+        },
+        "win_rate_percent": {
+          "description": "Percentage of simulated games solved within six turns.",
+          "type": "number"
+        },
+        "word": {
+          "description": "Lowercase five-letter accepted guess.",
+          "type": "string"
+        },
+        "worst_remaining": {
+          "description": "Largest candidate bucket after the represented guess or pair.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "word",
+        "average_guesses",
+        "win_rate_percent",
+        "volatility",
+        "failed_within_six",
+        "solved_on_turn_1",
+        "solved_on_turn_2",
+        "solved_on_turn_3",
+        "solved_on_turn_4",
+        "solved_on_turn_5",
+        "solved_on_turn_6",
+        "entropy_bits",
+        "expected_remaining",
+        "posterior_entropy_bits",
+        "effective_remaining",
+        "worst_remaining",
+        "probability_bucket_ge_4",
+        "probability_bucket_ge_6",
+        "probability_solve_now",
+        "unique_feedback_patterns",
+        "largest_partition_pattern",
+        "information_tier",
+        "is_answer_candidate",
+        "rank"
+      ],
+      "type": "object"
+    },
+    "opening-pair-frontier": {
+      "additionalProperties": false,
+      "properties": {
+        "distinct_letters": {
+          "description": "Distinct letters.",
+          "type": "integer"
+        },
+        "expected_remaining": {
+          "description": "Expected candidate count after the represented guess or pair.",
+          "type": "number"
+        },
+        "expected_worst_pareto": {
+          "description": "Whether no evaluated pair is better on both expected and worst remainder.",
+          "type": "boolean"
+        },
+        "joint_entropy_bits": {
+          "description": "Shannon entropy of the pair's joint feedback signature, in bits.",
+          "type": "number"
+        },
+        "joint_entropy_rank": {
+          "description": "Joint entropy rank.",
+          "type": "integer"
+        },
+        "shared_letters": {
+          "description": "Shared letters.",
+          "type": "string"
+        },
+        "unique_joint_patterns": {
+          "description": "Unique joint patterns.",
+          "type": "integer"
+        },
+        "word_1": {
+          "description": "Word 1.",
+          "type": "string"
+        },
+        "word_2": {
+          "description": "Word 2.",
+          "type": "string"
+        },
+        "worst_remaining": {
+          "description": "Largest candidate bucket after the represented guess or pair.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "joint_entropy_rank",
+        "word_1",
+        "word_2",
+        "joint_entropy_bits",
+        "expected_remaining",
+        "worst_remaining",
+        "unique_joint_patterns",
+        "distinct_letters",
+        "shared_letters",
+        "expected_worst_pareto"
+      ],
+      "type": "object"
+    },
+    "puzzle-difficulty": {
+      "additionalProperties": false,
+      "properties": {
+        "adieu_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "integer"
+        },
+        "average_reference_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "number"
+        },
+        "crane_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "integer"
+        },
+        "date": {
+          "description": "ISO 8601 date of a globally completed puzzle.",
+          "type": "string"
+        },
+        "is_repeat": {
+          "description": "Boolean indicator for the named condition.",
+          "type": "boolean"
+        },
+        "optimal_turns": {
+          "description": "Optimal turns.",
+          "type": "integer"
+        },
+        "optimal_turns_imputed": {
+          "description": "Optimal turns imputed.",
+          "type": "boolean"
+        },
+        "puzzle_number": {
+          "description": "Puzzle number derived from the June 19, 2021 day-zero convention.",
+          "type": "integer"
+        },
+        "repeat_number": {
+          "description": "Repeat number.",
+          "type": "integer"
+        },
+        "repeated_letter_count": {
+          "description": "Count represented by this field.",
+          "type": "integer"
+        },
+        "slate_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "integer"
+        },
+        "solver_pressure_label": {
+          "description": "Human-readable band for solver_pressure_percentile.",
+          "type": "string"
+        },
+        "solver_pressure_percentile": {
+          "description": "Midrank percentile within the released completed-puzzle rows.",
+          "type": "integer"
+        },
+        "trap_family_size": {
+          "description": "Size of the answer's largest one-slot family; the answer is omitted.",
+          "type": "integer"
+        },
+        "vowel_count": {
+          "description": "Count represented by this field.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "date",
+        "puzzle_number",
+        "repeat_number",
+        "is_repeat",
+        "optimal_turns",
+        "optimal_turns_imputed",
+        "crane_remaining",
+        "slate_remaining",
+        "adieu_remaining",
+        "average_reference_remaining",
+        "trap_family_size",
+        "repeated_letter_count",
+        "vowel_count",
+        "solver_pressure_percentile",
+        "solver_pressure_label"
+      ],
+      "type": "object"
+    },
+    "trap-families": {
+      "additionalProperties": false,
+      "properties": {
+        "best_probe": {
+          "description": "Best probe.",
+          "type": "string"
+        },
+        "best_probe_can_be_answer": {
+          "description": "Best probe can be answer.",
+          "type": "boolean"
+        },
+        "best_probe_entropy_bits": {
+          "description": "Best probe entropy bits.",
+          "type": "number"
+        },
+        "best_probe_expected_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "number"
+        },
+        "best_probe_worst_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "integer"
+        },
+        "candidate_only_expected_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "number"
+        },
+        "candidate_only_guess": {
+          "description": "Candidate only guess.",
+          "type": "string"
+        },
+        "candidate_only_worst_remaining": {
+          "description": "Candidate count left by this measurement.",
+          "type": "integer"
+        },
+        "family_size": {
+          "description": "Count represented by this field.",
+          "type": "integer"
+        },
+        "member_words": {
+          "description": "Alphabetical list of working-pool members in the family.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "pattern": {
+          "description": "Five-character one-slot family pattern; underscore is the varying position.",
+          "type": "string"
+        },
+        "probe_search_count": {
+          "description": "Count represented by this field.",
+          "type": "integer"
+        },
+        "rank": {
+          "description": "Rank within this dataset using the method documented for it.",
+          "type": "integer"
+        },
+        "recorded_appearances_through_cutoff": {
+          "description": "Recorded appearances through cutoff.",
+          "type": "integer"
+        },
+        "varying_letters": {
+          "description": "Varying letters.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "varying_position": {
+          "description": "Varying position.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "rank",
+        "pattern",
+        "varying_position",
+        "family_size",
+        "member_words",
+        "varying_letters",
+        "recorded_appearances_through_cutoff",
+        "best_probe",
+        "best_probe_can_be_answer",
+        "best_probe_expected_remaining",
+        "best_probe_worst_remaining",
+        "best_probe_entropy_bits",
+        "candidate_only_guess",
+        "candidate_only_expected_remaining",
+        "candidate_only_worst_remaining",
+        "probe_search_count"
+      ],
+      "type": "object"
+    },
+    "wordle-2000-fact-sheet": {
+      "additionalProperties": false,
+      "properties": {
+        "caveat": {
+          "description": "Caveat.",
+          "type": "string"
+        },
+        "data_through": {
+          "description": "Data through.",
+          "type": "string"
+        },
+        "definition": {
+          "description": "Definition.",
+          "type": "string"
+        },
+        "finding_id": {
+          "description": "Finding id.",
+          "type": "string"
+        },
+        "release_id": {
+          "description": "Release id.",
+          "type": "string"
+        },
+        "source_dataset": {
+          "description": "Source dataset.",
+          "type": "string"
+        },
+        "source_fields": {
+          "description": "Source fields.",
+          "type": "string"
+        },
+        "unit": {
+          "description": "Unit.",
+          "type": "string"
+        },
+        "universe": {
+          "description": "Universe.",
+          "type": "string"
+        },
+        "value": {
+          "description": "Value.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "universe",
+        "data_through",
+        "release_id",
+        "caveat",
+        "finding_id",
+        "value",
+        "unit",
+        "definition",
+        "source_dataset",
+        "source_fields"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://www.fiveletterwords.io/data/releases/v2026-09-01/schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Schemas describe each item in a dataset JSON file's records array.",
+  "title": "FiveLetterWords research release v2026-09-01 record schemas"
+}

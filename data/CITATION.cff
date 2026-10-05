@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using these metadata."
+title: "FiveLetterWords research release v2026-09-01"
+type: dataset
+authors:
+  - name: FiveLetterWords
+version: "v2026-09-01"
+date-released: "2026-09-01"
+url: "https://www.fiveletterwords.io/data/releases/v2026-09-01/manifest.json"
+license: CC-BY-4.0

@@ -1,0 +1,54 @@
+{
+  "title": "FiveLetterWords Wordle Research Corpus (v2026-09-01)",
+  "upload_type": "dataset",
+  "description": "<p><strong>Independent research by FiveLetterWords.io. Not affiliated with or endorsed by The New York Times. Wordle is a trademark of The New York Times Company.</strong></p>\n<p>Versioned, checksummed research corpus behind <a href=\"https://www.fiveletterwords.io\">FiveLetterWords.io</a>: a six-turn opener benchmark for all 14,855 accepted Wordle guesses, spoiler-safe puzzle difficulty rows (answer words omitted), one-slot trap families, first-turn feedback branches, an opening-pair frontier, aggregate letter frequencies and repeat statistics, a Wordle #2000 fact sheet and a full data dictionary. Every table is supplied as CSV and JSON; every file is byte-identical to the canonical release and listed with its SHA-256 checksum in <code>data/manifest.json</code>.</p>\n<p><strong>Release:</strong> v2026-09-01 (published 2026-09-01; answer-history data through 2026-08-31; schema version 3).<br>\n<strong>Canonical release page:</strong> <a href=\"https://www.fiveletterwords.io/data/releases/v2026-09-01/\">https://www.fiveletterwords.io/data/releases/v2026-09-01/</a><br>\n<strong>All FiveLetterWords research data:</strong> <a href=\"https://www.fiveletterwords.io/data\">https://www.fiveletterwords.io/data</a></p>\n<p><strong>Spoiler policy:</strong> no file maps dates to answer words. Solver pressure is a repeatable model comparison, not a measure of average human difficulty.</p>\n<p><strong>Not included:</strong> the preserved simulation answer-pool snapshot (<code>full-game-answer-pool.txt</code>), which remains under upstream source terms and is not covered by CC BY.</p>\n<p><strong>Cite as:</strong> FiveLetterWords.io (2026-09-01). FiveLetterWords research release v2026-09-01 [Data set]. https://www.fiveletterwords.io/data/releases/v2026-09-01/</p>",
+  "creators": [
+    {
+      "name": "FiveLetterWords.io"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "v2026-09-01",
+  "publication_date": "2026-09-01",
+  "language": "eng",
+  "keywords": [
+    "Wordle",
+    "word games",
+    "opener rankings",
+    "puzzle difficulty",
+    "information theory",
+    "linguistics",
+    "open data",
+    "CC BY"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.fiveletterwords.io/data/releases/v2026-09-01/",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.fiveletterwords.io/data/releases/v2026-09-01/manifest.json",
+      "relation": "isDescribedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.fiveletterwords.io/data",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.fiveletterwords.io/research/what-makes-wordle-hard",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.fiveletterwords.io/research/echoes-phoneme-graph",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Wordle is a trademark of The New York Times Company. This independent research release is not affiliated with or endorsed by The New York Times. Contact: matthew@fiveletterwords.io"
+}

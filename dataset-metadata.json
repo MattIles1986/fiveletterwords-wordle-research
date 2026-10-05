@@ -1,0 +1,713 @@
+{
+  "title": "FiveLetterWords Wordle Research Corpus v2026-09-01",
+  "subtitle": "Versioned CC BY Wordle research: openers, spoiler-safe difficulty, traps",
+  "description": "# FiveLetterWords Wordle Research Corpus (v2026-09-01)\n\n> Independent research by FiveLetterWords.io. Not affiliated with or endorsed by The New York Times. Wordle is a trademark of The New York Times Company.\n\n| | |\n| --- | --- |\n| **Version** | `v2026-09-01` (immutable release; schema version 3) |\n| **Published** | 2026-09-01 |\n| **Answer-history data through** | 2026-08-31 |\n| **Licence** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (derived statistics and documentation) |\n| **Canonical release page** | [https://www.fiveletterwords.io/data/releases/v2026-09-01/](https://www.fiveletterwords.io/data/releases/v2026-09-01/?utm_source=kaggle&utm_medium=dataset&utm_campaign=v2026-09-01) |\n| **All FiveLetterWords research data** | [https://www.fiveletterwords.io/data](https://www.fiveletterwords.io/data) |\n| **Checksums** | `data/manifest.json` (SHA-256 for every file) · [https://www.fiveletterwords.io/data/releases/v2026-09-01/manifest.json](https://www.fiveletterwords.io/data/releases/v2026-09-01/manifest.json) |\n| **DOI** | [10.5281/zenodo.23168432](https://doi.org/10.5281/zenodo.23168432) (Zenodo record: [https://zenodo.org/records/23168432](https://zenodo.org/records/23168432)) |\n\n## Why this dataset\n\nMost public Wordle datasets are static guess/answer word lists. This corpus is the **versioned research release** behind FiveLetterWords.io's opener rankings, spoiler-safe difficulty explorer, trap-family analysis, feedback atlas and opening-pair research. Every file is byte-identical to the canonical release and verifiable against its SHA-256 checksum.\n\nIt is designed for:\n\n- Reproducible notebooks and articles (immutable release id + SHA-256 checksums)\n- Strategy research (fixed-policy six-turn opener simulations over all 14,855 accepted guesses)\n- Spoiler-safe historical difficulty analysis (answer words are omitted from dated rows)\n- Linguistics and word-game tooling that needs transparent, documented methods\n\n## How to cite\n\n```text\nFiveLetterWords.io (2026-09-01). FiveLetterWords research release v2026-09-01 [Data set]. Zenodo.\nhttps://doi.org/10.5281/zenodo.23168432\nCanonical release page: https://www.fiveletterwords.io/data/releases/v2026-09-01/\nLicensed CC BY 4.0. Not affiliated with The New York Times. Wordle is a trademark of The New York Times Company.\n```\n\nMachine-readable citation metadata: `CITATION.cff`. DOI: [10.5281/zenodo.23168432](https://doi.org/10.5281/zenodo.23168432). Browse all FiveLetterWords research data at https://www.fiveletterwords.io/data.\n\n## Licence and attribution\n\n- **Licence:** Creative Commons Attribution 4.0 International (CC BY 4.0). Full text in `LICENSE`; the release's original notice is `data/LICENSE.txt`.\n- **Required attribution:** credit **FiveLetterWords.io** and the release identifier **`v2026-09-01`**, and link to the canonical release page (https://www.fiveletterwords.io/data/releases/v2026-09-01/) or the DOI (https://doi.org/10.5281/zenodo.23168432). See `ATTRIBUTION.md`.\n- **Deliberately not included:** the preserved six-turn simulation answer-pool snapshot (`full-game-answer-pool.txt`). On the canonical site that file stays under its **upstream source terms** and is excluded from the CC BY grant, so it is not redistributed here. `data/manifest.json` still lists it (with its checksum) because the manifest is reproduced byte-for-byte; obtain the file only from the canonical release if you need it, and respect its upstream terms.\n- Third-party word-list provenance is documented in `data/PROVENANCE.md`. Daily-history aggregates use only puzzles completed worldwide and **no file contains a date-to-answer mapping**.\n\n## Spoiler and responsible-use policy\n\n- Difficulty and history tables **do not** map dates to answer words.\n- Solver pressure is a **repeatable model comparison** within the recorded archive, **not** a measure of average human difficulty, and should not be described causally.\n- Avoid claims such as \"the hardest Wordle ever for players\" without these caveats.\n- Opt-in human aggregates (Wordle Observatory) are **not** part of this package.\n\n## What's included\n\nAll tables are supplied as CSV and JSON with identical records. Sizes are bytes.\n\n| File | Records | Description | Bytes (CSV / JSON) |\n| --- | ---: | --- | ---: |\n| `data/opener-rankings.csv` / `.json` | 14,855 | Complete normal-mode opener benchmark: One row for every captured accepted guess, with complete six-turn outcomes and first-turn partition measurements. | 1,855,761 / 8,972,803 |\n| `data/answer-history-summary.csv` / `.json` | 5 | Aggregate answer-history summary: Spoiler-safe totals for recorded answers through 2026-08-31. | 158 / 729 |\n| `data/letter-frequency.csv` / `.json` | 151 | Letter frequencies in recorded answers: Aggregate letter counts by position, without a date-to-answer mapping. | 3,751 / 10,797 |\n| `data/answer-repeats.csv` / `.json` | 33 | Completed-answer repeat aggregates: Archive totals, annual repeat events, and first-to-latest gap bands without answer words or dates. | 1,566 / 3,827 |\n| `data/puzzle-difficulty.csv` / `.json` | 1,900 | Spoiler-safe puzzle difficulty rows: One dated row per completed puzzle with transparent solver-pressure ingredients; answer words are omitted. | 138,367 / 691,569 |\n| `data/wordle-2000-fact-sheet.csv` / `.json` | 14 | Wordle #2000 newsroom fact sheet: Claim-by-claim milestone facts computed from this release's own completed rows. | 5,393 / 7,850 |\n| `data/trap-families.csv` / `.json` | 342 | One-slot Wordle trap-family census: Every 3+-answer working-pool family that differs in exactly one position, with bounded probe and candidate-only recommendations. | 41,872 / 162,342 |\n| `data/opener-feedback-branches.csv` / `.json` | 5,152 | Popular-opener feedback branch atlas: Every reachable first-turn feedback branch for a deterministic set of famous and leading openers. | 214,047 / 884,525 |\n| `data/familiar-opener-benchmark.csv` / `.json` | 3,510 | Player-facing vocabulary opener benchmark: The complete opener benchmark filtered by the site's frequency screen and answer-pool protection policy. | 322,169 / 1,186,061 |\n| `data/opening-pair-frontier.csv` / `.json` | 500 | Opening-pair leaders and Pareto frontier: Joint-feedback leaders from every unordered pair among 250 leading vocabulary-screened matrix openers. | 25,596 / 123,564 |\n| `data/data-dictionary.csv` / `.json` | 107 | Research corpus data dictionary: Field names, JSON types, nullability, and definitions for every tabular dataset. | 8,900 / 15,921 |\n\nDocumentation (all in `data/`, CC BY 4.0, byte-identical to the release):\n\n| File | Purpose |\n| --- | --- |\n| `manifest.json` | Roles, media types, byte sizes, licences and SHA-256 checksums |\n| `schema.json` | Machine-readable record schemas |\n| `README.md` | Original release readme |\n| `METHODS.md` | Calculation scope, cutoffs and caveats |\n| `PROVENANCE.md` | Source pins and input hashes |\n| `LICENSE.txt` | Original CC BY 4.0 notice and trademark disclaimer |\n| `CITATION.cff` | Original release citation metadata |\n\nPackage-level files: `README.md` (this file), `LICENSE`, `CITATION.cff`, `ATTRIBUTION.md` and `dataset-metadata.json`. The full archive on Zenodo (https://doi.org/10.5281/zenodo.23168432) also includes `SHA256SUMS.txt`, `.zenodo.json` and `huggingface/README.md`.\n\n### Verify the files\n\n```bash\ncd data\npython3 - <<'EOF'\nimport hashlib, json\nm = json.load(open(\"manifest.json\"))\nfor name, meta in m[\"files\"].items():\n    try:\n        ok = hashlib.sha256(open(name, \"rb\").read()).hexdigest() == meta[\"sha256\"]\n        print(\"OK \" if ok else \"BAD\", name)\n    except FileNotFoundError:\n        print(\"-- \", name, \"(not included in this package)\")\nEOF\n```\n\n## Key fields (quick start)\n\n**`opener-rankings`**\n- `word`: lowercase accepted guess\n- `average_guesses`, `win_rate_percent`, `volatility`: six-turn fixed-policy simulation over 2,354 answers\n- `entropy_bits`, `expected_remaining`, `worst_remaining`: first-turn partition metrics over the 2,373-answer working pool\n- `rank`: ranking within this table\n\n**`puzzle-difficulty`**\n- `date`, `puzzle_number`: completed puzzle identity\n- `solver_pressure_percentile`, `solver_pressure_label`\n- `trap_family_size`, `repeated_letter_count`, reference remaining counts for CRANE / SLATE / ADIEU\n- Answer words are omitted by design\n\n**`trap-families`**\n- `pattern` (underscore marks the varying position), `family_size`, `member_words`, `best_probe`, remainder/entropy metrics\n\n**`opening-pair-frontier`**\n- `word_1`, `word_2`, `joint_entropy_bits`, `expected_remaining`, `expected_worst_pareto`\n\nFull definitions for all 107 fields: `data/data-dictionary.csv`.\n\n## Methods (summary)\n\nFull detail: `data/METHODS.md` and https://www.fiveletterwords.io/the-math\n\n- **Cutoff:** daily-history calculations include only dates on or before **2026-08-31** that were complete worldwide.\n- **Openers:** six-turn columns use a fixed continuation policy (`expected-remainder-candidates-plus-top-500-v1`) over 2,354 simulation answers; first-turn metrics use a separate 2,373-answer working pool. Do not blend the two scopes carelessly. These are policy-dependent benchmarks, not proofs of globally optimal play.\n- **Difficulty / solver pressure:** combines the mean candidate bucket left by CRANE, SLATE and ADIEU, replay-path length, largest one-slot family size and repeated-letter count into a percentile within this release.\n- **Traps / pairs:** trap probes search a documented 2,500-word splitter set; pairs evaluate all 31,125 unordered pairs among 250 vocabulary-screened openers, not every possible accepted-word pair.\n- **Formats:** CSV and JSON contain the same records. Parquet is not emitted upstream.\n\n## Example: load openers in Python\n\n```python\nimport pandas as pd\n\nopeners = pd.read_csv(\"data/opener-rankings.csv\")\nprint(openers.sort_values(\"average_guesses\").head(10)[[\"rank\", \"word\", \"average_guesses\", \"entropy_bits\"]])\n```\n\n## Example: spoiler-safe difficulty series\n\n```python\nimport pandas as pd\n\ndiff = pd.read_csv(\"data/puzzle-difficulty.csv\", parse_dates=[\"date\"])\nhard = diff[diff[\"solver_pressure_percentile\"] >= 90]\nprint(\"high-pressure puzzles:\", len(hard))\nprint(diff.groupby(diff[\"date\"].dt.year)[\"solver_pressure_percentile\"].mean().round(1))\n```\n\n## Companion research packets (published separately)\n\n1. **What makes a Wordle hard? (v1)**: answer-word-free solver study on 1,834 distinct answers. https://www.fiveletterwords.io/research/what-makes-wordle-hard\n2. **Echoes pronunciation graph (v1)**: bounded phoneme-edit graph summary (14,402 nodes / 54,345 edges), licensed **CC BY-SA 4.0** and therefore packaged separately. https://www.fiveletterwords.io/research/echoes-phoneme-graph\n\n## Where to find it\n\n- Canonical home: https://www.fiveletterwords.io/data (release page: https://www.fiveletterwords.io/data/releases/v2026-09-01/)\n- Zenodo (DOI): https://doi.org/10.5281/zenodo.23168432\n- Kaggle: https://www.kaggle.com/datasets/fiveletterwords/fiveletterwords-wordle-research\n\n## Versioning\n\nThis package is bit-compatible with release **`v2026-09-01`**. New research cutoffs receive a **new release id** on fiveletterwords.io and a new version on each mirror; cited bytes are never silently overwritten. Rolling endpoints such as `/data/current/` are intentionally out of scope.\n\n## Contact\n\nCorrections, missing fields or integration questions: **matthew@fiveletterwords.io** · About: https://www.fiveletterwords.io/about\n",
+  "id": "fiveletterwords/fiveletterwords-wordle-research",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "games",
+    "puzzles",
+    "linguistics",
+    "nlp",
+    "tabular"
+  ],
+  "expectedUpdateFrequency": "quarterly",
+  "userSpecifiedSources": "FiveLetterWords.io research release v2026-09-01 ([canonical page](https://www.fiveletterwords.io/data/releases/v2026-09-01/?utm_source=kaggle&utm_medium=dataset&utm_campaign=v2026-09-01); data hub https://www.fiveletterwords.io/data). Also archived on Zenodo, DOI [10.5281/zenodo.23168432](https://doi.org/10.5281/zenodo.23168432) (https://zenodo.org/records/23168432). Word-list provenance in data/PROVENANCE.md.",
+  "resources": [
+    {
+      "path": "data/opener-rankings.csv",
+      "description": "Complete normal-mode opener benchmark (14,855 records). One row for every captured accepted guess, with complete six-turn outcomes and first-turn partition measurements. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "word",
+            "description": "Lowercase five-letter accepted guess.",
+            "type": "string"
+          },
+          {
+            "name": "average_guesses",
+            "description": "Mean turns among games solved within six under the fixed policy.",
+            "type": "numeric"
+          },
+          {
+            "name": "win_rate_percent",
+            "description": "Percentage of simulated games solved within six turns.",
+            "type": "numeric"
+          },
+          {
+            "name": "volatility",
+            "description": "Population standard deviation of turns among games solved within six.",
+            "type": "numeric"
+          },
+          {
+            "name": "failed_within_six",
+            "description": "Failed within six.",
+            "type": "numeric"
+          },
+          {
+            "name": "solved_on_turn_1",
+            "description": "Simulation answers solved on turn 1.",
+            "type": "numeric"
+          },
+          {
+            "name": "solved_on_turn_2",
+            "description": "Simulation answers solved on turn 2.",
+            "type": "numeric"
+          },
+          {
+            "name": "solved_on_turn_3",
+            "description": "Simulation answers solved on turn 3.",
+            "type": "numeric"
+          },
+          {
+            "name": "solved_on_turn_4",
+            "description": "Simulation answers solved on turn 4.",
+            "type": "numeric"
+          },
+          {
+            "name": "solved_on_turn_5",
+            "description": "Simulation answers solved on turn 5.",
+            "type": "numeric"
+          },
+          {
+            "name": "solved_on_turn_6",
+            "description": "Simulation answers solved on turn 6.",
+            "type": "numeric"
+          },
+          {
+            "name": "entropy_bits",
+            "description": "Shannon entropy of the feedback partition, in bits.",
+            "type": "numeric"
+          },
+          {
+            "name": "expected_remaining",
+            "description": "Expected candidate count after the represented guess or pair.",
+            "type": "numeric"
+          },
+          {
+            "name": "posterior_entropy_bits",
+            "description": "Posterior entropy bits.",
+            "type": "numeric"
+          },
+          {
+            "name": "effective_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "worst_remaining",
+            "description": "Largest candidate bucket after the represented guess or pair.",
+            "type": "numeric"
+          },
+          {
+            "name": "probability_bucket_ge_4",
+            "description": "Probability bucket ge 4.",
+            "type": "numeric"
+          },
+          {
+            "name": "probability_bucket_ge_6",
+            "description": "Probability bucket ge 6.",
+            "type": "numeric"
+          },
+          {
+            "name": "probability_solve_now",
+            "description": "Probability solve now.",
+            "type": "numeric"
+          },
+          {
+            "name": "unique_feedback_patterns",
+            "description": "Unique feedback patterns.",
+            "type": "numeric"
+          },
+          {
+            "name": "largest_partition_pattern",
+            "description": "Largest partition pattern.",
+            "type": "string"
+          },
+          {
+            "name": "information_tier",
+            "description": "Information tier.",
+            "type": "string"
+          },
+          {
+            "name": "is_answer_candidate",
+            "description": "Boolean indicator for the named condition.",
+            "type": "boolean"
+          },
+          {
+            "name": "rank",
+            "description": "Rank within this dataset using the method documented for it.",
+            "type": "numeric"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/opener-rankings.json",
+      "description": "Complete normal-mode opener benchmark (14,855 records). One row for every captured accepted guess, with complete six-turn outcomes and first-turn partition measurements. CC BY 4.0."
+    },
+    {
+      "path": "data/answer-history-summary.csv",
+      "description": "Aggregate answer-history summary (5 records). Spoiler-safe totals for recorded answers through 2026-08-31. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "metric",
+            "description": "Metric.",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "description": "Value.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/answer-history-summary.json",
+      "description": "Aggregate answer-history summary (5 records). Spoiler-safe totals for recorded answers through 2026-08-31. CC BY 4.0."
+    },
+    {
+      "path": "data/letter-frequency.csv",
+      "description": "Letter frequencies in recorded answers (151 records). Aggregate letter counts by position, without a date-to-answer mapping. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "scope",
+            "description": "Scope.",
+            "type": "string"
+          },
+          {
+            "name": "position",
+            "description": "Position.",
+            "type": "string"
+          },
+          {
+            "name": "letter",
+            "description": "Letter.",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "description": "Count.",
+            "type": "numeric"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/letter-frequency.json",
+      "description": "Letter frequencies in recorded answers (151 records). Aggregate letter counts by position, without a date-to-answer mapping. CC BY 4.0."
+    },
+    {
+      "path": "data/answer-repeats.csv",
+      "description": "Completed-answer repeat aggregates (33 records). Archive totals, annual repeat events, and first-to-latest gap bands without answer words or dates. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "scope",
+            "description": "Scope.",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "description": "Period.",
+            "type": "string"
+          },
+          {
+            "name": "metric",
+            "description": "Metric.",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "description": "Value.",
+            "type": "numeric"
+          },
+          {
+            "name": "unit",
+            "description": "Unit.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/answer-repeats.json",
+      "description": "Completed-answer repeat aggregates (33 records). Archive totals, annual repeat events, and first-to-latest gap bands without answer words or dates. CC BY 4.0."
+    },
+    {
+      "path": "data/puzzle-difficulty.csv",
+      "description": "Spoiler-safe puzzle difficulty rows (1,900 records). One dated row per completed puzzle with transparent solver-pressure ingredients; answer words are omitted. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "description": "ISO 8601 date of a globally completed puzzle.",
+            "type": "string"
+          },
+          {
+            "name": "puzzle_number",
+            "description": "Puzzle number derived from the June 19, 2021 day-zero convention.",
+            "type": "numeric"
+          },
+          {
+            "name": "repeat_number",
+            "description": "Repeat number.",
+            "type": "numeric"
+          },
+          {
+            "name": "is_repeat",
+            "description": "Boolean indicator for the named condition.",
+            "type": "boolean"
+          },
+          {
+            "name": "optimal_turns",
+            "description": "Optimal turns.",
+            "type": "numeric"
+          },
+          {
+            "name": "optimal_turns_imputed",
+            "description": "Optimal turns imputed.",
+            "type": "boolean"
+          },
+          {
+            "name": "crane_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "slate_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "adieu_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "average_reference_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "trap_family_size",
+            "description": "Size of the answer's largest one-slot family; the answer is omitted.",
+            "type": "numeric"
+          },
+          {
+            "name": "repeated_letter_count",
+            "description": "Count represented by this field.",
+            "type": "numeric"
+          },
+          {
+            "name": "vowel_count",
+            "description": "Count represented by this field.",
+            "type": "numeric"
+          },
+          {
+            "name": "solver_pressure_percentile",
+            "description": "Midrank percentile within the released completed-puzzle rows.",
+            "type": "numeric"
+          },
+          {
+            "name": "solver_pressure_label",
+            "description": "Human-readable band for solver_pressure_percentile.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/puzzle-difficulty.json",
+      "description": "Spoiler-safe puzzle difficulty rows (1,900 records). One dated row per completed puzzle with transparent solver-pressure ingredients; answer words are omitted. CC BY 4.0."
+    },
+    {
+      "path": "data/wordle-2000-fact-sheet.csv",
+      "description": "Wordle #2000 newsroom fact sheet (14 records). Claim-by-claim milestone facts computed from this release's own completed rows. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "universe",
+            "description": "Universe.",
+            "type": "string"
+          },
+          {
+            "name": "data_through",
+            "description": "Data through.",
+            "type": "string"
+          },
+          {
+            "name": "release_id",
+            "description": "Release id.",
+            "type": "string"
+          },
+          {
+            "name": "caveat",
+            "description": "Caveat.",
+            "type": "string"
+          },
+          {
+            "name": "finding_id",
+            "description": "Finding id.",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "description": "Value.",
+            "type": "numeric"
+          },
+          {
+            "name": "unit",
+            "description": "Unit.",
+            "type": "string"
+          },
+          {
+            "name": "definition",
+            "description": "Definition.",
+            "type": "string"
+          },
+          {
+            "name": "source_dataset",
+            "description": "Source dataset.",
+            "type": "string"
+          },
+          {
+            "name": "source_fields",
+            "description": "Source fields.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/wordle-2000-fact-sheet.json",
+      "description": "Wordle #2000 newsroom fact sheet (14 records). Claim-by-claim milestone facts computed from this release's own completed rows. CC BY 4.0."
+    },
+    {
+      "path": "data/trap-families.csv",
+      "description": "One-slot Wordle trap-family census (342 records). Every 3+-answer working-pool family that differs in exactly one position, with bounded probe and candidate-only recommendations. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "rank",
+            "description": "Rank within this dataset using the method documented for it.",
+            "type": "numeric"
+          },
+          {
+            "name": "pattern",
+            "description": "Five-character one-slot family pattern; underscore is the varying position.",
+            "type": "string"
+          },
+          {
+            "name": "varying_position",
+            "description": "Varying position.",
+            "type": "numeric"
+          },
+          {
+            "name": "family_size",
+            "description": "Count represented by this field.",
+            "type": "numeric"
+          },
+          {
+            "name": "member_words",
+            "description": "Alphabetical list of working-pool members in the family.",
+            "type": "string"
+          },
+          {
+            "name": "varying_letters",
+            "description": "Varying letters.",
+            "type": "string"
+          },
+          {
+            "name": "recorded_appearances_through_cutoff",
+            "description": "Recorded appearances through cutoff.",
+            "type": "numeric"
+          },
+          {
+            "name": "best_probe",
+            "description": "Best probe.",
+            "type": "string"
+          },
+          {
+            "name": "best_probe_can_be_answer",
+            "description": "Best probe can be answer.",
+            "type": "boolean"
+          },
+          {
+            "name": "best_probe_expected_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "best_probe_worst_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "best_probe_entropy_bits",
+            "description": "Best probe entropy bits.",
+            "type": "numeric"
+          },
+          {
+            "name": "candidate_only_guess",
+            "description": "Candidate only guess.",
+            "type": "string"
+          },
+          {
+            "name": "candidate_only_expected_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "candidate_only_worst_remaining",
+            "description": "Candidate count left by this measurement.",
+            "type": "numeric"
+          },
+          {
+            "name": "probe_search_count",
+            "description": "Count represented by this field.",
+            "type": "numeric"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/trap-families.json",
+      "description": "One-slot Wordle trap-family census (342 records). Every 3+-answer working-pool family that differs in exactly one position, with bounded probe and candidate-only recommendations. CC BY 4.0."
+    },
+    {
+      "path": "data/opener-feedback-branches.csv",
+      "description": "Popular-opener feedback branch atlas (5,152 records). Every reachable first-turn feedback branch for a deterministic set of famous and leading openers. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "opener",
+            "description": "Opener.",
+            "type": "string"
+          },
+          {
+            "name": "opener_overall_rank",
+            "description": "Opener overall rank.",
+            "type": "numeric"
+          },
+          {
+            "name": "branch_rank",
+            "description": "Branch rank.",
+            "type": "numeric"
+          },
+          {
+            "name": "feedback",
+            "description": "Five feedback digits: 0 gray, 1 yellow, and 2 green.",
+            "type": "string"
+          },
+          {
+            "name": "remaining_answers",
+            "description": "Working-pool answers that produce this exact feedback.",
+            "type": "numeric"
+          },
+          {
+            "name": "probability_percent",
+            "description": "Branch frequency under a uniform working-answer prior.",
+            "type": "numeric"
+          },
+          {
+            "name": "is_all_gray",
+            "description": "Boolean indicator for the named condition.",
+            "type": "boolean"
+          },
+          {
+            "name": "is_solved",
+            "description": "Boolean indicator for the named condition.",
+            "type": "boolean"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/opener-feedback-branches.json",
+      "description": "Popular-opener feedback branch atlas (5,152 records). Every reachable first-turn feedback branch for a deterministic set of famous and leading openers. CC BY 4.0."
+    },
+    {
+      "path": "data/familiar-opener-benchmark.csv",
+      "description": "Player-facing vocabulary opener benchmark (3,510 records). The complete opener benchmark filtered by the site's frequency screen and answer-pool protection policy. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "familiar_rank",
+            "description": "Familiar rank.",
+            "type": "numeric"
+          },
+          {
+            "name": "overall_rank",
+            "description": "Overall rank.",
+            "type": "numeric"
+          },
+          {
+            "name": "word",
+            "description": "Lowercase five-letter accepted guess.",
+            "type": "string"
+          },
+          {
+            "name": "vocabulary_class",
+            "description": "Reason the word passes the site's player-facing vocabulary screen.",
+            "type": "string"
+          },
+          {
+            "name": "is_answer_candidate",
+            "description": "Boolean indicator for the named condition.",
+            "type": "boolean"
+          },
+          {
+            "name": "hard_mode_opening_legal",
+            "description": "True because Hard Mode imposes no prior-hint constraint on turn one.",
+            "type": "boolean"
+          },
+          {
+            "name": "six_turn_continuation_mode",
+            "description": "Mode used by the six-turn continuation simulation columns.",
+            "type": "string"
+          },
+          {
+            "name": "average_guesses",
+            "description": "Mean turns among games solved within six under the fixed policy.",
+            "type": "numeric"
+          },
+          {
+            "name": "win_rate_percent",
+            "description": "Percentage of simulated games solved within six turns.",
+            "type": "numeric"
+          },
+          {
+            "name": "volatility",
+            "description": "Population standard deviation of turns among games solved within six.",
+            "type": "numeric"
+          },
+          {
+            "name": "entropy_bits",
+            "description": "Shannon entropy of the feedback partition, in bits.",
+            "type": "numeric"
+          },
+          {
+            "name": "expected_remaining",
+            "description": "Expected candidate count after the represented guess or pair.",
+            "type": "numeric"
+          },
+          {
+            "name": "worst_remaining",
+            "description": "Largest candidate bucket after the represented guess or pair.",
+            "type": "numeric"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/familiar-opener-benchmark.json",
+      "description": "Player-facing vocabulary opener benchmark (3,510 records). The complete opener benchmark filtered by the site's frequency screen and answer-pool protection policy. CC BY 4.0."
+    },
+    {
+      "path": "data/opening-pair-frontier.csv",
+      "description": "Opening-pair leaders and Pareto frontier (500 records). Joint-feedback leaders from every unordered pair among 250 leading vocabulary-screened matrix openers. CC BY 4.0.",
+      "schema": {
+        "fields": [
+          {
+            "name": "joint_entropy_rank",
+            "description": "Joint entropy rank.",
+            "type": "numeric"
+          },
+          {
+            "name": "word_1",
+            "description": "Word 1.",
+            "type": "string"
+          },
+          {
+            "name": "word_2",
+            "description": "Word 2.",
+            "type": "string"
+          },
+          {
+            "name": "joint_entropy_bits",
+            "description": "Shannon entropy of the pair's joint feedback signature, in bits.",
+            "type": "numeric"
+          },
+          {
+            "name": "expected_remaining",
+            "description": "Expected candidate count after the represented guess or pair.",
+            "type": "numeric"
+          },
+          {
+            "name": "worst_remaining",
+            "description": "Largest candidate bucket after the represented guess or pair.",
+            "type": "numeric"
+          },
+          {
+            "name": "unique_joint_patterns",
+            "description": "Unique joint patterns.",
+            "type": "numeric"
+          },
+          {
+            "name": "distinct_letters",
+            "description": "Distinct letters.",
+            "type": "numeric"
+          },
+          {
+            "name": "shared_letters",
+            "description": "Shared letters.",
+            "type": "string"
+          },
+          {
+            "name": "expected_worst_pareto",
+            "description": "Whether no evaluated pair is better on both expected and worst remainder.",
+            "type": "boolean"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/opening-pair-frontier.json",
+      "description": "Opening-pair leaders and Pareto frontier (500 records). Joint-feedback leaders from every unordered pair among 250 leading vocabulary-screened matrix openers. CC BY 4.0."
+    },
+    {
+      "path": "data/data-dictionary.csv",
+      "description": "Research corpus data dictionary (107 records). Field names, JSON types, nullability, and definitions for every tabular dataset. CC BY 4.0."
+    },
+    {
+      "path": "data/data-dictionary.json",
+      "description": "Research corpus data dictionary (107 records). Field names, JSON types, nullability, and definitions for every tabular dataset. CC BY 4.0."
+    },
+    {
+      "path": "data/manifest.json",
+      "description": "Release manifest: roles, byte sizes, licences and SHA-256 checksums (lists the excluded upstream answer pool for completeness)."
+    },
+    {
+      "path": "data/schema.json",
+      "description": "Machine-readable record schemas."
+    },
+    {
+      "path": "data/METHODS.md",
+      "description": "Methods, cutoffs and caveats."
+    },
+    {
+      "path": "data/PROVENANCE.md",
+      "description": "Source pins and input hashes."
+    },
+    {
+      "path": "data/README.md",
+      "description": "Original release readme."
+    },
+    {
+      "path": "data/LICENSE.txt",
+      "description": "Original CC BY 4.0 notice and trademark disclaimer."
+    },
+    {
+      "path": "data/CITATION.cff",
+      "description": "Original release citation metadata."
+    }
+  ]
+}
